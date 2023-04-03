@@ -10,6 +10,10 @@
 \usepackage{hyperref}               % PDF hyperreferences
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{caption}
+\usepackage{rotating}
+
+\newsavebox{\savefig}
 
 \title{
   Outworld Wastes\\
@@ -126,7 +130,7 @@ Force construction must follow these rules:\\
 \item Commanders have a modified Union class dropship with 16 configurable maintenance bays to hold their units.
 Each bay can hold 1 mech, 2 combat vehicles, 5 protomechs, or 5 tons of infantry/battle armor.
 Infantry/battle armor units can be split across multiple bays; for example, 4 bays can hold 20 tons, which is 5 squads of inner sphere standard battle armor.
-The dropship can support a maximum of 12 mech bays, 5 combat vehicle, 5 protomech bays, and 5 infantry/battle armor bays.
+The dropship can support a maximum of 12 mech bays, 5 combat vehicle, 2 protomech bays, and 5 infantry/battle armor bays.
 You may leave bays unconfigured or change their configuration in the future.
 Your entire force must fit onto your dropship.
 
@@ -168,33 +172,33 @@ Mech pilot names are encouraged, as one of the goals is to develop the personali
 \begin{table}[h!]
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.5em} m{12em} m{10em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
 \hline
-Bay & Unit                  & Pilot                  & Gunnery & Piloting & BV    & Adj BV \\
+Bay & Unit                  & Pilot            & Gunnery & Piloting & BV    & Adj BV \\
 \hline
 \multicolumn{7}{|c|}{Mechs} \\
 \hline
-1   & Atlas II AS7-D        & Megan 'Meg' Courant    & 3       & 4         & 1,897 & 2,504 \\
-2   & Phoenix Hawk PXH-2K   & Dietrich 'Bison' Helge & 4       & 5         & 1,271 & 1,271 \\
-3   & Blackjack BJ-2        & Rowan 'Lizard' Baker   & 4       & 5         & 1,148 & 1,148 \\
-4   & Locust IIC            & Corey 'Casper' Poole   & 4       & 5         & 1,100 & 1,100 \\
+1   & Atlas II AS7-D        & 'Meg' Courant    & 3       & 4         & 1,897 & 2,504 \\
+2   & Phoenix Hawk PXH-2K   & 'Bison' Helge    & 4       & 5         & 1,271 & 1,271 \\
+3   & Blackjack BJ-2        & 'Lizard' Baker   & 4       & 5         & 1,148 & 1,148 \\
+4   & Locust IIC            & 'Casper' Poole   & 4       & 5         & 1,100 & 1,100 \\
 \hline
 \multicolumn{7}{|c|}{Combat Vehicles} \\
 \hline
-1  & Maxim Hover Transport &                        & 4       & 5         &   764 &   764 \\
-1  & Maxim Hover Transport &                        & 4       & 5         &   764 &   764 \\
-2  & Galleon GAL-102       &                        & 4       & 5         &   651 &   651 \\
-2  & Galleon GAL-102       &                        & 4       & 5         &   651 &   651 \\
-3  & Warrior H-7           &                        & 4       & 5         &   295 &   295 \\
-3  & Warrior H-7           &                        & 4       & 5         &   295 &   295 \\
+1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
+1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
+2  & Galleon GAL-102       &                   & 4       & 5         &   651 &   651 \\
+2  & Galleon GAL-102       &                   & 4       & 5         &   651 &   651 \\
+3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
+3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
 \hline
-\multicolumn{7}{|c|}{Infantry} \\
+\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
 \hline
-1  & IS Std BA, LRR        &                        & 4       & 5         &   255 &   255 \\
-2  & IS Std BA, Laser      &                        & 4       & 5         &   231 &   231 \\
+1  & IS Std BA, LRR        &                   & 4       & 5         &   255 &   255 \\
+2  & IS Std BA, Laser      &                   & 4       & 5         &   231 &   231 \\
 \hline
-9  & Total Bays            &                        &         &           &       &       \\
-   & Total BV              &                        &         &           &       & 9,929 \\
+9  & Total Bays            &                   &         &           &       &       \\
+   & Total BV              &                   &         &           &       & 9,929 \\
 \bottomrule
 \end{tabular}
 \caption{Civil War Era Mercenary Force - Meg's Magpies}
@@ -203,7 +207,7 @@ Bay & Unit                  & Pilot                  & Gunnery & Piloting & BV  
 \begin{table}[h!]
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.5em} m{12em} m{10em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
 \hline
 Bay & Unit                  & Pilot           & Gunnery & Piloting  & BV    & Adj BV \\
 \hline
@@ -219,7 +223,7 @@ Bay & Unit                  & Pilot           & Gunnery & Piloting  & BV    & Ad
 \hline
 1   & Karnov UR Transport   &                 & 4       & 5          &   125 &   125 \\
 \hline
-\multicolumn{7}{|c|}{Infantry} \\
+\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
 \hline
 1   & Gnome BA              &                 & 3       & 4         &   580 &   766 \\
 2   & Elemental BA, Laser   &                 & 3       & 4         &   447 &   590 \\
@@ -394,11 +398,144 @@ The defender earns 1,000,000 C-bills for each hidden objective the attacker does
 
 \item Cripple or destroy a combat vehicle.
 
-\item Destroy an internal section of the opponents highest BV unit.
-
-
+\item Destroy an internal section of an opponent's highest BV unit.
 
 \end{enumerate}
+
+\newpage
+
+\section{Outworlds Wastes Map - ilClan Era}
+
+\begin{figure}[h!]
+  \centering
+  \savebox{\savefig}{\includegraphics[width=8.1in]{img/Outworlds_Wastes_ilClan_Map.png}}
+  \rotatebox{90}{%
+    \begin{minipage}{\wd\savefig}
+      \usebox{\savefig}
+      \caption{Outworlds Wastes - 3151}
+    \end{minipage}}
+\end{figure}
+
+\newpage
+
+\section{Sample Force Roster}
+
+\begin{table}[h!]
+\centering
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\hline
+Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
+\hline
+\multicolumn{7}{|c|}{Mechs (1 per bay)} \\
+\hline
+1  & & & & & & \\
+2  & & & & & & \\
+3  & & & & & & \\
+4  & & & & & & \\
+5  & & & & & & \\
+6  & & & & & & \\
+7  & & & & & & \\
+8  & & & & & & \\
+9  & & & & & & \\
+10 & & & & & & \\
+11 & & & & & & \\
+12 & & & & & & \\
+\hline
+\multicolumn{7}{|c|}{Combat Vehicles (2 per bay)} \\
+\hline
+1 & & & & & & \\
+1 & & & & & & \\
+2 & & & & & & \\
+2 & & & & & & \\
+3 & & & & & & \\
+3 & & & & & & \\
+4 & & & & & & \\
+4 & & & & & & \\
+5 & & & & & & \\
+5 & & & & & & \\
+\hline
+\multicolumn{7}{|c|}{Protomechs (5 per bay)} \\
+\hline
+1 & & & & & & \\
+1 & & & & & & \\
+1 & & & & & & \\
+1 & & & & & & \\
+1 & & & & & & \\
+2 & & & & & & \\
+2 & & & & & & \\
+2 & & & & & & \\
+2 & & & & & & \\
+2 & & & & & & \\
+\hline
+\multicolumn{7}{|c|}{Infantry/Battle Armor (5 tons per bay)} \\
+\hline
+1  & & & & & & \\
+2  & & & & & & \\
+3  & & & & & & \\
+4  & & & & & & \\
+5  & & & & & & \\
+...   & & & & & & \\
+\hline
+  & Total Bays (16 max) & & & & & \\
+  & Total BV   & & & & & \\
+\hline
+\end{tabular}
+\end{table}
+
+\newpage
+
+\section{Sample Scenario Logistics Tracking}
+
+\begin{table}[h!]
+\centering
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| m{25em} R{15em} |}
+\hline
+Event & C-bills \\
+\hline
+\multicolumn{2}{|c|}{Objectives} \\
+\hline
+Primary Objective               & \\
+Secondary Objective             & \\
+Base Pay (if no objectives met) & \\
+\hline
+\multicolumn{2}{|c|}{Salvage} \\
+\multicolumn{2}{|c|}{Pay 50\% cost to add to TOE or sell to earn 25\% cost} \\
+\hline
+1 & \\
+2 & \\
+3 & \\
+4 & \\
+5 & \\
+... & \\
+\hline
+\multicolumn{2}{|c|}{Maintenance} \\
+\multicolumn{2}{|c|}{Pay 50\% cost if destroyed, 25\% cost to repair internal damage} \\
+\hline
+1 & \\
+2 & \\
+3 & \\
+4 & \\
+5 & \\
+... & \\
+\hline
+\multicolumn{2}{|c|}{Training} \\
+\multicolumn{2}{|c|}{Pay 500,000 $\times$ BV skill multiplier difference} \\
+\hline
+1 & \\
+2 & \\
+3 & \\
+4 & \\
+5 & \\
+... & \\
+\hline
+\multicolumn{2}{|c|}{Total} \\
+\hline
+ & \\
+\hline
+\end{tabular}
+\end{table}
 
 \end{document}
 %-------------------------------------------------------------------------------
