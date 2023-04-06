@@ -2,7 +2,7 @@
 
 \documentclass[UTF8]{article}
 
-\usepackage[letterpaper, margin=1.2in]{geometry}
+\usepackage[letterpaper, margin=1.25in]{geometry}
 \usepackage{graphicx}               % to insert figures
 \usepackage{xcolor}                 % colors for e-copies
 \usepackage{subcaption}             % subfigures
@@ -10,10 +10,6 @@
 \usepackage{hyperref}               % PDF hyperreferences
 \usepackage{booktabs}
 \usepackage{array}
-\usepackage{caption}
-\usepackage{rotating}
-
-\newsavebox{\savefig}
 
 \title{
   Outworld Wastes\\
@@ -22,7 +18,7 @@
   ~\\
   ~\\
   ~\\
-  \includegraphics[width=4in]{img/Outworlds_Alliance.png}
+  \includegraphics[width=4in]{../img/Outworlds_Alliance.png}
 }
 \author{}
 \date{}
@@ -127,31 +123,29 @@ Force construction must follow these rules:\\
 
 \begin{itemize}
 
-\item Commanders have a modified Union class dropship with 16 configurable maintenance bays to hold their units.
-Each bay can hold 1 mech, 2 combat vehicles, 5 protomechs, or 5 tons of infantry/battle armor.
-Infantry/battle armor units can be split across multiple bays; for example, 4 bays can hold 20 tons, which is 5 squads of inner sphere standard battle armor.
-The dropship can support a maximum of 12 mech bays, 5 combat vehicle, 2 protomech bays, and 5 infantry/battle armor bays.
-You may leave bays unconfigured or change their configuration in the future.
-Your entire force must fit onto your dropship.
-
 \item Commanders should select units from their era and faction on the \href{http://www.masterunitlist.info/}{Master Unit List}.
 Forces can include units with introductory, standard, and advanced technology but should not include experimental units.
 For example, the Marauder MAD-3R, Marauder MAD-7R, and Marauder II MAD-6C are legal ilClan era mercenary units while the Marauder II MAD-6M is not.
-Forces can include one unique unit of any technology level.
 
-\item Each force can start with no more than 7,000 BV in mechs.
-Commanders are encouraged to try to use the typical mech unit composition of their faction.
-However, this can be difficult to accomplish for clan or ComStar forces, so this is not a requirement.
+\item Each force can start with no more than 6,000 BV in mechs.
+Commanders are encouraged to use the typical unit composition of their faction but are not required to do so.
+For example, inner sphere forces are often organized in lances of 4 mechs while clan forces are organized in stars of 5 mechs and ComStar or Word of Blake forces are organized in Level IIs of 6 mechs.
 
-\item Each force can include any number of supporting units, such as combat vehicles, protomechs, infantry, and battle armor.
-Some scenarios will require infantry/battle armor or combat vehicles with cargo capacity, so commanders should have at least one of each of these units in their force.
+\item Each force can include any number of supporting units, such as infantry, battle armor, and combat vehicles.
 
 \item Forces cannot contain off-map battlefield support units, such as artillery or aerospace fighters.
 However, forces can contain any on-map units.
 
-\item The BV costs of a unit includes the pilot or crew skills.
-Skill levels should generally be close to the average skill levels given on page 40 of \emph{Battletech: Total Warfare}.
-Skills may be no better than Gunnery 3/Piloting 4.
+\item The BV costs of a mech includes the pilot skills.
+Pilots may be no better than Gunnery 3/Piloting 4 and no worse than Gunnery 5/Piloting 6.
+
+\item The BV costs of a combat vehicle includes the crew skills.
+Crews may be no better than Gunnery 3/Driving 4 and no worse than Gunnery 5/Driving 6.
+
+\item The BV costs of infantry or battle armor includes the troop skills.
+Units may be no better than Gunnery 3/Anti-Mech 4 and no worse than Gunnery 5/Anti-Mech 8.
+
+\item Commanders will always have sufficient non-combatant dropship assets to move their force, but these dropships cannot participate in scenarios.
 
 \item Any unspent BV during force creation is lost.
 
@@ -159,10 +153,6 @@ Skills may be no better than Gunnery 3/Piloting 4.
 
 One of the goals of the Outworlds Wastes framework is to explore different equipment.
 Commanders are encouraged to know where in the rulebooks other commanders can read about the rules pertaining to any special equipment for units in their force.\\
-
-Learning new types of units can be intimidating, especially in Classic Battletech.
-Commanders are welcome to limit the number of types of units in their 3,000 BV non-mech forces.
-For example, a force could include only troop transports and battle armor so the commander can meet any objective while keeping new rules to a minimum.\\
 
 Two sample initial forces are provided; the first force is a Civil War era mercenary company and the second force is an ilClan era Raven Alliance nova.
 Mech pilot names are encouraged, as one of the goals is to develop the personalized lore for your force.\\
@@ -172,33 +162,25 @@ Mech pilot names are encouraged, as one of the goals is to develop the personali
 \begin{table}[h!]
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\begin{tabular}{| m{12em} m{10em} R{4em} R{4em} R{4em} R{4em} |}
 \hline
-Bay & Unit                  & Pilot            & Gunnery & Piloting & BV    & Adj BV \\
+Battlemech            & Pilot                  & Gunnery & Piloting & BV    & Adjusted BV \\
 \hline
-\multicolumn{7}{|c|}{Mechs} \\
+Atlas II AS7-D        & Megan 'Meg' Courant    & 3       & 4        & 1,897 & 2,504 \\
+Phoenix Hawk PXH-2K   & Dietrich 'Bison' Helge & 4       & 5        & 1,271 & 1,271 \\
+Blackjack BJ-2        & Rowan 'Lizard' Baker   & 4       & 5        & 1,148 & 1,148 \\
+Locust IIC            & Corey 'Casper' Poole   & 4       & 5        & 1,100 & 1,100 \\
+Maxim Hover Transport &                        & 4       & 5        &   764 &   764 \\
+Maxim Hover Transport &                        & 4       & 5        &   764 &   764 \\
+Galleon GAL-102       &                        & 4       & 5        &   651 &   651 \\
+Galleon GAL-102       &                        & 4       & 5        &   651 &   651 \\
+Warrior H-7           &                        & 4       & 5        &   295 &   295 \\
+Warrior H-7           &                        & 4       & 5        &   295 &   295 \\
+IS Std BA, LRR        &                        & 4       & 5        &   255 &   255 \\
+IS Std BA, Laser      &                        & 4       & 5        &   231 &   231 \\
 \hline
-1   & Atlas II AS7-D        & 'Meg' Courant    & 3       & 4         & 1,897 & 2,504 \\
-2   & Phoenix Hawk PXH-2K   & 'Bison' Helge    & 4       & 5         & 1,271 & 1,271 \\
-3   & Blackjack BJ-2        & 'Lizard' Baker   & 4       & 5         & 1,148 & 1,148 \\
-4   & Locust IIC            & 'Casper' Poole   & 4       & 5         & 1,100 & 1,100 \\
-\hline
-\multicolumn{7}{|c|}{Combat Vehicles} \\
-\hline
-1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
-1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
-2  & Galleon GAL-102       &                   & 4       & 5         &   651 &   651 \\
-2  & Galleon GAL-102       &                   & 4       & 5         &   651 &   651 \\
-3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
-3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
-\hline
-\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
-\hline
-1  & IS Std BA, LRR        &                   & 4       & 5         &   255 &   255 \\
-2  & IS Std BA, Laser      &                   & 4       & 5         &   231 &   231 \\
-\hline
-9  & Total Bays            &                   &         &           &       &       \\
-   & Total BV              &                   &         &           &       & 9,929 \\
+Total                 &                        &         &          &       & 9,929 \\
+Unspent               &                        &         &          &       &    71 \\
 \bottomrule
 \end{tabular}
 \caption{Civil War Era Mercenary Force - Meg's Magpies}
@@ -207,39 +189,29 @@ Bay & Unit                  & Pilot            & Gunnery & Piloting & BV    & Ad
 \begin{table}[h!]
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\begin{tabular}{| m{12em} m{10em} R{4em} R{4em} R{4em} R{4em} |}
 \hline
-Bay & Unit                  & Pilot           & Gunnery & Piloting  & BV    & Adj BV \\
+Battlemech             & Pilot           & Gunnery & Piloting & BV    & Adjusted BV \\
 \hline
-\multicolumn{7}{|c|}{Mechs} \\
+Carrion Crow A         & Sarah Magnus    & 4       & 5        & 1,622 & 1,622 \\
+Nova U                 &       Bryn      & 4       & 5        & 1,413 & 1,413 \\
+Adder J                &       Ada       & 4       & 5        & 1,222 & 1,222 \\
+Kit Fox Prime          &       Soton     & 4       & 5        & 1,085 & 1,085 \\
+Fire Moth B            &       Tina      & 4       & 5        &   639 &   639 \\
+Gnome BA               &                 & 3       & 4        &   580 &   766 \\
+Gnome BA               &                 & 3       & 4        &   580 &   766 \\
+Elemental BA, AP Gauss &                 & 3       & 4        &   577 &   762 \\
+Elemental BA, AP Gauss &                 & 3       & 4        &   577 &   762 \\
+Elemental BA, MicroPL  &                 & 3       & 4        &   480 &   634 \\
+Karnov Transport       &                 & 4       & 4        &   152 &   167 \\
+Karnov Transport       &                 & 4       & 5        &   152 &   152 \\
 \hline
-1   & Carrion Crow A        & Sarah Magnus    & 3       & 4         & 1,622 & 2,141 \\
-2   & Nova U                &       Bryn      & 4       & 5         & 1,413 & 1,413 \\
-3   & Adder J               &       Ada       & 4       & 5         & 1,222 & 1,222 \\
-4   & Kit Fox V             &       Soton     & 3       & 4         &   974 & 1,286 \\
-5   & Fire Moth A           &       Tina      & 3       & 4         &   639 &   843 \\
-\hline
-\multicolumn{7}{|c|}{Combat Vehicles} \\
-\hline
-1   & Karnov UR Transport   &                 & 4       & 5          &   125 &   125 \\
-\hline
-\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
-\hline
-1   & Gnome BA              &                 & 3       & 4         &   580 &   766 \\
-2   & Elemental BA, Laser   &                 & 3       & 4         &   447 &   590 \\
-3   & Elemental BA, HMG     &                 & 3       & 4         &   415 &   548 \\
-4   & Elemental BA, Flamer  &                 & 3       & 4         &   404 &   533 \\
-5   & Elemental BA, Flamer  &                 & 3       & 4         &   404 &   533 \\
-\hline
-11  & Total Bays            &                 &         &           &       &       \\
-    & Total BV              &                 &         &           &       & 10,000 \\
+Total                  &                 &         &          &       & 9,990 \\
+Unspent                &                 &         &          &       &    10 \\
 \hline
 \end{tabular}
 \caption{ilClan Era Raven Alliance Force - Raven Expeditionary Cluster, Alpha Nova}
 \end{table}
-
-Both forces can support additional units on their dropships.
-However, the Raven Expeditionary Cluster, Alpha Nova force cannot support any additional infantry/battle armor maintenance bays because their dropship is using the maximum of 5 bays.\\
 
 \newpage
 
@@ -251,13 +223,11 @@ C-bill costs for all units are listed in the \href{http://www.masterunitlist.inf
 
 \begin{itemize}
 
-\item {\bf Train}: Pay the difference in BV skill multiplier times 500,000 C-bills to upgrade a unit's skill levels.
-For example, a Gunnery 4/Piloting 5 pilot has a BV skill multiplier of 1.0 and a Gunnery 3/Piloting 4 pilot has a BV skill multiplier of 1.32.
-Therefore, it costs 160,000 C-bills to train a 4/5 pilot to be a 3/4 pilot.
+\item {\bf Train}: Pay the difference in skill BV modifier times 100,000 C-bills to upgrade a unit's skill levels.
+For example, a Gunnery 4/Piloting 5 pilot has a BV modifier of 1.0 and a Gunnery 3/Piloting 4 pilot has a BV modifier of 1.32.
+Therefore, it costs 32,000 C-bills to train a 4/5 pilot to be a 3/4 pilot.
 Units cannot be upgraded past Gunnery 1/Piloting 2.
-New units cannot be upgraded past Gunnery 3/Piloting 4.
-Existing units that did not participate in the most recent scenario cannot be upgraded past Gunnery 4/Piloting 5.
-See \emph{Battletech: Techmanual}, page 315, for the BV skill multiplier table.
+Skill BV modifiers can be found on the \href{http://www.masterunitlist.info/}{Master Unit List}.
 
 \item {\bf Replace}: Pay 50\% of the C-bill cost, rounded up, to replace a \emph{destroyed} unit.
 If the mech pilot or vehicle crew was killed, the replacement cost includes a 5/6 pilot or crew.
@@ -323,23 +293,17 @@ The BV awarded in a scenario will tend to follow these guidelines
 
 \begin{itemize}
 
-\item {\bf Objectives}: Forces earn 7,000,000 C-bills for completing primary objectives and 3,000,000 C-bills for completing secondary objectives.
-This C-bill payment represents bonus pay in a mercenary contract and the value of resources or technology acquired by completing mission objectives.
-
-\item {\bf Participation}: If the force did not complete any objectives, then the force earns 2,000 C-bills for every 10 BV for the scenario, with a minimum of 1,000,000 C-bills.
-For example, a 6,000 BV vs 6,000 BV scenario will have a base payout of 1,200,000 C-bills.
+\item {\bf Participation}: Forces earn 5,000 C-bills for every 10 BV for the scenario, with a minimum of 2,500,000 C-bills.
+For example, a 6,000 BV vs 6,000 BV scenario will have a base payout of 3,000,000 C-bills.
 This C-bill payment represents the baseline cost of a mercenary contract or supplies sent by a faction.
+
+\item {\bf Objectives}: Forces earn 10,000,000 C-bills for completing primary objectives and 5,000,000 C-bills for completing secondary objectives.
+This C-bill payment represents bonus pay in a mercenary contract and the value of resources or technology acquired by completing mission objectives.
 
 \end{itemize}
 
 Outworlds Wastes scenarios will often be built to represent lore and objectives relevant to specific worlds in the Outworlds Wastes.
 The Outworlds Wastes scenarios will often include special bonuses, such as recovering equipment from the 61st Royal Jump Infantry Division so a commander can add an advanced jump infantry unit to their force for free.\\
-
-\subsection{Scenario Forces}
-
-Both sides should agree upon a BV and unit count limit before starting the scenario.
-A typical BV limit would be 6,000 BV per side for 1v1 or 10,000 BV per side for 2v2.
-A typical unit limit would be 7 units per side for 1v1 or 10 units per side for 2v2.\\
 
 \subsection{Scenario Balancing}
 
@@ -361,193 +325,82 @@ Teammates are encouraged to collaborate on strategy for the scenario.
 
 \subsection{Scoring Casual Scenarios}
 
-While there will be Outworlds Wastes themed scenarios, the Outworlds Wastes framework also supports scoring casual games between commanders to give their forces more chances to earn C-bills and glory.
-Some primary and secondary objectives are included here as examples.\\
+While there will be Outworlds Wastes themed scenarios, the Outworlds Wastes framework also supports scoring casual games between commanders to give their forces more chances to earn BV and glory.
+Some generic scenarios are included here as examples.\\
 
-\subsubsection{Primary Objectives}
+These scenarios are modified from the scenarios in \emph{Battletech: Total Warfare} and \emph{Battletech: Alpha Strike Commander's Edition}.
+See those books for a full description of the scenarios.
+The scoring provided here is subject to future balance adjustments.\\
 
-\begin{enumerate}
+\subsubsection{Classic Battletech}
 
-\item Extraction: The attackers select a hex within 5 rows of the defenders home edge.
-This hex contains a target to extract.
-A unit with cargo capacity can pick up the target by being in the same hex at the end of the turn.
-The target is not destroyed if the carrying unit is destroyed.
-A unit completes the objective by exiting their home edge while carrying the target.
+Five of the six scenario types from \emph{Battletech: Total Warfare} are included here.
+The Standup Fight does not fit the narrative nature of Outworlds Wastes.\\
 
-\item King of the Hill: A hex in the center of the map contains a building with valuable files.
-The building is medium with a construction factor of 60, unless the players agree upon a different configuration.
-The force earns 1,000,000 C-bills for every turn that they have an infantry/battle armor unit inside of the building at the end of the turn.
+\begin{itemize}
 
-\item Supply Raid: 3-7 supply depots are on the map, near the center.
-Any unit with hands or cargo capacity can load supplies from the depot if they end their turn in the same hex.
-A unit carrying supplies in their hands cannot fire any arm mounted weapons.
-A unit carrying supplies earns a portion of 7,000,000 C-bills for bringing the supplies to their home edge.
-Each side cannot score from the same supply depot twice until they score from every other supply depot.
+\item {\bf Extraction}: Each side brings the same BV.
+The attacker's primary objective is to extract the hidden asset by having a unit carry it to the attacker's home edge.
+The defender's primary objective is to steal the hidden asset by having a unit carry it to the defender's home edge.
+A secondary objective for all commanders is to cripple or destroy a unit carrying the hidden asset.
+The secondary objective can only be awarded once per commander.
 
-\item Recovery: 4-6 disabled mechs are equally spaced along the map diagonal.
-A mech of equal or higher weight class can drag a disabled mech.
-To start dragging a disabled mech, a friendly mech must end the turn in the same hex as the disabled mech.
-The dragging mech has a one third reduction in their walking MP and cannot jump.
-A unit earns a portion of 7,000,000 C-bills for dragging a disabled mech to its home map edge.
+\item {\bf Breakthrough}: Each side brings the same BV.
+The attacker's primary objective is to reach their home edge, and the defender's primary objective is to prevent attackers from reaching that edge.
+10,000,000 C-bills for the primary objective is awarded proportionally, based upon the percentage of the attacker's initial BV that reaches the attacker's home edge.
+Crippled units may exit off any map edge, but only only exiting off the attacker's home edge counts towards the attacker meeting the primary objective.
+The attacker's secondary objective is to cripple or destroy the defender's forces, and the defender's secondary objective is to preserve their force.
+5,000,000 C-bills for the secondary objective is awarded proportionally, as above. 
 
-\item Reconnaissance: The map contains 15 buildings that are at least hex large, 7 of which contain hidden objectives.
-The attacker earns 1,000,000 C-bills for each hidden objective they find. 
-The defender earns 1,000,000 C-bills for each hidden objective the attacker does not find.
+\item {\bf Chase}: The defending side brings double the BV of the attacking side.
+The attacking side has a high value asset that moves as fast as their slowest unit.
+The attacker's primary objective is to extract the high value asset by having it cross the attacker's home edge.
+The defender's primary objective is to cripple or destroy the high value asset.
+The attacker's secondary objective is to reach their home edge, and the defender's secondary objective is to prevent attackers from reaching that edge.
+5,000,000 C-bills for the secondary objective is awarded proportionally, based upon the percentage of the attacker's initial BV that reaches the attacker's home edge.
 
-\item Assassination: A local militia commander needs to be escorted across the battlefield.
-The defender selects a medium or heavy mech from the Periphery General or Pirates list.
-The militia commander pilots this mech and must transit the map from the defender's home edge to the attacker's home edge.
-The attacker earns 7,000,000 C-bills if the commander's mech is destroyed or 3,500,000 C-bills if the commander's mech receives crippling damage.
-The defender 7,000,000 C-bills if the commander's mech does not receive crippling damage or if the commander's mech is crippled but not destroyed.
+\item {\bf Hide and Seek}: The attacking side brings double the BV of the defending side.
+The attacker's primary objective is to cripple or destroy every defending unit.
+The defender's primary objective is to cripple or destroy one attacking unit for every defending unit.
+Crippled units may exit off any map edge.
 
-\end{enumerate}
+\item {\bf Hold the Line}: Each side brings the same BV; attacker should have twice as many units as the defender.
+The attacker's primary objective is to cripple or destroy every defending unit.
+The defender's primary objective is to cripple or destroy one attacking unit for every defending unit.
+Crippled units may exit off any map edge.
 
-\subsubsection{Secondary Objectives}
-
-\begin{enumerate}
-
-\item Cripple or destroy a mech.
-
-\item Cripple or destroy a combat vehicle.
-
-\item Destroy an internal section of an opponent's highest BV unit.
-
-\end{enumerate}
+\end{itemize}
 
 \newpage
 
-\section{Outworlds Wastes Map - ilClan Era}
+\subsubsection{Alpha Strike}
 
-\begin{figure}[h!]
-  \centering
-  \savebox{\savefig}{\includegraphics[width=8.1in]{img/Outworlds_Wastes_ilClan_Map.png}}
-  \rotatebox{90}{%
-    \begin{minipage}{\wd\savefig}
-      \usebox{\savefig}
-      \caption{Outworlds Wastes - 3151}
-    \end{minipage}}
-\end{figure}
+Four of the five scenario types from \emph{Battletech: Alpha Strike Commander's Edition} are included here.
+The Standup Fight does not fit the narrative nature of Outworlds Wastes.\\
 
-\newpage
+\begin{itemize}
 
-\section{Sample Force Roster}
+\item {\bf Capture the Flag}: Each side brings the same PV and similar numbers of units.
+The primary objective of each side is to capture the enemy flag.
+The secondary objective of each side is to defend their own flag.
 
-\begin{table}[h!]
-\centering
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
-\hline
-Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
-\hline
-\multicolumn{7}{|c|}{Mechs (1 per bay)} \\
-\hline
-1  & & & & & & \\
-2  & & & & & & \\
-3  & & & & & & \\
-4  & & & & & & \\
-5  & & & & & & \\
-6  & & & & & & \\
-7  & & & & & & \\
-8  & & & & & & \\
-9  & & & & & & \\
-10 & & & & & & \\
-11 & & & & & & \\
-12 & & & & & & \\
-\hline
-\multicolumn{7}{|c|}{Combat Vehicles (2 per bay)} \\
-\hline
-1 & & & & & & \\
-1 & & & & & & \\
-2 & & & & & & \\
-2 & & & & & & \\
-3 & & & & & & \\
-3 & & & & & & \\
-4 & & & & & & \\
-4 & & & & & & \\
-5 & & & & & & \\
-5 & & & & & & \\
-\hline
-\multicolumn{7}{|c|}{Protomechs (5 per bay)} \\
-\hline
-1 & & & & & & \\
-1 & & & & & & \\
-1 & & & & & & \\
-1 & & & & & & \\
-1 & & & & & & \\
-2 & & & & & & \\
-2 & & & & & & \\
-2 & & & & & & \\
-2 & & & & & & \\
-2 & & & & & & \\
-\hline
-\multicolumn{7}{|c|}{Infantry/Battle Armor (5 tons per bay)} \\
-\hline
-1  & & & & & & \\
-2  & & & & & & \\
-3  & & & & & & \\
-4  & & & & & & \\
-5  & & & & & & \\
-...   & & & & & & \\
-\hline
-  & Total Bays (16 max) & & & & & \\
-  & Total BV   & & & & & \\
-\hline
-\end{tabular}
-\end{table}
+\item {\bf King of the Hill}: Each side brings the same PV and similar numbers of units.
+The primary objective of each side is to control the objective zone.
+10,000,000 C-bills are awarded proportionally based upon the number of turns the objective is controlled.
 
-\newpage
+\item {\bf Hold the Line}: The defender has 25\% more PV than the attackers.
+The attacker's primary objective is to cripple or destroy every defending unit.
+The defender's primary objective is to cripple or destroy one attacking unit for every defending unit.
+Crippled units may exit off any map edge.
+The defender's secondary objective is to hold the line for 3 turn for every 4 defending units.
+The attacker's secondary objective is to force all defending units to retreat before their time limit.
 
-\section{Sample Scenario Logistics Tracking}
+\item {\bf Reconnaissance}: Each side brings the same PV and similar numbers of units.
+The attacker's primary objective is to locate all hidden objectives.
+The defender's primary objective is to prevent the attacker from locating all hidden objectives.
+10,000,000 C-bills are awarded proportionally for the number of hidden objectives located by the attackers.
 
-\begin{table}[h!]
-\centering
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{25em} R{15em} |}
-\hline
-Event & C-bills \\
-\hline
-\multicolumn{2}{|c|}{Objectives} \\
-\hline
-Primary Objective               & \\
-Secondary Objective             & \\
-Base Pay (if no objectives met) & \\
-\hline
-\multicolumn{2}{|c|}{Salvage} \\
-\multicolumn{2}{|c|}{Pay 50\% cost to add to TOE or sell to earn 25\% cost} \\
-\hline
-1 & \\
-2 & \\
-3 & \\
-4 & \\
-5 & \\
-... & \\
-\hline
-\multicolumn{2}{|c|}{Maintenance} \\
-\multicolumn{2}{|c|}{Pay 50\% cost if destroyed, 25\% cost to repair internal damage} \\
-\hline
-1 & \\
-2 & \\
-3 & \\
-4 & \\
-5 & \\
-... & \\
-\hline
-\multicolumn{2}{|c|}{Training} \\
-\multicolumn{2}{|c|}{Pay 500,000 $\times$ BV skill multiplier difference} \\
-\hline
-1 & \\
-2 & \\
-3 & \\
-4 & \\
-5 & \\
-... & \\
-\hline
-\multicolumn{2}{|c|}{Total} \\
-\hline
- & \\
-\hline
-\end{tabular}
-\end{table}
+\end{itemize}
 
 \end{document}
 %-------------------------------------------------------------------------------
