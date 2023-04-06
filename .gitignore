@@ -1,8 +1,8 @@
-*.aux
-*.bbl
-*.blg
-*.lof
-*.log
-*.lot
-*.out
-*.toc
+*/*.aux
+*/*.bbl
+*/*.blg
+*/*.lof
+*/*.log
+*/*.lot
+*/*.out
+*/*.toc
