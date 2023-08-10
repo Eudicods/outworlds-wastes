@@ -12,6 +12,7 @@
 \usepackage{array}
 \usepackage{caption}
 \usepackage{rotating}
+\usepackage{multicol}
 
 \newsavebox{\savefig}
 
@@ -414,14 +415,14 @@ Some quirks require modifications to fit in the Outworlds Wastes rules.
 
 \item {\bf Custom Design Quirks}: If commanders have opted into using \emph{Design Quirks}, they may purchase additional quirks to customize their units.
 Pay 10\% of the unit's cost in C-bills per positive quirk point to add a positive quirk.
-For each positive quirk, commanders must select negative quirks totaling equal or higher point value.
+For each positive quirk, commanders must select negative quirks with a total value equal or higher than the positive quirk's point value.
 Increase the repair and replacement costs by 10\% for each positive quirk point purchased.
 See \emph{BattleTech: Campaign Operations}, page 255, for a table summarizing which quirks may be applied to which unit types.
 The following quirks may be used to customize your units:
 
-\begin{itemize}
+\begin{multicols}{2}
 
-\item Positive Design Quirks
+Positive Design Quirks:
 
 \begin{itemize}
 
@@ -437,13 +438,17 @@ The following quirks may be used to customize your units:
 
 \item \emph{Searchlight} (0 points)
 
-\item \emph{Stabilized Weapon} (Varies)
+\item \emph{Stabilized Weapon} (varies)
 
 \item \emph{Variable Range Targeting} (varies)
 
 \end{itemize}
 
-\item Negative Design Quirks
+~\\
+
+\columnbreak
+
+Negative Design Quirks:
 
 \begin{itemize}
 
@@ -471,54 +476,44 @@ The following quirks may be used to customize your units:
 
 \end{itemize}
 
-\end{itemize}
+\end{multicols}
 
-\item {\bf Special Pilot Abilities}: Commanders may opt into using \emph{Special Pilot Abilities} (SPAs)for their units.
+\item {\bf Special Pilot Abilities}: Commanders may opt into using \emph{Special Pilot Abilities} (SPAs) for their units.
 See \emph{BattleTech: Campaign Operations}, page 70, or \href{https://sarna.net}{Sarna.net} for a list of all SPAs.
 After each scenario, roll 2D6 for each unit that survived.
 Subtract 2 from the result if the unit already has a SPA.
-On a result of 10+, assign an SPA to the unit by rolling 6D6 on the charts below.
-Re-roll on the charts below if the SPA cannot apply to the unit.
-Commanders may decide to not apply a valid SPA to the unit; however, they do not get to roll again in this case.
+On a result of 10+, assign an SPA to the unit by rolling 4D6 on the charts below.
+If the result is invalid for the unit, roll 4D6 again and use the new result.
+Commanders may decide to not apply a valid SPA to the unit; however, do not roll again in this case.
 
 \begin{table}[h!]
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| R{4em} | m{10em} |}
+\begin{tabular}{| R{1.1em} | m{8em} | m{8em} | m{8em} | m{8em} | m{8em} |}
 \hline
-Result & Special Pilot Ability  \\
+       & 'Mech            & Protomech         & Combat Vehicle     & Airborne Unit     & Infantry           \\
 \hline
- 6 & Ride the Wash      \\
- 7 & Combat Intuition   \\
- 8 & Natural Grace      \\
- 9 & Animal Mimicry     \\
-10 & Blood Stalker      \\
-11 & Cross-Country      \\
-12 & Dodge              \\
-13 & Dust-Off           \\
-14 & Fist Fire          \\
-15 & Hot Dog            \\
-16 & Jumping Jack       \\
-17 & Maneuvering Ace    \\
-18 & Hopper             \\
-19 & Melee Specialist   \\
-20 & Human TRO          \\
-21 & Oblique Attacker   \\
-22 & Stand-Aside        \\
-23 & Marksman           \\
-24 & Melee Master       \\
-25 & Multi-Tasker       \\
-26 & Range Master       \\
-27 & Sandblaster        \\
-28 & Shaky Stick        \\
-29 & Speed Demon        \\
-30 & Street Fighter     \\
-31 & Swordsman          \\
-32 & Wind Walker        \\
-33 & Zweihander         \\
-34 & Weapon Specialist  \\
-35 & Sniper             \\
-36 & Sharpshooter       \\
+ 4     & Sharpshooter      & Sharpshooter      & Sharpshooter      & Sharpshooter      & Sharpshooter       \\
+ 5     & Weapon Specialist & Weapon Specialist & Weapon Specialist & Golden Goose      & Weapon Specialist  \\
+ 6     & Combat Intuition  & Combat Intuition  & Combat Intuition  & Weapon Specialist & Combat Intuition   \\
+ 7     & Blood Stalker     & Terrain Master    & Terrain Master    & Combat Intuition  & Blood Stalker      \\
+ 8     & Dodge             & Blood Stalker     & Blood Stalker     & Blood Stalker     & Range Master       \\
+ 9     & Fist Fire         & Range Master      & Range Master      & Range Master      & Multi-Tasker       \\
+10     & Hot Dog           & Multi-Tasker      & Multi-Tasker      & Multi-Tasker      & Heavy Horse        \\
+11     & Range Master      & Marksman          & Marksman          & Marksman          & Marksman           \\
+12     & Multi-Tasker      & Dodge             & Cluster Hitter    & Cluster Hitter    & Cluster Hitter     \\
+13     & Marksman          & Cluster Hitter    & Forward Observer  & Dust-Off          & Urban Guerrilla    \\
+14     & Maneuvering Ace   & Animal Mimicry    & Maneuvering Ace   & Shaky Stick       & Human TRO          \\
+15     & Jumping Jack      & Eagle Eyes        & Human TRO         & Human TRO         & Foot Cavalry       \\
+16     & Melee Master      & Maneuvering Ace   & Stand Aside       & Stand Aside       & Forward Observer   \\
+17     & Sandblaster       & Jumping Jack      & Eagle's Eyes      & Eagle's Eyes      & Eagle's Eyes       \\
+18     & Oblique Attacker  & Oblique Attacker  & Oblique Attacker  & Ground-Hugger     & Light Horseman     \\
+19     & Street Fighter    & Sandblaster       & Sandblaster       & Sandblaster       & Eagle Eyes         \\
+20     & Swordsman         & Speed Demon       & Speed Demon       & Speed Demon       & Sandblaster        \\
+21     & Zweihander        & Street Fighter    & Lucky (2)         & Lucky (2)         & Speed Demon        \\
+22     & Tactical Genius   & Tactical Genius   & Cross Country     & Tactical Genius   & Lucky (2)          \\
+23     & Natural Grace     & Natural Grace     & Tactical Genius   & Sniper            & Tactical Genius    \\
+24     & Sniper            & Sniper            & Sniper            & Ride the Wash     & Sniper             \\
 \hline
 \end{tabular}
 \caption{Random Special Pilot Ability Table}
