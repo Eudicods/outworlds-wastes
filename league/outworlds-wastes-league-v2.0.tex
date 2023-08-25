@@ -58,7 +58,7 @@ Different formats of scenario play are supported, to include Classic BattleTech,
 
 \item Have lots of fun while fostering a friendly and welcoming environment.
 
-\item Give players an opportunity to build personalized lore for their own mechwarrior forces.
+\item Give players an opportunity to build personalized lore for their own BattleTech forces.
 
 \item Provide a lightweight framework for players to track the accomplishments of their forces.
 
@@ -509,77 +509,79 @@ Commanders may decide to not apply a valid SPA to the unit; however, do not roll
 
 \begin{table}[h!]
 \centering
-\begin{tabular}{| m{4em} | m{4em} |  m{4em} | m{8em} | m{8em} |}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| C{4em} | C{4em} | C{4em} | m{8em} | m{8em} |}
 \hline
-First & Second & Third & 'Mech        & Protomech          \\
+First & Second & Third & 'Mech             & Protomech         \\
 \hline
 \multirow{12}{*}{1 - 5}
       & \multirow{6}{*}{1 - 3}
-               & 1 & Blood Stalker     & Blood Stalker     \\
-      &        & 2 & Dodge             & Cluster Hitter    \\
-      &        & 3 & Fist Fire         & Dodge             \\
-      &        & 4 & Hot Dog           & Eagle's Eyes      \\
-      &        & 5 & Jumping Jack      & Hot Dog           \\
-      &        & 6 & Maneuvering Ace   & Jumping Jack      \\
+               & 1     & Blood Stalker     & Blood Stalker     \\
+      &        & 2     & Dodge             & Cluster Hitter    \\
+      &        & 3     & Fist Fire         & Dodge             \\
+      &        & 4     & Hot Dog           & Eagle's Eyes      \\
+      &        & 5     & Jumping Jack      & Hot Dog           \\
+      &        & 6     & Maneuvering Ace   & Jumping Jack      \\
 \cline{2-5}
       & \multirow{6}{*}{4 - 6}
-               & 1 & Melee Master      & Marksman          \\
-      &        & 2 & Sandblaster       & Maneuvering Ace   \\
-      &        & 3 & Range Master      & Multi-Tasker      \\
-      &        & 4 & Street Fighter    & Range Master      \\
-      &        & 5 & Swordsman         & Street Fighter    \\
-      &        & 6 & Zweihander        & Speed Demon       \\
+               & 1     & Melee Master      & Maneuvering Ace   \\
+      &        & 2     & Oblique Attacker  & Marksman          \\
+      &        & 3     & Range Master      & Multi-Tasker      \\
+      &        & 4     & Sandblaster       & Range Master      \\
+      &        & 5     & Swordsman         & Speed Demon       \\
+      &        & 6     & Zweihander        & Street Fighter    \\
 \hline
 \multirow{7}{*}{6}
       & 1 - 4
-               & * & Marksman          & Animal Mimicry    \\
+               & *     & Marksman          & Animal Mimicry    \\
 \cline{2-5}
       & \multirow{6}{*}{5 - 6}
-               & 1 & Combat Intuition  & Combat Intuition  \\
-      &        & 2 & Natural Grace     & Natural Grace     \\
-      &        & 3 & Sharpshooter      & Sharpshooter      \\
-      &        & 4 & Sniper            & Sniper            \\
-      &        & 5 & Tactical Genius   & Tactical Genius   \\
-      &        & 6 & Weapon Specialist & Weapon Specialist \\
+               & 1     & Combat Intuition  & Combat Intuition  \\
+      &        & 2     & Natural Grace     & Natural Grace     \\
+      &        & 3     & Sharpshooter      & Sharpshooter      \\
+      &        & 4     & Sniper            & Sniper            \\
+      &        & 5     & Tactical Genius   & Tactical Genius   \\
+      &        & 6     & Weapon Specialist & Weapon Specialist \\
 \hline
 \end{tabular}
-\caption{Random Special Pilot Ability Table, 'Mechs and Protmechs}
+\caption{Random Special Pilot Ability Table, 'Mechs and Protomechs}
 \end{table}
 
 \begin{table}[h!]
 \centering
-\begin{tabular}{| m{4em} | m{4em} |  m{4em} | m{8em} | m{8em} | m{8em} |}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| C{4em} | C{4em} | C{4em} | m{8em} | m{8em} | m{8em} |}
 \hline
-First & Second & Third & Combat Vehicle & Airborne Unit & Infantry \\
+First & Second & Third & Combat Vehicle    & Airborne Unit     & Infantry          \\
 \hline
 \multirow{12}{*}{1 - 5}
       & \multirow{6}{*}{1 - 3}
-               & 1 & Blood Stalker     & Blood Stalker     & Blood Stalker     \\
-      &        & 2 & Cluster Hitter    & Cluster Hitter    & Cluster Hitter    \\
-      &        & 3 & Eagle's Eyes      & Dust-Off          & Eagle's Eyes      \\
-      &        & 4 & Maneuvering Ace   & Eagle's Eyes      & Foot Cavalry      \\
-      &        & 5 & Marksman          & Ground-Hugger     & Heavy Horse       \\
-      &        & 6 & Multi-Tasker      & Maneuvering Ace   & Light Horseman    \\
+               & 1     & Blood Stalker     & Blood Stalker     & Blood Stalker     \\
+      &        & 2     & Cluster Hitter    & Cluster Hitter    & Cluster Hitter    \\
+      &        & 3     & Eagle's Eyes      & Dust-Off          & Eagle's Eyes      \\
+      &        & 4     & Maneuvering Ace   & Eagle's Eyes      & Foot Cavalry      \\
+      &        & 5     & Marksman          & Ground-Hugger     & Heavy Horse       \\
+      &        & 6     & Multi-Tasker      & Lucky(2)          & Light Horseman    \\
 \cline{2-6}
       & \multirow{6}{*}{4 - 6}
-               & 1 & Stand Aside       & Marksman          & Marksman          \\
-      &        & 2 & Oblique Attacker  & Multi-Tasker      & Multi-Tasker      \\
-      &        & 3 & Range Master      & Range Master      & Range Master      \\
-      &        & 4 & Sandblaster       & Sandblaster       & Sandblaster       \\
-      &        & 5 & Speed Demon       & Shaky Stick       & Speed Demon       \\
-      &        & 6 & Terrain Master    & Speed Demon       & Urban Guerrilla   \\
+               & 1     & Oblique Attacker  & Maneuvering Ace   & Marksman          \\
+      &        & 2     & Range Master      & Marksman          & Multi-Tasker      \\
+      &        & 3     & Sandblaster       & Multi-Tasker      & Range Master      \\
+      &        & 4     & Speed Demon       & Range Master      & Sandblaster       \\
+      &        & 5     & Stand Aside       & Sandblaster       & Speed Demon       \\
+      &        & 6     & Terrain Master    & Speed Demon       & Urban Guerrilla   \\
 \hline
 \multirow{7}{*}{6}
       & 1 - 4
-               & * & Human TRO         & Human TRO         & Human TRO         \\
+               & *     & Cross Country     & Shaky Stick       & Human TRO         \\
 \cline{2-6}
       & \multirow{6}{*}{5 - 6}
-               & 1 & Combat Intuition  & Golden Goose      & Combat Intuition  \\
-      &        & 2 & Cross Country     & Ride the Wash     & Lucky(2)          \\
-      &        & 3 & Sharpshooter      & Sharpshooter      & Sharpshooter      \\
-      &        & 4 & Sniper            & Sniper            & Sniper            \\
-      &        & 5 & Tactical Genius   & Tactical Genius   & Tactical Genius   \\
-      &        & 6 & Weapon Specialist & Weapon Specialist & Weapon Specialist \\
+               & 1     & Combat Intuition  & Golden Goose      & Combat Intuition  \\
+      &        & 2     & Lucky(3)          & Ride the Wash     & Lucky(3)          \\
+      &        & 3     & Sharpshooter      & Sharpshooter      & Sharpshooter      \\
+      &        & 4     & Sniper            & Sniper            & Sniper            \\
+      &        & 5     & Tactical Genius   & Tactical Genius   & Tactical Genius   \\
+      &        & 6     & Weapon Specialist & Weapon Specialist & Weapon Specialist \\
 \hline
 \end{tabular}
 \caption{Random Special Pilot Ability Table, Combat Vehicles, Airborne Units, and Infantry}
