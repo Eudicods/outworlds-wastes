@@ -14,17 +14,29 @@
 \usepackage{rotating}
 \usepackage{multicol}
 \usepackage{multirow}
+\usepackage{titlesec}
 
 \newsavebox{\savefig}
 
+\setcounter{secnumdepth}{0}
+
+\titleformat{\section}[block]
+  {\normalfont\fontsize{14}{16}\bfseries}
+  {\thesection\enspace}{0pt}{\centering\MakeUppercase}[\vspace{2pt}{\titlerule[2pt]}]
+
+\titleformat{\subsection}[block]
+  {\titlerule\addvspace{4pt}\bfseries\centering}
+  {\thesection\enspace}{0pt}{\MakeUppercase}[\vspace{2pt}\titlerule]
+
+\titleformat{\subsubsection} [block]{\bfseries}{}{0em}{\MakeUppercase}
+
 \title{
-  Outworlds Wastes\\
-  ~\\
-  \large BattleTech League Framework \\
-  ~\\
-  ~\\
+  \huge\bf\MakeUppercase{Outworlds Wastes}\\
   ~\\
   \includegraphics[width=4in]{../img/Outworlds_Alliance.png}
+  ~\\
+  ~\\
+  \large\bf{BattleTech League Framework} \\
 }
 \author{}
 \date{}
@@ -47,12 +59,14 @@
 
 \newpage
 
+\section{Outworlds Wastes}
+
 Outworlds Wastes is a casual BattleTech league framework with simplified logistics rules.
 Players will take the role of commander of a mech force searching the Outworlds Wastes for lost technology and glory.
 Completing objectives in scenarios will earn C-bills that commanders can use to upgrade their forces.
 Different formats of scenario play are supported, to include Classic BattleTech, Alpha Strike, and BattleTech: Destiny.\\
 
-\subsection*{Goals}
+\subsubsection*{Goals}
 
 \begin{itemize}
 
@@ -70,7 +84,7 @@ Different formats of scenario play are supported, to include Classic BattleTech,
 
 \end{itemize}
 
-\subsection*{Contents}
+\subsubsection*{Contents}
 
 These rules cover four general areas: background information, player information, league organizer information, and reference material.\\
 
@@ -185,12 +199,12 @@ Unit record sheets for units can be generated using \href{https://megamek.org}{M
 
 Learning new types of units can be intimidating, especially in Classic BattleTech.
 Commanders are welcome to limit the number of types of units in their non-mech forces.
-For example, a force could include only troop transports and battle armor so the commander can meet any objective while keeping new rules to a minimum.\\
-
-Two sample initial forces are provided; the first force is a Civil War era mercenary company and the second force is an ilClan era Raven Alliance nova.
-Mech pilot names are encouraged, as one of the goals is to develop the personalized lore for your force.\\
+For example, a force could include only troop transports and battle armor so the commander can meet any objective while keeping new rules to a minimum.
 
 \newpage
+
+Two sample initial forces are provided; the first force is a Civil War era mercenary company and the second force is an ilClan era Raven Alliance nova.
+Mech pilot names are encouraged, as one of the goals is to develop the personalized lore for your force.
 
 \begin{table}[h!]
 \centering
@@ -640,12 +654,12 @@ Common formats for the scenarios include
 
 \end{itemize}
 
-Regardless of the scenario format, force maintenance and improvement costs are always calculated per Section 3.3 above.
+Regardless of the scenario format, force maintenance and improvement costs are always calculated per the \emph{Force Management} rules above.
 Use the rules for the scenario format to define terms such as \emph{destroyed}, \emph{internal damage}, and \emph{critical damage}.\\
 
-Unit Alpha Strike cards are available on the \href{http://www.masterunitlist.info}{Master Unit List}.
+Alpha Strike cards for all units are available on the \href{http://www.masterunitlist.info}{Master Unit List}.
 To convert a unit skill levels from Classic BattleTech to Alpha Strike, take the average of the piloting and gunnery skills, rounded down.
-See \emph{Alpha Strike: Commander's Edition}, page 29.\\
+See \emph{Alpha Strike: Commander's Edition}, page 29 for more details.\\
 
 BattleTech: Destiny is a rule system that combines MechWarrior Destiny RPG and Alpha Strike combat rules while drawing some inspiration from Classic BattleTech.
 BattleTech: Destiny rules and record sheets can be created on the \href{https://dfawargaming.com}{Death From Above Wargaming} website.
