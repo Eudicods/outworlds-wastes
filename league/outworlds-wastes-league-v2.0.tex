@@ -13,6 +13,7 @@
 \usepackage{caption}
 \usepackage{rotating}
 \usepackage{multicol}
+\usepackage{multirow}
 
 \newsavebox{\savefig}
 
@@ -383,7 +384,8 @@ Therefore, it costs 110,000 C-bills to retrain a 3/4 pilot for a new unit.
 See \emph{BattleTech: Techmanual}, page 315, for the BV skill multiplier table.
 Add 250,000 C-bills to the retraining cost for pilots/crew with a SPA.
 Each pilot/crew has to be retrained when exchanging the pilots/crew between two units.
-For all retraining, the old and new unit must be the same type.
+
+The old and new unit must be the same type.
 For example, a mech pilot can only be retrained into another mech unit.
 A combat vehicle crew can only retrain to the same type of combat vehicle: ground, VTOL, WiGE, or naval.
 See \emph{BattleTech: Total Warfare}, page 192, for discussion of the combat vehicle types.
@@ -424,9 +426,9 @@ Increase the repair and replacement costs by 10\% for each positive quirk point 
 See \emph{BattleTech: Campaign Operations}, page 255, for a table summarizing which quirks may be applied to which unit types.
 The following quirks may be used to customize your units:
 
-\begin{multicols}{2}
-
 Positive Design Quirks:
+
+\begin{multicols}{2}
 
 \begin{itemize}
 
@@ -436,7 +438,7 @@ Positive Design Quirks:
 
 \item \emph{Improved Sensors} (3 points)
 
-\item \emph{Improved Targeting} (3, 4, or 5 points)\\
+\item \emph{Improved Targeting} (3, 4, or 5 points)
 
 \item \emph{Rumble Seat} (0 points)
 
@@ -452,9 +454,11 @@ Positive Design Quirks:
 
 ~\\
 
-\begin{multicols}{2}
+~\\
 
 Negative Design Quirks:
+
+\begin{multicols}{2}
 
 \begin{itemize}
 
@@ -466,9 +470,7 @@ Negative Design Quirks:
 
 \item \emph{Inaccurate Weapon} (varies)
 
-\item \emph{No Cooling Jacket} (2 points)\\
-
-~\\
+\item \emph{No Cooling Jacket} (2 points)
 
 \item \emph{Poor Cooling Jacket} (1 point)
 
@@ -480,7 +482,7 @@ Negative Design Quirks:
 
 \item \emph{Ramshackle} (3 points)
 
-\item \emph{Sensor Ghosts} (3 points)
+\item \emph{Sensor Ghosts} (3 points)\\
 
 \end{itemize}
 
@@ -491,44 +493,118 @@ Both players in a scenario must agree to use \emph{Special Pilot Abilities} for 
 See \emph{BattleTech: Campaign Operations}, page 70, or \href{https://sarna.net}{Sarna.net} for a list of all SPAs.
 After each scenario, roll 2D6 for each unit that survived.
 Subtract 2 from the result if the unit already has a SPA.
-On a result of 10+, assign an SPA to the unit by rolling 4D6 on the charts below.
-If the result is invalid for the unit, roll 4D6 again and use the new result.
+On a result of 10+, assign an SPA to the unit by rolling D666 on the charts below.
+Note, the order of the separate D6 rolls is important.
+If the result is invalid for the unit, roll D666 again and use the new result.
 Commanders may decide to not apply a valid SPA to the unit; however, do not roll again in this case.
 
 \begin{table}[h!]
 \centering
-\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| R{1.1em} | m{8em} | m{8em} | m{8em} | m{8em} | m{8em} |}
+\begin{tabular}{| m{4em} | m{4em} |  m{4em} | m{8em} | m{8em} |}
 \hline
-       & 'Mech            & Protomech         & Combat Vehicle     & Airborne Unit     & Infantry           \\
+First & Second & Third & 'Mech        & Protomech          \\
 \hline
- 4     & Sharpshooter      & Sharpshooter      & Sharpshooter      & Sharpshooter      & Sharpshooter       \\
- 5     & Weapon Specialist & Weapon Specialist & Weapon Specialist & Golden Goose      & Weapon Specialist  \\
- 6     & Combat Intuition  & Combat Intuition  & Combat Intuition  & Weapon Specialist & Combat Intuition   \\
- 7     & Blood Stalker     & Terrain Master    & Terrain Master    & Combat Intuition  & Blood Stalker      \\
- 8     & Dodge             & Blood Stalker     & Blood Stalker     & Blood Stalker     & Range Master       \\
- 9     & Fist Fire         & Range Master      & Range Master      & Range Master      & Multi-Tasker       \\
-10     & Hot Dog           & Multi-Tasker      & Multi-Tasker      & Multi-Tasker      & Heavy Horse        \\
-11     & Range Master      & Marksman          & Marksman          & Marksman          & Marksman           \\
-12     & Multi-Tasker      & Dodge             & Cluster Hitter    & Cluster Hitter    & Cluster Hitter     \\
-13     & Marksman          & Cluster Hitter    & Forward Observer  & Dust-Off          & Urban Guerrilla    \\
-14     & Maneuvering Ace   & Animal Mimicry    & Maneuvering Ace   & Shaky Stick       & Human TRO          \\
-15     & Jumping Jack      & Eagle Eyes        & Human TRO         & Human TRO         & Foot Cavalry       \\
-16     & Melee Master      & Maneuvering Ace   & Stand Aside       & Stand Aside       & Forward Observer   \\
-17     & Sandblaster       & Jumping Jack      & Eagle's Eyes      & Eagle's Eyes      & Eagle's Eyes       \\
-18     & Oblique Attacker  & Oblique Attacker  & Oblique Attacker  & Ground-Hugger     & Light Horseman     \\
-19     & Street Fighter    & Sandblaster       & Sandblaster       & Sandblaster       & Eagle Eyes         \\
-20     & Swordsman         & Speed Demon       & Speed Demon       & Speed Demon       & Sandblaster        \\
-21     & Zweihander        & Street Fighter    & Lucky (2)         & Lucky (2)         & Speed Demon        \\
-22     & Tactical Genius   & Tactical Genius   & Cross Country     & Tactical Genius   & Lucky (2)          \\
-23     & Natural Grace     & Natural Grace     & Tactical Genius   & Sniper            & Tactical Genius    \\
-24     & Sniper            & Sniper            & Sniper            & Ride the Wash     & Sniper             \\
+\multirow{12}{*}{1 - 5}
+      & \multirow{6}{*}{1 - 3}
+               & 1 & Blood Stalker     & Blood Stalker     \\
+      &        & 2 & Dodge             & Cluster Hitter    \\
+      &        & 3 & Fist Fire         & Dodge             \\
+      &        & 4 & Hot Dog           & Eagle's Eyes      \\
+      &        & 5 & Jumping Jack      & Hot Dog           \\
+      &        & 6 & Maneuvering Ace   & Jumping Jack      \\
+\cline{2-5}
+      & \multirow{6}{*}{4 - 6}
+               & 1 & Melee Master      & Marksman          \\
+      &        & 2 & Sandblaster       & Maneuvering Ace   \\
+      &        & 3 & Range Master      & Multi-Tasker      \\
+      &        & 4 & Street Fighter    & Range Master      \\
+      &        & 5 & Swordsman         & Street Fighter    \\
+      &        & 6 & Zweihander        & Speed Demon       \\
+\hline
+\multirow{7}{*}{6}
+      & 1 - 4
+               & * & Marksman          & Animal Mimicry    \\
+\cline{2-5}
+      & \multirow{6}{*}{5 - 6}
+               & 1 & Combat Intuition  & Combat Intuition  \\
+      &        & 2 & Natural Grace     & Natural Grace     \\
+      &        & 3 & Sharpshooter      & Sharpshooter      \\
+      &        & 4 & Sniper            & Sniper            \\
+      &        & 5 & Tactical Genius   & Tactical Genius   \\
+      &        & 6 & Weapon Specialist & Weapon Specialist \\
 \hline
 \end{tabular}
-\caption{Random Special Pilot Ability Table}
+\caption{Random Special Pilot Ability Table, 'Mechs and Protmechs}
+\end{table}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{| m{4em} | m{4em} |  m{4em} | m{8em} | m{8em} | m{8em} |}
+\hline
+First & Second & Third & Combat Vehicle & Airborne Unit & Infantry \\
+\hline
+\multirow{12}{*}{1 - 5}
+      & \multirow{6}{*}{1 - 3}
+               & 1 & Blood Stalker     & Blood Stalker     & Blood Stalker     \\
+      &        & 2 & Cluster Hitter    & Cluster Hitter    & Cluster Hitter    \\
+      &        & 3 & Eagle's Eyes      & Dust-Off          & Eagle's Eyes      \\
+      &        & 4 & Maneuvering Ace   & Eagle's Eyes      & Foot Cavalry      \\
+      &        & 5 & Marksman          & Ground-Hugger     & Heavy Horse       \\
+      &        & 6 & Multi-Tasker      & Maneuvering Ace   & Light Horseman    \\
+\cline{2-6}
+      & \multirow{6}{*}{4 - 6}
+               & 1 & Stand Aside       & Marksman          & Marksman          \\
+      &        & 2 & Oblique Attacker  & Multi-Tasker      & Multi-Tasker      \\
+      &        & 3 & Range Master      & Range Master      & Range Master      \\
+      &        & 4 & Sandblaster       & Sandblaster       & Sandblaster       \\
+      &        & 5 & Speed Demon       & Shaky Stick       & Speed Demon       \\
+      &        & 6 & Terrain Master    & Speed Demon       & Urban Guerrilla   \\
+\hline
+\multirow{7}{*}{6}
+      & 1 - 4
+               & * & Human TRO         & Human TRO         & Human TRO         \\
+\cline{2-6}
+      & \multirow{6}{*}{5 - 6}
+               & 1 & Combat Intuition  & Golden Goose      & Combat Intuition  \\
+      &        & 2 & Cross Country     & Ride the Wash     & Lucky(2)          \\
+      &        & 3 & Sharpshooter      & Sharpshooter      & Sharpshooter      \\
+      &        & 4 & Sniper            & Sniper            & Sniper            \\
+      &        & 5 & Tactical Genius   & Tactical Genius   & Tactical Genius   \\
+      &        & 6 & Weapon Specialist & Weapon Specialist & Weapon Specialist \\
+\hline
+\end{tabular}
+\caption{Random Special Pilot Ability Table, Combat Vehicles, Airborne Units, and Infantry}
 \end{table}
 
 \end{itemize}
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
+
+~\\
 
 \newpage
 
