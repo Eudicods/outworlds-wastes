@@ -2,7 +2,8 @@
 
 \documentclass[UTF8]{article}
 
-\usepackage[letterpaper, margin=1.1in]{geometry}
+\usepackage[defaultfam]{montserrat}
+\usepackage[letterpaper, margin=1in]{geometry}
 \usepackage{graphicx}               % to insert figures
 \usepackage{xcolor}                 % colors for e-copies
 \usepackage{subcaption}             % subfigures
@@ -15,6 +16,9 @@
 \usepackage{multicol}
 \usepackage{multirow}
 \usepackage{titlesec}
+\usepackage{titling}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
 
 \newsavebox{\savefig}
 
@@ -31,6 +35,7 @@
 \titleformat{\subsubsection} [block]{\bfseries}{}{0em}{\MakeUppercase}
 
 \title{
+  \fontfamily{Montserrat}\selectfont
   \huge\bf\MakeUppercase{Outworlds Wastes}\\
   ~\\
   \includegraphics[width=4in]{../img/Outworlds_Alliance.png}
@@ -207,6 +212,7 @@ Two sample initial forces are provided; the first force is a Civil War era merce
 Mech pilot names are encouraged, as one of the goals is to develop the personalized lore for your force.
 
 \begin{table}[h!]
+\fontfamily{Montserrat}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
@@ -242,6 +248,7 @@ Bay & Unit                  & Pilot            & Gunnery & Piloting & BV    & Ad
 \end{table}
 
 \begin{table}[h!]
+\fontfamily{Montserrat}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
@@ -307,13 +314,13 @@ For example, a mercenary force that was founded in the Draconis Combine but move
   \centering
   \begin{subfigure}{0.4\textwidth}
     \centering
-    \includegraphics[height=3.8in]{../img/Dark_Caste_List.png}
+    \includegraphics[height=3.6in]{../img/Dark_Caste_List.png}
     \caption{Dark Caste Faction}
   \end{subfigure}
   \hspace{1in}
   \begin{subfigure}{0.4\textwidth}
     \centering
-    \includegraphics[height=3.8in]{../img/Combine_Mercenary_List.png}
+    \includegraphics[height=3.6in]{../img/Combine_Mercenary_List.png}
     \caption{Combine Mercenary Faction}
   \end{subfigure}
   \caption{Custom Faction Lists}
@@ -337,7 +344,7 @@ All units cannot be upgraded past 1/2.
 New pilots/crew cannot be upgraded past 3/4.
 Old units that did not participate in the most recent scenario cannot be upgraded past 4/5.
 See \emph{BattleTech: Techmanual}, page 315, for the BV skill multiplier table.
-A unit's skill levels can be degraded at no C-bill cost, but any future improvements still cost C-bills.
+A unit's skill levels can be degraded at no C-bill cost.
 
 \item {\bf Replace}: Pay 50\% of the C-bill cost, rounded up, to replace a \emph{destroyed} unit.
 If the mech pilot or vehicle crew was killed, the replacement cost includes a 5/6 pilot or crew.
@@ -346,7 +353,7 @@ The protomech replacement cost includes a 5/6 pilot.
 The new unit can be trained as above.
 See \emph{BattleTech: Total Warfare} for the definition of \emph{destroyed} for different types of units.
 
-\item {\bf Repair}: Pay 25\% of the C-bill cost, rounded up, to repair all internal damage and critical components for a mech, protomech, or combat vehicle that has not been \emph{destroyed}.
+\item {\bf Repair}: Pay 25\% of the C-bill cost, rounded up, to repair all internal damage and critical components for a unit that has not been \emph{destroyed}.
 If the pilot or crew was killed, the repair cost includes a 5/6 pilot or crew.
 Armor repairs have no C-bill cost.
 
@@ -522,6 +529,7 @@ If the result is invalid for the unit, roll D666 again and use the new result.
 Commanders may decide to not apply a valid SPA to the unit; however, do not roll again in this case.
 
 \begin{table}[h!]
+\fontfamily{Montserrat}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4em} | C{4em} | C{4em} | m{8em} | m{8em} |}
@@ -562,6 +570,7 @@ First & Second & Third & 'Mech             & Protomech         \\
 \end{table}
 
 \begin{table}[h!]
+\fontfamily{Montserrat}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4em} | C{4em} | C{4em} | m{8em} | m{8em} | m{8em} |}
@@ -817,6 +826,7 @@ Additional winners may be determined for specific categories, such as Best Paint
 \section{Sample Force Roster}
 
 \begin{table}[h!]
+\fontfamily{Montserrat}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
@@ -890,6 +900,7 @@ Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
 \section{Sample Scenario Logistics Tracking}
 
 \begin{table}[h!]
+\fontfamily{Montserrat}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{25em} R{15em} |}
@@ -965,6 +976,7 @@ Base Pay (if no objectives met) & \\
 \section{BV Skill Multiplier Table}
 
 \begin{table}[h!]
+\fontfamily{Montserrat}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4em} | C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} |}
