@@ -2,10 +2,10 @@
 
 \documentclass{article}
 
-\usepackage[defaultfam]{montserrat}
+\usepackage[defaultfam,tabular]{montserrat}
 \usepackage[letterpaper, margin=1in]{geometry}
 \usepackage{graphicx}               % to insert figures
-\usepackage{xcolor}                 % colors for e-copies
+\usepackage[table,x11names]{xcolor} % colors for e-copies
 \usepackage{subcaption}             % subfigures
 \usepackage{placeins}               % Float barriers
 \usepackage{booktabs}
@@ -35,7 +35,7 @@
 \titleformat{\subsubsection} [block]{\bfseries}{}{0em}{\MakeUppercase}
 
 \title{
-  \fontfamily{Montserrat}\selectfont
+  \fontfamily{Montserrat-TOsF}\selectfont
   \huge\bf\MakeUppercase{Outworlds Wastes}\\
   ~\\
   \includegraphics[width=4in]{../img/Outworlds_Alliance.png}
@@ -91,11 +91,11 @@ Different formats of scenario play are supported, to include Classic BattleTech,
 
 \subsubsection*{Contents}
 
-These rules cover four general areas: background information, player information, league organizer information, and reference material.\\
+These rules cover four general areas: background information, player information, league organizer information, and reference material.
 Background information describes the the Outworlds Wastes region and the overall design of the Outworlds Wastes league.
-Force Construction rules, page 5, and Force Maintenance and Improvements rules, page 8, are the minimum rules needed to jump into Outworlds Wastes league play.
-Rules designing scenarios and league scoring follow.
-Lastly, the remaining content is reference material, to include a region map and sample tables for tracking a player's forces.\\
+Force Construction rules, page 5, and Force Maintenance and Improvements rules, page 8, are the minimum rules needed for a player to jump into Outworlds Wastes league play.
+Scenario design and league scoring rules are provided for league organizers.
+The remaining content is reference material, to include a region map and sample tables for tracking a player's forces.\\
 
 \newpage
 
@@ -209,21 +209,21 @@ Two sample initial forces are provided; the first force is a Civil War era merce
 Mech pilot names are encouraged, as one of the goals is to develop the personalized lore for your force.
 
 \begin{table}[h!]
-\fontfamily{Montserrat}\selectfont
+\fontfamily{Montserrat-LF}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\begin{tabular}{| m{1.25em} m{12em} m{8em} R{4.6em} R{4.6em} R{3.5em} R{3.8em} |}
 \hline
-Bay & Unit                  & Pilot            & Gunnery & Piloting & BV    & Adj BV \\
+\rowcolor{lightgray}  \bf{Bay} & \bf{Unit} & \bf{Pilot} & \bf{Gunnery} & \bf{Piloting} & \bf{BV} & \bf{Adj BV} \\
 \hline
-\multicolumn{7}{|c|}{Mechs} \\
+\rowcolor{lightgray} \multicolumn{7}{|c|}{Mechs} \\
 \hline
 1   & Atlas II AS7-D        & 'Meg' Courant    & 3       & 4         & 1,897 & 2,504 \\
 2   & Phoenix Hawk PXH-2K   & 'Bison' Helge    & 4       & 5         & 1,271 & 1,271 \\
 3   & Blackjack BJ-2        & 'Lizard' Baker   & 4       & 5         & 1,148 & 1,148 \\
 4   & Locust IIC            & 'Casper' Poole   & 4       & 5         & 1,100 & 1,100 \\
 \hline
-\multicolumn{7}{|c|}{Combat Vehicles} \\
+\rowcolor{lightgray}\multicolumn{7}{|c|}{Combat Vehicles} \\
 \hline
 1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
 1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
@@ -232,7 +232,7 @@ Bay & Unit                  & Pilot            & Gunnery & Piloting & BV    & Ad
 3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
 3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
 \hline
-\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
+\rowcolor{lightgray}\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
 \hline
 1  & IS Std BA, LRR        &                   & 4       & 5         &   255 &   255 \\
 2  & IS Std BA, Laser      &                   & 4       & 5         &   231 &   231 \\
@@ -241,18 +241,18 @@ Bay & Unit                  & Pilot            & Gunnery & Piloting & BV    & Ad
    & Total BV              &                   &         &           &       & 9,929 \\
 \bottomrule
 \end{tabular}
-\caption{Civil War Era Mercenary Force - Meg's Magpies}
+\caption*{Civil War Era Mercenary Force - Meg's Magpies}
 \end{table}
 
 \begin{table}[h!]
-\fontfamily{Montserrat}\selectfont
+\fontfamily{Montserrat-LF}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\begin{tabular}{| m{1.25em} m{12em} m{8em} R{4.6em} R{4.6em} R{3.5em} R{3.8em} |}
 \hline
-Bay & Unit                  & Pilot           & Gunnery & Piloting  & BV    & Adj BV \\
+\rowcolor{lightgray}  \bf{Bay} & \bf{Unit} & \bf{Pilot} & \bf{Gunnery} & \bf{Piloting} & \bf{BV} & \bf{Adj BV} \\
 \hline
-\multicolumn{7}{|c|}{Mechs} \\
+\rowcolor{lightgray}\multicolumn{7}{|c|}{Mechs} \\
 \hline
 1   & Carrion Crow A        & Sarah Magnus    & 3       & 4         & 1,622 & 2,141 \\
 2   & Nova U                &       Bryn      & 4       & 5         & 1,413 & 1,413 \\
@@ -260,11 +260,11 @@ Bay & Unit                  & Pilot           & Gunnery & Piloting  & BV    & Ad
 4   & Kit Fox V             &       Soton     & 3       & 4         &   974 & 1,286 \\
 5   & Fire Moth A           &       Tina      & 3       & 4         &   639 &   843 \\
 \hline
-\multicolumn{7}{|c|}{Combat Vehicles} \\
+\rowcolor{lightgray}\multicolumn{7}{|c|}{Combat Vehicles} \\
 \hline
 1   & Karnov UR Transport   &                 & 4       & 5          &   125 &   125 \\
 \hline
-\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
+\rowcolor{lightgray}\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
 \hline
 1   & Gnome BA              &                 & 3       & 4         &   580 &   766 \\
 2   & Elemental BA, Laser   &                 & 3       & 4         &   447 &   590 \\
@@ -276,7 +276,7 @@ Bay & Unit                  & Pilot           & Gunnery & Piloting  & BV    & Ad
     & Total BV              &                 &         &           &       & 10,000 \\
 \hline
 \end{tabular}
-\caption{ilClan Era Raven Alliance Force - Raven Expeditionary Cluster, Alpha Nova}
+\caption*{ilClan Era Raven Alliance Force - Raven Expeditionary Cluster, Alpha Nova}
 \end{table}
 
 Both forces can support additional units on their dropships.
@@ -312,15 +312,15 @@ For example, a mercenary force that was founded in the Draconis Combine but move
   \begin{subfigure}{0.4\textwidth}
     \centering
     \includegraphics[height=3.6in]{../img/Dark_Caste_List.png}
-    \caption{Dark Caste Faction}
+    \caption*{Dark Caste Faction}
   \end{subfigure}
   \hspace{1in}
   \begin{subfigure}{0.4\textwidth}
     \centering
     \includegraphics[height=3.6in]{../img/Combine_Mercenary_List.png}
-    \caption{Combine Mercenary Faction}
+    \caption*{Combine Mercenary Faction}
   \end{subfigure}
-  \caption{Custom Faction Lists}
+  \caption*{Custom Faction Lists}
 \end{figure}
 
 \newpage
@@ -367,7 +367,7 @@ Note that it still costs C-bills to refit when the new variant is cheaper.
 \item {\bf Omni Refit}: Omnimechs can be temporarily converted to a cheaper variant for a scenario for free, but refitting is required to use more expensive variants.
 For example, the Carrion Crow C is worth 10,336,492 C-bills.
 The Carrion Crow A only costs 9,704,829 C-bills, so a Carrion Crow C can be temporarily configured as a Carrion Crow A for a scenario.
-However, a Carrion Crow B costs 15,617,992 C-bills, so a Carrion Crow C would need a 5,281,500 C-bill refit to be converted to the Carrion Crow B variant.
+A Carrion Crow B costs 15,617,992 C-bills, so a Carrion Crow C would need a 5,281,500 C-bill refit to be converted to the Carrion Crow B variant.
 Once the Carrion Crow C is refitted to a Carrion Crow B, the omnimech can be configured as a Carrion Crow A, B, or C for any scenario.
 
 \item {\bf Purchase}: Pay the C-bill cost to get a new unit.
@@ -376,7 +376,7 @@ The new unit starts at skill 4/5 and can be trained.
 
 \item {\bf Salvage}: Pay 50\% the C-bill cost, rounded up, to salvage units that you destroyed in a scenario.
 A War Crow Prime costs 22,057,358 C-bills, and a salvaged War Crow Prime costs 11,028,679 C-bills.
-Salvage is the primary way for commanders to get units that are not on their \href{http://www.masterunitlist.info}{Master Unit List} faction and era list.
+Salvage is the primary way to get units that are not on their \href{http://www.masterunitlist.info}{Master Unit List} faction and era list.
 The new unit starts at skill 4/5 and can be trained.
 
 \item {\bf Sell}: Commanders can sell units for 50\% of the C-bill cost or destroyed units for 25\% of the C-bill cost, rounded up.
@@ -526,12 +526,12 @@ If the result is invalid for the unit, roll D666 again and use the new result.
 Commanders may decide to not apply a valid SPA to the unit; however, do not roll again in this case.
 
 \begin{table}[h!]
-\fontfamily{Montserrat}\selectfont
+\fontfamily{Montserrat-LF}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| C{4em} | C{4em} | C{4em} | m{8em} | m{8em} |}
+\begin{tabular}{| C{4em} | C{4em} | C{4em} | m{10em} | m{10em} |}
 \hline
-First & Second & Third & 'Mech             & Protomech         \\
+\rowcolor{lightgray} \bf{First} & \bf{Second} & \bf{Third} & \bf{'Mech} & \bf{Protomech} \\
 \hline
 \multirow{12}{*}{1 - 5}
       & \multirow{6}{*}{1 - 3}
@@ -563,16 +563,16 @@ First & Second & Third & 'Mech             & Protomech         \\
       &        & 6     & Weapon Specialist & Weapon Specialist \\
 \hline
 \end{tabular}
-\caption{Random Special Pilot Ability Table, 'Mechs and Protomechs}
+\caption*{Random Special Pilot Ability Table, 'Mechs and Protomechs}
 \end{table}
 
 \begin{table}[h!]
-\fontfamily{Montserrat}\selectfont
+\fontfamily{Montserrat-LF}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| C{4em} | C{4em} | C{4em} | m{8em} | m{8em} | m{8em} |}
+\begin{tabular}{| C{4em} | C{4em} | C{4em} | m{10em} | m{10em} | m{10em} |}
 \hline
-First & Second & Third & Combat Vehicle    & Airborne Unit     & Infantry          \\
+\rowcolor{lightgray} \bf{First} & \bf{Second} & \bf{Third} & \bf{Combat Vehicle} & \bf{Airborne Unit} & \bf{Infantry} \\
 \hline
 \multirow{12}{*}{1 - 5}
       & \multirow{6}{*}{1 - 3}
@@ -604,7 +604,7 @@ First & Second & Third & Combat Vehicle    & Airborne Unit     & Infantry       
       &        & 6     & Weapon Specialist & Weapon Specialist & Weapon Specialist \\
 \hline
 \end{tabular}
-\caption{Random Special Pilot Ability Table, Combat Vehicles, Airborne Units, and Infantry}
+\caption*{Random Special Pilot Ability Table, Combat Vehicles, Airborne Units, and Infantry}
 \end{table}
 
 \end{itemize}
@@ -814,7 +814,7 @@ Additional winners may be determined for specific categories, such as Best Paint
   \rotatebox{90}{%
     \begin{minipage}{\wd\savefig}
       \usebox{\savefig}
-      \caption{Outworlds Wastes - 3151}
+      \caption*{Outworlds Wastes - 3151}
     \end{minipage}}
 \end{figure}
 
@@ -823,14 +823,14 @@ Additional winners may be determined for specific categories, such as Best Paint
 \section{Sample Force Roster}
 
 \begin{table}[h!]
-\fontfamily{Montserrat}\selectfont
+\fontfamily{Montserrat-LF}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{1.25em} m{11em} m{8em} R{3.85em} R{3.85em} R{3.5em} R{3.5em} |}
+\begin{tabular}{| m{1.25em} m{11em} m{8em} R{4.7em} R{4.5em} R{3.5em} R{3.5em} |}
 \hline
-Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
+\rowcolor{lightgray} \bf{Bay} & \bf{Unit} & \bf{Pilot} & \bf{Gunnery} & \bf{Piloting} & \bf{C-bills} & \bf{BV} \\
 \hline
-\multicolumn{7}{|c|}{Mechs (1 per bay)} \\
+\rowcolor{lightgray} \multicolumn{7}{|c|}{Mechs (1 per bay)} \\
 \hline
 1  & & & & & & \\
 2  & & & & & & \\
@@ -845,7 +845,7 @@ Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
 11 & & & & & & \\
 12 & & & & & & \\
 \hline
-\multicolumn{7}{|c|}{Combat Vehicles (2 per bay)} \\
+\rowcolor{lightgray} \multicolumn{7}{|c|}{Combat Vehicles (2 per bay)} \\
 \hline
 1 & & & & & & \\
 1 & & & & & & \\
@@ -858,14 +858,14 @@ Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
 5 & & & & & & \\
 5 & & & & & & \\
 \hline
-\multicolumn{7}{|c|}{Aerospace (2 per bay)} \\
+\rowcolor{lightgray} \multicolumn{7}{|c|}{Aerospace (2 per bay)} \\
 \hline
 1 & & & & & & \\
 1 & & & & & & \\
 2 & & & & & & \\
 2 & & & & & & \\
 \hline
-\multicolumn{7}{|c|}{Protomechs (5 per bay)} \\
+\rowcolor{lightgray} \multicolumn{7}{|c|}{Protomechs (5 per bay)} \\
 \hline
 1 & & & & & & \\
 1 & & & & & & \\
@@ -878,7 +878,7 @@ Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
 2 & & & & & & \\
 2 & & & & & & \\
 \hline
-\multicolumn{7}{|c|}{Infantry/Battle Armor (5 tons per bay)} \\
+\rowcolor{lightgray} \multicolumn{7}{|c|}{Infantry/Battle Armor (5 tons per bay)} \\
 \hline
 1  & & & & & & \\
 2  & & & & & & \\
@@ -897,25 +897,25 @@ Bay & Unit & Pilot & Gunnery & Piloting & C-bills & BV \\
 \section{Sample Scenario Logistics Tracking}
 
 \begin{table}[h!]
-\fontfamily{Montserrat}\selectfont
+\fontfamily{Montserrat-LF}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{25em} R{15em} |}
+\begin{tabular}{| m{27em} R{15em} |}
 \hline
-Item & C-bills \\
+\rowcolor{lightgray} \bf{Item} & \bf{C-bills} \\
 \hline
-\multicolumn{2}{|c|}{Starting Balance} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Starting Balance} \\
 \hline
  & \\
 \hline
-\multicolumn{2}{|c|}{Objectives} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Objectives} \\
 \hline
 Primary Objective               & \\
 Secondary Objective             & \\
 Base Pay (if no objectives met) & \\
 \hline
-\multicolumn{2}{|c|}{Training} \\
-\multicolumn{2}{|c|}{Pay 500,000 $\times$ BV skill multiplier difference} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Training} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 500,000 $\times$ BV skill multiplier difference} \\
 \hline
 1 & \\
 2 & \\
@@ -924,9 +924,9 @@ Base Pay (if no objectives met) & \\
 5 & \\
 ... & \\
 \hline
-\multicolumn{2}{|c|}{Maintenance (Replace, Repair, and Recruit)} \\
-\multicolumn{2}{|c|}{Pay 50\% cost if destroyed, 25\% cost to repair internal damage} \\
-\multicolumn{2}{|c|}{Pay 50\% cost per troop killed} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Maintenance (Replace, Repair, and Recruit)} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 50\% cost if destroyed, 25\% cost to repair internal damage} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 50\% cost per troop killed} \\
 \hline
 1 & \\
 2 & \\
@@ -935,8 +935,8 @@ Base Pay (if no objectives met) & \\
 5 & \\
 ... & \\
 \hline
-\multicolumn{2}{|c|}{Refits} \\
-\multicolumn{2}{|c|}{Pay cost difference to change variants} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Refits} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay cost difference to change variants} \\
 \hline
 1 & \\
 2 & \\
@@ -945,23 +945,23 @@ Base Pay (if no objectives met) & \\
 5 & \\
 ... & \\
 \hline
-\multicolumn{2}{|c|}{Purchases} \\
-\multicolumn{2}{|c|}{Pay cost to add to TOE} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Purchases} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay cost to add to TOE} \\
 \hline
 1 & \\
 2 & \\
 3 & \\
 ... & \\
 \hline
-\multicolumn{2}{|c|}{Salvage} \\
-\multicolumn{2}{|c|}{Pay 50\% cost to add to TOE or sell to earn 25\% cost} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Salvage} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 50\% cost to add to TOE or sell to earn 25\% cost} \\
 \hline
 1 & \\
 2 & \\
 3 & \\
 ... & \\
 \hline
-\multicolumn{2}{|c|}{Total} \\
+\rowcolor{lightgray} \multicolumn{2}{|c|}{Total} \\
 \hline
  & \\
 \hline
@@ -973,12 +973,12 @@ Base Pay (if no objectives met) & \\
 \section{BV Skill Multiplier Table}
 
 \begin{table}[h!]
-\fontfamily{Montserrat}\selectfont
+\fontfamily{Montserrat-LF}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| C{4em} | C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} |}
+\begin{tabular}{| C{4.7em} | C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} |}
 \hline
-Gunnery & \multicolumn{8}{c |}{Piloting/Driving/Anti-Mech}  \\
+\rowcolor{lightgray} \bf{Gunnery} & \multicolumn{8}{c |}{\bf{Piloting/Driving/Anti-Mech}}  \\
 \hline
   & 1    & 2    & 3    & 4    & 5    & 6    & 7    & 8    \\
 \hline
