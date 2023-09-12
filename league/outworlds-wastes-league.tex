@@ -19,6 +19,9 @@
 \usepackage{titlesec}
 \usepackage{hyperref}               % PDF hyperreferences
 \usepackage{titling}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{calc}
 \usepackage[T1]{fontenc}
 \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
 
@@ -38,7 +41,7 @@
 
 \title{
   \fontfamily{Montserrat-TOsF}\selectfont
-  \fontsize{50}{60}\fontseries{ub}\selectfont\MakeUppercase{B}\includegraphics[width=0.5in]{../img/Battletech_A.png}\fontsize{50}{60}\fontseries{ub}\selectfont\MakeUppercase{ttleTech}\\
+  \fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{B}}\includegraphics[width=0.5in]{../img/Battletech_A.png}\fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{ttleTech}}\\
   \fontsize{35}{42}\fontseries{ub}\selectfont\MakeUppercase{Outworlds Wastes}\\
   ~\\
   \includegraphics[width=4in]{../img/Outworlds_Alliance.png}
@@ -63,10 +66,25 @@
 
 \begin{document}
 
+\clearpage
+
 % --------------------------------------------------------------------------------
-\clearpage\maketitle
+\maketitle
+% --------------------------------------------------------------------------------
+
+\AddToHookNext{shipout/background}
+{\put(0,-\paperheight)
+  {%
+   \begin{tikzpicture}
+   \fill[use as bounding box,black!10] (current page.north west) rectangle (\paperwidth,0);
+   \fill[use as bounding box,black!50] ($ (current page.north west)+(0,-4.6) $) rectangle ++(\paperwidth,-1.7);
+   \fill[use as bounding box,black!30] ($ (current page.north west)+(0,-6.3) $) rectangle ++(\paperwidth,-1.6);
+   \fill[use as bounding box,black!30] ($ (current page.north west)+(0,-20.7) $) rectangle ++(\paperwidth,-0.9);
+   \end{tikzpicture}
+  }
+}
+
 \thispagestyle{empty}
-% --------------------------------------------------------------------------------
 
 \newpage
 
@@ -79,7 +97,7 @@
 \emph{BattleTech: Outworlds Wastes} is a casual BattleTech league framework with simplified logistics rules.
 Players will take the role of commander of a mech force searching the Outworlds Wastes for lost technology and glory.
 Completing objectives in scenarios will earn C-bills that commanders can use to upgrade their forces.
-Different formats of scenario play are supported, to include Classic BattleTech, Alpha Strike, and BattleTech: Destiny.
+Different formats of scenario play are supported, to include Classic BattleTech, Alpha Strike, and BattleTech: Override.
 
 % --------------------------------------------------------------------------------
 \subsubsection*{Goals}
@@ -106,10 +124,17 @@ Different formats of scenario play are supported, to include Classic BattleTech,
 % --------------------------------------------------------------------------------
 
 These rules cover four general areas: background information, player information, league organizer information, and reference material.
-Background information describes the the Outworlds Wastes region and the overall design of the Outworlds Wastes league.
+Background information describes the Outworlds Wastes region and the overall design of the Outworlds Wastes league.
 Force Construction rules, page 5, and Force Maintenance and Improvements rules, page 8, are the minimum rules needed for a player to jump into Outworlds Wastes league play.
 Scenario design and league scoring rules are provided for league organizers.
 The remaining content is reference material, to include a region map and sample tables for tracking a player's forces.
+
+% --------------------------------------------------------------------------------
+\subsubsection*{Disclaimer}
+% --------------------------------------------------------------------------------
+
+This rule system is fan-made, based upon official BattleTech rules from Catalyst Game Labs, and only adds simplified campaign logistics and force management rules.
+See the \emph{References} section for a list of official Catalyst Game Labs products that \emph{BattleTech: Outworlds Wastes} specifically references.
 
 % --------------------------------------------------------------------------------
 \subsubsection*{Version}
@@ -177,7 +202,7 @@ While the major factions are the most prevalent in the region, other factions ma
 For example, the Raven Alliance has relationships with nations on the far side of the Periphery, such as Magistracy of Canopus.\\
 
 Commanders will compete with other factions in the Outworlds Wastes to grow their force and recover lost technology.
-Scenarios are primarily designed for Classic BattleTech, but scenarios for Alpha Strike and BattleTech: Destiny is also supported.\\
+Scenarios are primarily designed for Classic BattleTech, but scenarios for Alpha Strike and BattleTech: Override is also supported.\\
 
 League organizers pick the era for the current league; organizers can select any era after the fall of the Star League.
 The era determines unit availability and the most common factions in the Outworlds Wastes.
@@ -253,16 +278,16 @@ Mech pilot names are encouraged, as one of the goals is to develop the personali
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{1.5em} m{12em} m{8em} R{4.6em} R{4.6em} R{3.5em} R{3.8em} |}
 \hline
-\rowcolor{lightgray}  \bfseries{Bay} & \bfseries{Unit} & \bfseries{Pilot} & \bfseries{Gunnery} & \bfseries{Piloting} & \bfseries{BV} & \bfseries{Adj BV} \\
+\rowcolor{black!30}  \bfseries{Bay} & \bfseries{Unit} & \bfseries{Pilot} & \bfseries{Gunnery} & \bfseries{Piloting} & \bfseries{BV} & \bfseries{Adj BV} \\
 \hline
-\rowcolor{lightgray} \multicolumn{7}{|c|}{Mechs} \\
+\rowcolor{black!30} \multicolumn{7}{|c|}{Mechs} \\
 \hline
 1   & Atlas II AS7-D        & 'Meg' Courant    & 3       & 4         & 1,897 & 2,504 \\
 2   & Phoenix Hawk PXH-2K   & 'Bison' Helge    & 4       & 5         & 1,271 & 1,271 \\
 3   & Blackjack BJ-2        & 'Lizard' Baker   & 4       & 5         & 1,148 & 1,148 \\
 4   & Locust IIC            & 'Casper' Poole   & 4       & 5         & 1,100 & 1,100 \\
 \hline
-\rowcolor{lightgray}\multicolumn{7}{|c|}{Combat Vehicles} \\
+\rowcolor{black!30}\multicolumn{7}{|c|}{Combat Vehicles} \\
 \hline
 1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
 1  & Maxim Hover Transport &                   & 4       & 5         &   764 &   764 \\
@@ -271,7 +296,7 @@ Mech pilot names are encouraged, as one of the goals is to develop the personali
 3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
 3  & Warrior H-7           &                   & 4       & 5         &   295 &   295 \\
 \hline
-\rowcolor{lightgray}\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
+\rowcolor{black!30}\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
 \hline
 1  & IS Std BA, LRR        &                   & 4       & 5         &   255 &   255 \\
 2  & IS Std BA, Laser      &                   & 4       & 5         &   231 &   231 \\
@@ -289,9 +314,9 @@ Mech pilot names are encouraged, as one of the goals is to develop the personali
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{1.5em} m{12em} m{8em} R{4.6em} R{4.6em} R{3.5em} R{3.8em} |}
 \hline
-\rowcolor{lightgray}  \bfseries{Bay} & \bfseries{Unit} & \bfseries{Pilot} & \bfseries{Gunnery} & \bfseries{Piloting} & \bfseries{BV} & \bfseries{Adj BV} \\
+\rowcolor{black!30}  \bfseries{Bay} & \bfseries{Unit} & \bfseries{Pilot} & \bfseries{Gunnery} & \bfseries{Piloting} & \bfseries{BV} & \bfseries{Adj BV} \\
 \hline
-\rowcolor{lightgray}\multicolumn{7}{|c|}{Mechs} \\
+\rowcolor{black!30}\multicolumn{7}{|c|}{Mechs} \\
 \hline
 1   & Carrion Crow A        & Sarah Magnus    & 3       & 4         & 1,622 & 2,141 \\
 2   & Nova U                &       Bryn      & 4       & 5         & 1,413 & 1,413 \\
@@ -299,11 +324,11 @@ Mech pilot names are encouraged, as one of the goals is to develop the personali
 4   & Kit Fox V             &       Soton     & 3       & 4         &   974 & 1,286 \\
 5   & Fire Moth A           &       Tina      & 3       & 4         &   639 &   843 \\
 \hline
-\rowcolor{lightgray}\multicolumn{7}{|c|}{Combat Vehicles} \\
+\rowcolor{black!30}\multicolumn{7}{|c|}{Combat Vehicles} \\
 \hline
 1   & Karnov UR Transport   &                 & 4       & 5          &   125 &   125 \\
 \hline
-\rowcolor{lightgray}\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
+\rowcolor{black!30}\multicolumn{7}{|c|}{Infantry/Battle Armor} \\
 \hline
 1   & Gnome BA              &                 & 3       & 4         &   580 &   766 \\
 2   & Elemental BA, Laser   &                 & 3       & 4         &   447 &   590 \\
@@ -587,7 +612,7 @@ Commanders may decide to not apply a valid SPA to the unit; however, do not roll
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4em} | C{4em} | C{4em} | m{10em} | m{10em} |}
 \hline
-\rowcolor{lightgray} \bfseries{First} & \bfseries{Second} & \bfseries{Third} & \bfseries{'Mech} & \bfseries{Protomech} \\
+\rowcolor{black!30} \bfseries{First} & \bfseries{Second} & \bfseries{Third} & \bfseries{'Mech} & \bfseries{Protomech} \\
 \hline
 \multirow{12}{*}{1 - 5}
       & \multirow{6}{*}{1 - 3}
@@ -628,7 +653,7 @@ Commanders may decide to not apply a valid SPA to the unit; however, do not roll
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4em} | C{4em} | C{4em} | m{10em} | m{10em} | m{10em} |}
 \hline
-\rowcolor{lightgray} \bfseries{First} & \bfseries{Second} & \bfseries{Third} & \bfseries{Combat Vehicle} & \bfseries{Airborne Unit} & \bfseries{Infantry} \\
+\rowcolor{black!30} \bfseries{First} & \bfseries{Second} & \bfseries{Third} & \bfseries{Combat Vehicle} & \bfseries{Airborne Unit} & \bfseries{Infantry} \\
 \hline
 \multirow{12}{*}{1 - 5}
       & \multirow{6}{*}{1 - 3}
@@ -708,7 +733,7 @@ Common formats for the scenarios include
 
 \item {\bfseries Alpha Strike}: Scenarios for this format will primarily focus on large scale combat, with each side controlling approximately one company with supporting assets.
 
-\item {\bfseries BattleTech: Destiny}: Scenarios for this format will focus on small scale combat, with each side controlling approximately one or two mechs.
+\item {\bfseries BattleTech: Override}: Scenarios for this format will focus on small scale combat, with each side controlling approximately one or two mechs.
 
 \end{itemize}
 
@@ -719,8 +744,8 @@ Alpha Strike cards for all units are available on the \href{http://www.masteruni
 To convert a unit skill levels from Classic BattleTech to Alpha Strike, take the average of the piloting and gunnery skills, rounded down.
 See \emph{Alpha Strike: Commander's Edition}, page 29 for more details.\\
 
-BattleTech: Destiny is a rule system that combines MechWarrior Destiny RPG and Alpha Strike combat rules while drawing some inspiration from Classic BattleTech.
-BattleTech: Destiny rules and record sheets can be created on the \href{https://dfawargaming.com}{Death From Above Wargaming} website.
+BattleTech: Override is a rule system that combines MechWarrior Destiny RPG and Alpha Strike combat rules while drawing some inspiration from Classic BattleTech.
+BattleTech: Override rules and record sheets can be created on the \href{https://dfawargaming.com}{Death From Above Wargaming} website.
 These scenarios may require adding additional skills from MechWarrior Destiny to your pilot.
 
 % --------------------------------------------------------------------------------
@@ -890,7 +915,7 @@ In this phase, scenarios may only be 1v1.
 Each commander should play a different opponent during each scenario, if possible.
 For each 1,000,000 earned during a scenario, the commander earns 1 point for scoring.
 The players rankings are updated after each scenario.
-Ties are broken by the the lowest total BV lost across all scenarios thus far, which \emph{destroyed} units counting as their full BV and units in \emph{forced withdrawal} counting as half their full BV.\\
+Ties are broken by the lowest total BV lost across all scenarios thus far, which \emph{destroyed} units counting as their full BV and units in \emph{forced withdrawal} counting as half their full BV.\\
 
 At the end of these scenarios, winners are determined by their ranking.
 Additional winners may be determined for specific categories, such as Best Painted Force or Best Force Lore.
@@ -927,9 +952,9 @@ Additional winners may be determined for specific categories, such as Best Paint
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{1.5em} m{11em} m{8em} R{4.7em} R{4.5em} R{3.5em} R{3.5em} |}
 \hline
-\rowcolor{lightgray} \bfseries{Bay} & \bfseries{Unit} & \bfseries{Pilot} & \bfseries{Gunnery} & \bfseries{Piloting} & \bfseries{C-bills} & \bfseries{BV} \\
+\rowcolor{black!30} \bfseries{Bay} & \bfseries{Unit} & \bfseries{Pilot} & \bfseries{Gunnery} & \bfseries{Piloting} & \bfseries{C-bills} & \bfseries{BV} \\
 \hline
-\rowcolor{lightgray} \multicolumn{7}{|c|}{Mechs (1 per bay)} \\
+\rowcolor{black!30} \multicolumn{7}{|c|}{Mechs (1 per bay)} \\
 \hline
 1  & & & & & & \\
 2  & & & & & & \\
@@ -944,7 +969,7 @@ Additional winners may be determined for specific categories, such as Best Paint
 11 & & & & & & \\
 12 & & & & & & \\
 \hline
-\rowcolor{lightgray} \multicolumn{7}{|c|}{Combat Vehicles (2 per bay)} \\
+\rowcolor{black!30} \multicolumn{7}{|c|}{Combat Vehicles (2 per bay)} \\
 \hline
 1 & & & & & & \\
 1 & & & & & & \\
@@ -957,14 +982,14 @@ Additional winners may be determined for specific categories, such as Best Paint
 5 & & & & & & \\
 5 & & & & & & \\
 \hline
-\rowcolor{lightgray} \multicolumn{7}{|c|}{Aerospace (2 per bay)} \\
+\rowcolor{black!30} \multicolumn{7}{|c|}{Aerospace (2 per bay)} \\
 \hline
 1 & & & & & & \\
 1 & & & & & & \\
 2 & & & & & & \\
 2 & & & & & & \\
 \hline
-\rowcolor{lightgray} \multicolumn{7}{|c|}{Protomechs (5 per bay)} \\
+\rowcolor{black!30} \multicolumn{7}{|c|}{Protomechs (5 per bay)} \\
 \hline
 1 & & & & & & \\
 1 & & & & & & \\
@@ -977,7 +1002,7 @@ Additional winners may be determined for specific categories, such as Best Paint
 2 & & & & & & \\
 2 & & & & & & \\
 \hline
-\rowcolor{lightgray} \multicolumn{7}{|c|}{Infantry/Battle Armor (5 tons per bay)} \\
+\rowcolor{black!30} \multicolumn{7}{|c|}{Infantry/Battle Armor (5 tons per bay)} \\
 \hline
 1  & & & & & & \\
 2  & & & & & & \\
@@ -1005,20 +1030,20 @@ Additional winners may be determined for specific categories, such as Best Paint
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| m{27em} R{15em} |}
 \hline
-\rowcolor{lightgray} \bfseries{Item} & \bfseries{C-bills} \\
+\rowcolor{black!30} \bfseries{Item} & \bfseries{C-bills} \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Starting Balance} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Starting Balance} \\
 \hline
  & \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Objectives} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Objectives} \\
 \hline
 Primary Objective               & \\
 Secondary Objective             & \\
 Base Pay (if no objectives met) & \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Training} \\
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 500,000 $\times$ BV skill multiplier difference} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Training} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Pay 500,000 $\times$ BV skill multiplier difference} \\
 \hline
 1 & \\
 2 & \\
@@ -1027,9 +1052,9 @@ Base Pay (if no objectives met) & \\
 5 & \\
 ... & \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Maintenance (Replace, Repair, and Recruit)} \\
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 50\% cost if destroyed, 25\% cost to repair internal damage} \\
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 50\% cost per troop killed} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Maintenance (Replace, Repair, and Recruit)} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Pay 50\% cost if destroyed, 25\% cost to repair internal damage} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Pay 50\% cost per troop killed} \\
 \hline
 1 & \\
 2 & \\
@@ -1038,8 +1063,8 @@ Base Pay (if no objectives met) & \\
 5 & \\
 ... & \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Refits} \\
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay cost difference to change variants} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Refits} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Pay cost difference to change variants} \\
 \hline
 1 & \\
 2 & \\
@@ -1048,23 +1073,23 @@ Base Pay (if no objectives met) & \\
 5 & \\
 ... & \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Purchases} \\
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay cost to add to TOE} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Purchases} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Pay cost to add to TOE} \\
 \hline
 1 & \\
 2 & \\
 3 & \\
 ... & \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Salvage} \\
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Pay 50\% cost to add to TOE or sell to earn 25\% cost} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Salvage} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Pay 50\% cost to add to TOE or sell to earn 25\% cost} \\
 \hline
 1 & \\
 2 & \\
 3 & \\
 ... & \\
 \hline
-\rowcolor{lightgray} \multicolumn{2}{|c|}{Total} \\
+\rowcolor{black!30} \multicolumn{2}{|c|}{Total} \\
 \hline
  & \\
 \hline
@@ -1085,7 +1110,7 @@ Base Pay (if no objectives met) & \\
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4.7em} | C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} |}
 \hline
-\rowcolor{lightgray} \bfseries{Gunnery} & \multicolumn{8}{c |}{\bfseries{Piloting/Driving/Anti-Mech}}  \\
+\rowcolor{black!30} \bfseries{Gunnery} & \multicolumn{8}{c |}{\bfseries{Piloting/Driving/Anti-Mech}}  \\
 \hline
   & 1    & 2    & 3    & 4    & 5    & 6    & 7    & 8    \\
 \hline
