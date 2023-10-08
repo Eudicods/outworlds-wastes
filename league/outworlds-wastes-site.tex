@@ -6,7 +6,6 @@
 
 \usepackage{microtype}
 
-\usepackage[defaultfam,tabular]{montserrat}
 \usepackage[letterpaper, margin=0.75in]{geometry}
 \usepackage{graphicx}               % to insert figures
 \usepackage[table,x11names]{xcolor} % colors for e-copies
@@ -26,48 +25,10 @@
 \usetikzlibrary{calc}
 \usepackage[T1]{fontenc}
 \usepackage{ifthen}
-\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
 
-\newsavebox{\savefig}
+\title{Outworlds Wastes}
 
-\setcounter{secnumdepth}{0}
-
-\titleformat{\section}[block]
-  {\normalfont\fontsize{16}{17}\fontseries{ub}\selectfont}
-  {\thesection\enspace}{0pt}{\centering\MakeUppercase}[\vspace{2pt}{\titlerule[2pt]}]
-
-\titleformat{\subsection}[block]
-  {\titlerule\addvspace{3pt}\bfseries\centering}
-  {\thesection\enspace}{0pt}{\MakeUppercase}[\vspace{3pt}\titlerule]
-
-\titleformat{\subsubsection} [block]{\bfseries}{}{0em}{\MakeUppercase}
-
-\renewcommand\maketitlehooka{\null\mbox{}\vfill}
-\renewcommand\maketitlehookd{\vfill\null}
-\title{
-  \fontfamily{Montserrat-TOsF}\selectfont
-  \fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{B}}\includegraphics[width=0.5in]{img/Battletech_A.png}\fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{ttleTech}}\\
-  \fontsize{35}{42}\fontseries{ub}\selectfont\MakeUppercase{Outworlds Wastes}\\
-  ~\\
-  \includegraphics[width=4in]{img/Outworlds_Alliance.png}
-  ~\\
-  ~\\
-  \LARGE\bfseries{Casual BattleTech League Framework} \\
-}
-\author{}
-\date{}
-
-% Optional PDF information
-\ifpdf
-\hypersetup{
-  pdftitle={Outworlds Wastes},
-  pdfauthor={Jeremy L Thompson}
-}
-\fi
-
-\setlength\parskip{5pt plus 2pt minus 1pt}
-
-\newcommand{\outworldsMode}{mode-pdf}
+\newcommand{\outworldsMode}{mode-web}
 
 % --------------------------------------------------------------------------------
 % ---------------------------------  Document  -----------------------------------
@@ -75,27 +36,14 @@
 
 \begin{document}
 
-\clearpage
+\begin{center}
+  \fontsize{50}{60}\bfseries\selectfont{\MakeUppercase{B}}\includegraphics[width=0.6in,height=0.6in]{img/Battletech_A.png}\fontsize{50}{60}\bfseries\selectfont{\MakeUppercase{ttleTech}}
+  \fontsize{35}{42}\bfseries\selectfont\MakeUppercase{Outworlds Wastes}
 
-% --------------------------------------------------------------------------------
-\maketitle
-% --------------------------------------------------------------------------------
+  \includegraphics[width=5in,height=5in]{img/Outworlds_Alliance.png}
 
-\AddToHookNext{shipout/background}
-{\put(0,-\paperheight)
-  {%
-   \begin{tikzpicture}
-   \fill[use as bounding box,black!10] (current page.north west) rectangle (\paperwidth,0);
-   \fill[use as bounding box,black!50] ($ (current page.north west)+(0,-5.35) $) rectangle ++(\paperwidth,-1.7);
-   \fill[use as bounding box,black!30] ($ (current page.north west)+(0,-7.05) $) rectangle ++(\paperwidth,-1.6);
-   \fill[use as bounding box,black!30] ($ (current page.north west)+(0,-21.5) $) rectangle ++(\paperwidth,-0.9);
-   \end{tikzpicture}
-  }
-}
-
-\thispagestyle{empty}
-
-\newpage
+  \LARGE\bfseries{Casual BattleTech League Framework}
+\end{center}
 
 % --------------------------------------------------------------------------------
 \section{BattleTech: Outworlds Wastes}
@@ -116,8 +64,6 @@
 % --------------------------------------------------------------------------------
 
 \input{1-Background/index.tex}
-
-\newpage
 
 % --------------------------------------------------------------------------------
 \section{Force Management}
@@ -147,7 +93,7 @@
 \section{Outworlds Wastes Map - ilClan Era}
 % --------------------------------------------------------------------------------
 
-\input{5-Resources/0-Map.tex}
+\input{5-Resources/0-Map-site.tex}
 
 \newpage
 
@@ -183,35 +129,6 @@
 \input{5-Resources/4-References.tex}
 
 \newpage
-
-% --------------------------------------------------------------------------------
-% End page
-% --------------------------------------------------------------------------------
-
-\clearpage
-
-\title{
-  \fontfamily{Montserrat-TOsF}\selectfont
-  \fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{B}}\includegraphics[width=0.5in]{img/Battletech_A.png}\fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{ttleTech}}\\
-  \fontsize{35}{42}\fontseries{ub}\selectfont\MakeUppercase{Outworlds Wastes}
-}
-
-% --------------------------------------------------------------------------------
-\maketitle
-% --------------------------------------------------------------------------------
-
-\AddToHookNext{shipout/background}
-{\put(0,-\paperheight)
-  {%
-   \begin{tikzpicture}
-   \fill[use as bounding box,black!10] (current page.north west) rectangle (\paperwidth,0);
-   \fill[use as bounding box,black!50] ($ (current page.north west)+(0,-12.3) $) rectangle ++(\paperwidth,-1.7);
-   \fill[use as bounding box,black!30] ($ (current page.north west)+(0,-14.0) $) rectangle ++(\paperwidth,-1.6);
-   \end{tikzpicture}
-  }
-}
-
-\thispagestyle{empty}
 
 \end{document}
 % --------------------------------------------------------------------------------

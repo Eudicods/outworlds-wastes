@@ -1,5 +1,5 @@
 \begin{table}[!ht]
-\fontfamily{Montserrat-LF}\selectfont
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4em} | C{4em} | C{4em} | m{10em} | m{10em} |}
@@ -40,7 +40,7 @@
 \end{table}
 
 \begin{table}[!ht]
-\fontfamily{Montserrat-LF}\selectfont
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{| C{4em} | C{4em} | C{4em} | m{10em} | m{10em} | m{10em} |}
