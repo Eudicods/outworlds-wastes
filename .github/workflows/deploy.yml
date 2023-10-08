@@ -8,7 +8,7 @@ jobs:
    - name: Run make4ht
      uses: docker://ghcr.io/michal-h21/make4ht-action:latest
      env:
-       command: "cd league && make4ht -d html outworlds-wastes-site.tex && .."
+       command: "cd league && make4ht -d html outworlds-wastes-site.tex && cd .."
    - name: Publish the web pages
      uses:  peaceiris/actions-gh-pages@v3
      with:
