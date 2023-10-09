@@ -1,4 +1,4 @@
-\begin{multicols}{2}
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\begin{multicols}{2}}{}
 
 \begin{itemize}
 
@@ -16,8 +16,8 @@
 
 \item Clan Dark Caste
 
-\item[\vspace{\fill}]
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\item[\vspace{\fill}]}{}
 
 \end{itemize}
 
-\end{multicols}
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\end{multicols}}{}
