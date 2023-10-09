@@ -177,8 +177,6 @@ p + figcaption, img + figcaption{margin-top: 1em;}
 .abstract{margin:1em;}
 .rotatebox{display: inline-block;}
 div.subfigure {text-align:center;display:inline-block; max-width:45%;}
-.columns-2 :first-child { margin-top: 0em; }
-.columns-2{-moz-column-count:2; -webkit-column-count:2; column-count:2; -moz-column-gap: 10.0pt; -webkit-column-gap: 10.0pt; column-gap: 10.0pt; -moz-column-rule-width: 0.0pt; -webkit-column-rule-width: 0.0pt; column-rule-rule-width: 0.0pt; -moz-column-rule-color: #555; -webkit-column-rule-color: #555; column-rule-color: #555; -moz-column-rule-style: outset; -webkit-column-rule-style: outset; column-rule-style: outset; -moz-column-fill: balance; -webkit-column-fill: balance; column-fill: balance; }
 #TBL-1-1{border-left: 1px solid black;}
 #TBL-1-7{border-right:1px solid black;}
  #TBL-1-2- td{ background-color:}
