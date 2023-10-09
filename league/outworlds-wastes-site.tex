@@ -26,6 +26,9 @@
 \usepackage[T1]{fontenc}
 \usepackage{ifthen}
 
+\newcommand{\sectiontitle}{}
+\newcommand{\newsection}[2]{\renewcommand{\sectiontitle}{#2}\section{#1}}
+
 \title{Outworlds Wastes}
 
 \newcommand{\outworldsMode}{mode-web}
@@ -47,7 +50,7 @@
 \end{center}
 
 % --------------------------------------------------------------------------------
-\section{BattleTech: Outworlds Wastes}
+\newsection{Introduction}{introduction}
 % --------------------------------------------------------------------------------
 
 \input{0-Introduction/index.tex}
@@ -55,19 +58,13 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\tableofcontents
-% --------------------------------------------------------------------------------
-
-\newpage
-
-% --------------------------------------------------------------------------------
-\section{Background}
+\newsection{Background}{background}
 % --------------------------------------------------------------------------------
 
 \input{1-Background/index.tex}
 
 % --------------------------------------------------------------------------------
-\section{Force Management}
+\newsection{Force Management}{force-management}
 % --------------------------------------------------------------------------------
 
 \input{2-Force-Management/index.tex}
@@ -75,7 +72,7 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\section{Scenarios}
+\newsection{Scenarios}{scenarios}
 % --------------------------------------------------------------------------------
 
 \input{3-Scenarios/index.tex}
@@ -83,7 +80,7 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\section{League Play}
+\newsection{League Play}{league-play}
 % --------------------------------------------------------------------------------
 
 \input{4-League-Play/index.tex}
@@ -91,7 +88,7 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\section{Outworlds Wastes Map - ilClan Era}
+\newsection{Outworlds Wastes Map - ilClan Era}{outworlds-wastes-map}
 % --------------------------------------------------------------------------------
 
 \input{5-Resources/0-Map-site.tex}
@@ -99,7 +96,7 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\section{Sample Force Roster}
+\newsection{Sample Force Roster}{sample-force-roster}
 % --------------------------------------------------------------------------------
 
 \input{5-Resources/1-Roster.tex}
@@ -107,7 +104,7 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\section{Sample Scenario Logistics Tracking}
+\newsection{Sample Scenario Logistics Tracking}{sample-logistics}
 % --------------------------------------------------------------------------------
 
 \input{5-Resources/2-Logistics.tex}
@@ -115,7 +112,7 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\section{Force BV Adjustments}
+\newsection{Force BV Adjustments}{bv-adjustments}
 \label{sec:force_bv_adjustments}
 % --------------------------------------------------------------------------------
 
@@ -124,7 +121,7 @@
 \newpage
 
 % --------------------------------------------------------------------------------
-\section{References}
+\newsection{References}{references}
 % --------------------------------------------------------------------------------
 
 \input{5-Resources/4-References.tex}
