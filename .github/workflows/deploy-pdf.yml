@@ -22,6 +22,7 @@ jobs:
      with:
        branch: rules-pdf
        commit_message: update PDF
+       commit_options: '--force'
        push_options: '--force'
        repository: 'rules'
-       file_pattern: '*.pdf'
+       file_pattern: 'battletech-outworlds-wastes.pdf'
