@@ -25,5 +25,4 @@ jobs:
        add_options: '--force'
        commit_message: update PDF
        push_options: '--force'
-       repository: 'rules'
-       file_pattern: 'battletech-outworlds-wastes.pdf'
+       file_pattern: 'rules/battletech-outworlds-wastes.pdf'
