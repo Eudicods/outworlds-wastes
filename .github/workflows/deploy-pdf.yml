@@ -29,4 +29,3 @@ jobs:
        add_options: '--force'
        commit_message: update PDF
        push_options: '--force'
-       file_pattern: '*.pdf'
