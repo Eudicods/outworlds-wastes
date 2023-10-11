@@ -21,6 +21,7 @@ jobs:
      uses: stefanzweifel/git-auto-commit-action@v5
      with:
        branch: rules-pdf
+       skip_dirty_check: true
        add_options: '--force'
        commit_message: update PDF
        push_options: '--force'
