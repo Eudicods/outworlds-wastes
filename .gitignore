@@ -9,6 +9,7 @@ rules/*.lof
 rules/*.lot
 rules/*.out
 rules/*.toc
+rules/*.pdf
 
 # Web build artifacts
 rules/*.4ct
