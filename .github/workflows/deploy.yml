@@ -7,14 +7,14 @@ jobs:
    - uses: actions/checkout@v4
    - name: Run pdflatex
      uses: xu-cheng/texlive-action@v2
-       with:
-         scheme: full
-         run: |
-           cd league
-           pdflatex outworlds-wastes-league.tex
-           pdflatex outworlds-wastes-league.tex
+     with:
+       scheme: full
+       run: |
+         cd league
+         pdflatex outworlds-wastes-league.tex
+         pdflatex outworlds-wastes-league.tex
    - name: Publish PDF
      uses: stefanzweifel/git-auto-commit-action@v5
-       with:
-         commit_message: update PDF
-         file_pattern: 'league/*.pdf'
+     with:
+       commit_message: update PDF
+       file_pattern: 'league/*.pdf'
