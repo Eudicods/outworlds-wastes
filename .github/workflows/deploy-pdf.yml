@@ -14,6 +14,7 @@ jobs:
      with:
        scheme: full
        run: |
+         rm -f .gitignore
          cd rules
          pdflatex battletech-outworlds-wastes.tex
          pdflatex battletech-outworlds-wastes.tex
