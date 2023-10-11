@@ -29,7 +29,9 @@
 \newcommand{\sectiontitle}{}
 \newcommand{\newsection}[2]{\renewcommand{\sectiontitle}{#2}\section{#1}}
 
-\title{Outworlds Wastes}
+\title{BattleTech: Outworlds Wastes}
+\author{}
+\date{}
 
 \newcommand{\outworldsMode}{mode-web}
 
@@ -38,6 +40,9 @@
 % --------------------------------------------------------------------------------
 
 \begin{document}
+
+\makeatletter
+\Tag{TITLE+}{\@title}
 
 \begin{center}
   \fontsize{50}{60}\bfseries\selectfont{\MakeUppercase{B}}\includegraphics[width=0.6in,height=0.6in]{img/Battletech-A.png}\fontsize{50}{60}\bfseries\selectfont{\MakeUppercase{ttleTech}}
