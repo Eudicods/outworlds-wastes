@@ -24,5 +24,6 @@ jobs:
        commit_message: update PDF
        commit_options: '--force'
        push_options: '--force'
+       skip_dirty_check: true
        repository: 'rules'
        file_pattern: 'battletech-outworlds-wastes.pdf'
