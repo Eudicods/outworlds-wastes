@@ -14,14 +14,17 @@ jobs:
      with:
        scheme: full
        run: |
-         rm -f .gitignore
          cd rules
          pdflatex battletech-outworlds-wastes.tex
          pdflatex battletech-outworlds-wastes.tex
+         cd ..
+         mv rules/battletech-outwords-wastes.pdf .
+         rm -f .gitignore
    - name: Publish PDF
      uses: stefanzweifel/git-auto-commit-action@v5
      with:
        branch: rules-pdf
+       create_branch: true
        skip_dirty_check: true
        add_options: '--force'
        commit_message: update PDF
