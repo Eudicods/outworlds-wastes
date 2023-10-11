@@ -15,6 +15,7 @@ jobs:
          make4ht -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
          make4ht -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
          touch html/.nojekyll &&
+         cp img/outworlds-alliance.ico html/favicon.ico &&
          echo 'outworlds-wastes.jeremylt.org' > html/CNAME
    - name: Publish Website
      uses:  peaceiris/actions-gh-pages@v3
