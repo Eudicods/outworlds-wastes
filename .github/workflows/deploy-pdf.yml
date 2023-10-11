@@ -19,5 +19,6 @@ jobs:
      with:
        branch: rules-pdf
        commit_message: update PDF
+       push_options: '--force'
        repository: 'rules'
        file_pattern: '*.pdf'
