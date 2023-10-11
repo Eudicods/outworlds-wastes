@@ -4,7 +4,8 @@ jobs:
   build:
    runs-on: ubuntu-latest
    steps:
-   - uses: actions/checkout@v4
+   - name: Checkout
+     uses: actions/checkout@v4
    - name: Run pdflatex
      uses: xu-cheng/texlive-action@v2
      with:

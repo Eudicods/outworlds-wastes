@@ -4,7 +4,8 @@ jobs:
   build:
    runs-on: ubuntu-latest
    steps:
-   - uses: actions/checkout@v4
+   - name: Checkout
+     uses: actions/checkout@v4
    - name: Run make4ht
      uses: docker://ghcr.io/michal-h21/make4ht-action:latest
      env:
