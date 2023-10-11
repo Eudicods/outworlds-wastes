@@ -8,7 +8,14 @@ jobs:
    - name: Run make4ht
      uses: docker://ghcr.io/michal-h21/make4ht-action:latest
      env:
-       command: "cd league && make4ht -f html5-copy_images -j index --output-dir html --config outworlds-wastes-site.cfg outworlds-wastes-site.tex && make4ht -f html5-copy_images -j index --output-dir html --config outworlds-wastes-site.cfg outworlds-wastes-site.tex && make4ht -f html5-copy_images -j index --output-dir html --config outworlds-wastes-site.cfg outworlds-wastes-site.tex && touch html/.nojekyll && echo 'outworlds-wastes.jeremylt.org' > html/CNAME && cd .."
+       command: >
+         cd league &&
+         make4ht -f html5-copy_images -j index --output-dir html --config outworlds-wastes-site.cfg outworlds-wastes-site.tex &&
+         make4ht -f html5-copy_images -j index --output-dir html --config outworlds-wastes-site.cfg outworlds-wastes-site.tex &&
+         make4ht -f html5-copy_images -j index --output-dir html --config outworlds-wastes-site.cfg outworlds-wastes-site.tex &&
+         touch html/.nojekyll &&
+         echo 'outworlds-wastes.jeremylt.org' > html/CNAME &&
+         cd ..
    - name: Publish Website
      uses:  peaceiris/actions-gh-pages@v3
      with:
