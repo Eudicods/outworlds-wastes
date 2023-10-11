@@ -17,5 +17,7 @@ jobs:
    - name: Publish PDF
      uses: stefanzweifel/git-auto-commit-action@v5
      with:
+       branch: rules-pdf
        commit_message: update PDF
-       file_pattern: 'rules/*.pdf'
+       repository: 'rules'
+       file_pattern: '*.pdf'
