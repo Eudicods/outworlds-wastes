@@ -11,11 +11,11 @@ jobs:
      with:
        scheme: full
        run: |
-         cd league
-         pdflatex outworlds-wastes-league.tex
-         pdflatex outworlds-wastes-league.tex
+         cd rules
+         pdflatex battletech-outworlds-wastes.tex
+         pdflatex battletech-outworlds-wastes.tex
    - name: Publish PDF
      uses: stefanzweifel/git-auto-commit-action@v5
      with:
        commit_message: update PDF
-       file_pattern: 'league/*.pdf'
+       file_pattern: 'rules/*.pdf'

@@ -2,7 +2,7 @@
 [battletech-as]: https://store.catalystgamelabs.com/products/battletech-alpha-strike-commanders-edition
 [battletech-or]: https://dfawargaming.com/downloads
 
-[outworlds-pdf]: https://github.com/Eudicods/outworlds-wastes/blob/main/league/outworlds-wastes-league.pdf
+[outworlds-pdf]: https://github.com/Eudicods/outworlds-wastes/blob/main/rules/battletech-outworlds-wastes.pdf
 [outworlds-web]: https://outworlds-wastes.jeremylt.org
 
 [deploy-pdf-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-pdf.yml
