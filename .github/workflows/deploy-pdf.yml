@@ -30,4 +30,3 @@ jobs:
        commit_message: update PDF
        push_options: '--force'
        file_pattern: '*.pdf'
-       disable_globbing: true
