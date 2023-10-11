@@ -19,7 +19,7 @@ jobs:
          pdflatex battletech-outworlds-wastes.tex
          cd ..
          mv rules/battletech-outworlds-wastes.pdf .
-         ls --hide=rules/battletech-outworlds-wastes.pdf | xargs -d '\n' rm
+         ls | grep -xv "file.txt" | xargs rm
    - name: Publish PDF
      uses: stefanzweifel/git-auto-commit-action@v5
      with:
