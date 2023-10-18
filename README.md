@@ -16,7 +16,7 @@
 
 # BattleTech: Outworlds Wastes
 
-[![Deploy Website][deploy-pdf-badge]][deploy-pdf-job]
+[![Deploy PDFs][deploy-pdf-badge]][deploy-pdf-job]
 [![Deploy Website][deploy-web-badge]][deploy-web-job]
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-badge]][cc-by-nc-sa]
 
