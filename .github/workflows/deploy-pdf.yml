@@ -1,4 +1,4 @@
-name: Deploy PDF
+name: Deploy PDFs
 on:
   push:
     branches:
