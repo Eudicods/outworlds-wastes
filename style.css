@@ -67,7 +67,7 @@ nav.TOC a, nav.TOC a:visited {
   text-decoration: none;
 }
 
-.likesubsubsectionHead .subsubsectionHead {
+.likesubsubsectionHead, .subsubsectionHead {
   font-size: 100%;
 }
 
