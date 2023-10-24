@@ -96,6 +96,12 @@ nav.TOC.main {
   nav.TOC.main {
     width: 100%;
   }
+
+  figure > img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+  }
 }
 
 
