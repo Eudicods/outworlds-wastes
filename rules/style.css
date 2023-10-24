@@ -45,7 +45,7 @@ figure pre.listings{
 }
 nav.TOC {
   padding: 0.5rem;
-  font-size: 0; /* trick to remove vertical space above TOC entries */
+  font-size: 50%; /* reduce space between TOC entries */
 }
 
  .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {
@@ -67,6 +67,8 @@ nav.TOC a, nav.TOC a:visited {
   text-decoration: none;
 }
 
+/* *** Fixes *** */
+
 .likesubsubsectionHead, .subsubsectionHead {
   font-size: 100%;
 }
@@ -74,6 +76,19 @@ nav.TOC a, nav.TOC a:visited {
 li {
   margin-bottom: 0.5em;
 }
+
+nav.TOC {
+  position: fixed;
+  width: 200px;
+}
+
+@media (max-width: 915px) {
+  nav.TOC {
+    position: relative;
+    width: 100%;
+  }
+}
+
 
 /* *** Colors *** */
 
