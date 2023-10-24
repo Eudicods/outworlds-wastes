@@ -79,7 +79,7 @@ main.main-content, div.footnotes {
 
 nav.TOC,nav.TOC a, nav.TOC a:visited {
   background-color: #313831;
-  color: #9c9177;
+  color: #ccc5b3;
 }
 
 nav.TOC span:hover, nav.TOC span:hover *{
