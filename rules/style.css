@@ -82,6 +82,11 @@ nav.TOC {
   width: 200px;
 }
 
+nav.TOC.main {
+  position: relative;
+  width: 200px;
+}
+
 @media (max-width: 915px) {
   nav.TOC {
     position: relative;
