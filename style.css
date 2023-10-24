@@ -92,6 +92,10 @@ nav.TOC.main {
     position: relative;
     width: 100%;
   }
+
+  nav.TOC.main {
+    width: 100%;
+  }
 }
 
 
