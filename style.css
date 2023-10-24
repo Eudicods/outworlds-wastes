@@ -71,6 +71,10 @@ nav.TOC a, nav.TOC a:visited {
   font-size: 100%;
 }
 
+li {
+  margin-bottom: 0.5em;
+}
+
 /* *** Colors *** */
 
 body {
