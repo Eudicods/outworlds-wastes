@@ -1,0 +1,92 @@
+/* *** Layout *** */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 57rem) {
+  body {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+  }
+  main.main-content, div.footnotes {
+    max-width: 40rem;
+    grid-column: 2;
+  }
+  nav.TOC {
+    grid-row: 1;
+    min-height: 100vh;
+  }
+}
+
+/* *** Formatting *** */
+
+main.main-content {
+  padding: 1rem;
+}
+
+p.indent, p.noindent {
+  text-indent: 0;
+}
+
+figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource {
+  margin: 0.5rem 0; 
+  padding-left: 0.5rem; 
+  overflow: auto;
+}
+figure pre.listings{
+  font-size: 1em;
+}
+
+.chapterToc, .sectionToc, .subsectionToc{
+  margin: 0;
+  padding: 0;
+}
+nav.TOC {
+  padding: 0.5rem;
+  font-size: 0; /* trick to remove vertical space above TOC entries */
+}
+
+ .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {
+  padding-left: 2em;
+  margin-left: 0
+}
+ .chapterToc ~ .likesectionToc ~ .likesubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc {
+  padding-left: 4em;
+  margin-left: 0;
+}
+
+nav.TOC span {
+  display: block;
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+nav.TOC a, nav.TOC a:visited {
+  text-decoration: none;
+}
+
+/* *** Colors *** */
+
+body {
+  background-color: #9c9177;
+} 
+
+main.main-content, div.footnotes {
+  background-color: white;
+}
+
+nav.TOC,nav.TOC a, nav.TOC a:visited {
+  background-color: #313831;
+  color: #9c9177;
+}
+
+nav.TOC span:hover, nav.TOC span:hover *{
+  background-color: #313831;
+}
+
+figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource{
+  border: 1px solid #9c9177; 
+  background-color: #50654d;
+}
