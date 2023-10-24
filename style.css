@@ -60,7 +60,7 @@ nav.TOC {
 nav.TOC span {
   display: block;
   margin-top: 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 nav.TOC a, nav.TOC a:visited {
@@ -70,7 +70,7 @@ nav.TOC a, nav.TOC a:visited {
 /* *** Colors *** */
 
 body {
-  background-color: #9c9177;
+  background-color: #ccc5b3;
 } 
 
 main.main-content, div.footnotes {
@@ -87,6 +87,6 @@ nav.TOC span:hover, nav.TOC span:hover *{
 }
 
 figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource{
-  border: 1px solid #9c9177; 
+  border: 1px solid #ccc5b3; 
   background-color: #50654d;
 }
