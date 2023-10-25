@@ -87,6 +87,10 @@ nav.TOC.main {
   width: 200px;
 }
 
+.multirow {
+  display: inline;
+}
+
 @media (max-width: 915px) {
   nav.TOC {
     position: relative;
