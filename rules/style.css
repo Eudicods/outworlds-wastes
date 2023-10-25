@@ -97,10 +97,10 @@ nav.TOC.main {
     width: 100%;
   }
 
-  figure > img {
+  figure > p > img {
+    height: 100%;
     width: 100%;
     max-width: 100%;
-    height: 100%;
   }
 }
 
