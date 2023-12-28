@@ -22,7 +22,7 @@ jobs:
          cd ..
          mv rules/*.pdf .
          mv scenarios/*/*.pdf .
-         ls | grep -v ".pdf" | xargs rm -rf
+         ls | grep -vE ".pdf|.md" | xargs rm -rf
    - name: Publish PDF
      uses: stefanzweifel/git-auto-commit-action@v5
      with:
