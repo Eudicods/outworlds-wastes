@@ -1,0 +1,28 @@
+\begin{table}[!h]
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
+\centering
+\newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| m{2em} L{30em} |}
+\hline
+\rowcolor{black!30}  \bfseries{Level} & \bfseries{Benefit} \\
+\hline
+-2 & 10\% increase in salvage costs   \\
+   & 10\% decrease in salvage revenue \\
+\hline
+-1 & 5\% increase in salvage costs    \\
+   & 5\% decrease in salvage revenue  \\
+\hline
+ 0 & No change                        \\
+\hline
+ 1 & 5\% decrease in salvage costs    \\
+   & 5\% increase in salvage revenue  \\
+\hline
+ 2 & 10\% decrease in salvage costs   \\
+   & 10\% increase in salvage revenue \\
+\hline
+ 3 & 15\% decrease in salvage costs   \\
+   & 15\% increase in salvage revenue \\
+\bottomrule
+\end{tabular}
+\caption*{Dropship Machine Shop Customization Levels}
+\end{table}

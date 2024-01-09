@@ -1,0 +1,73 @@
+\item {\bfseries Dropship Customization}: Commanders may customize their dropship to better support their force.
+Commanders are encouraged to name their dropship before using this rule.
+
+Each commander receives 5 customization points to modify their dropship.
+The dropship starts at level 0 in each category.
+Commanders spend customization points to raise the level for a category and gain the corresponding benefit.
+The table below details how many points it costs to increase a category customization level.
+
+\begin{table}[!h]
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
+\centering
+\newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| m{2em} L{15em} L{15em} |}
+\hline
+\rowcolor{black!30}  \bfseries{Level} & \bfseries{Cost} & \bfseries{Payout} \\
+\hline
+-2 & -             & 2 points earned \\
+\hline
+-1 & 2 points cost & 1 point earned  \\
+\hline
+ 0 & 1 point cost  & 1 point earned  \\
+\hline
+ 1 & 1 point cost  & 2 points earned \\
+\hline
+ 2 & 2 points cost & 3 points earned \\
+\hline
+ 3 & 3 points cost & -               \\
+\bottomrule
+\end{tabular}
+\caption*{Dropship Customization Point Costs}
+\end{table}
+
+Commanders can customize their dropships in the following categories:
+
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\begin{multicols}{2}}{}
+
+\begin{itemize}
+
+\item 'Mech Maintenance
+
+\item Ground Combat Vehicle Maintenance
+
+\item VTOL Combat Vehicle Maintenance
+
+\item Aerospace Unit Maintenance
+
+\item ProtoMech Maintenance
+
+\item Machine Shop
+
+\item Medical Bay
+
+\item Infantry Quarters
+
+\item Simulators
+
+\item Bay Configuration Limits
+
+\end{itemize}
+
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\end{multicols}}{}
+
+Commanders can further customize their dropship, but space and resources must be reallocated from one category to another.
+After each scenario, commanders may spend 1,000,000 C-bills to decrease the level of one or more categories to earn sufficient customization points and increase the level of a single category.
+The customization points earned when decreasing the level of a category are given in the table above.
+This may be done only once between scenarios.
+
+\emph{Maintenance}: Maintenance customization stacks with quirks.
+For example, a unit that is \emph{Easy to Maintain} on a dropship with level 1 in maintenance for the unit is 15\% cheaper to repair or replace while a unit that is \emph{Hard to Maintain} would only be 5\% more expensive to repair or replace.
+
+The maintenance level cannot be adjusted for a type of unit not present in the force.
+For example, a force must have VTOL units to raise or lower the VTOL maintenance category from level 0.
+If the last unit of a type present in a force is sold or destroyed, commanders must replace the unit with another of the type or immediately reallocate any positive or negative points to reset the category back to level 0.
