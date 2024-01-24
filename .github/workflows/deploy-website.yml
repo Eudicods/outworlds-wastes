@@ -16,7 +16,7 @@ jobs:
          cd rules &&
          make4ht --loglevel info -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
          make4ht --loglevel info -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
-         make4ht --loglevel info -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
+         make4ht --loglevel debug -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
          sed -i -- 's/\.png/\.webp/g' html/*.html &&
          rm html/img/*.png &&
          cp img/*.webp html/img/ &&
