@@ -208,7 +208,6 @@ table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 div.array {text-align:center;}
 tr.hline td hr{display:none}
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
-.chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
 div.caption span.id{font-weight: bold; white-space: nowrap; }
@@ -286,7 +285,7 @@ tr#TBL-5-7- {border-bottom:0.112em solid #000}
 #TBL-6-1{border-left: 1px solid black;}
 #TBL-6-2{border-right:1px solid black;}
  #TBL-6-1- td{ background-color:}
-tr#TBL-6-7- {border-bottom:0.112em solid #000}
+tr#TBL-6-10- {border-bottom:0.112em solid #000}
 #TBL-7-1{border-left: 1px solid black;}
 #TBL-7-2{border-right:1px solid black;}
  #TBL-7-1- td{ background-color:}
