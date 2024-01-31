@@ -1,0 +1,428 @@
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+File: index.html
+File: index.css
+File: index.tmp
+File: introduction.html
+File: background.html
+File: force-management.html
+File: scenarios.html
+File: league-play.html
+File: event-play.html
+File: outworlds-wastes-map.html
+File: sample-force-roster.html
+File: sample-logistics.html
+File: sample-dropship.html
+File: bv-adjustments.html
+File: references.html
+Css: p{margin-top:0;margin-bottom:0}
+Css: p.indent{text-indent:0;}
+Css: p + p{margin-top:1em;}
+Css: p + div, p + pre {margin-top:1em;}
+Css: div + p, pre + p {margin-top:1em;}
+Css: a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: table.tabular{border-collapse: collapse; border-spacing: 0;}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: div.par-math-display, div.math-display{text-align:center;}
+Css: body{ margin:1em auto; max-width:80ch; padding:0 .62em; }
+Css: h1,h2,h3,h4,h5 { line-height:1.2; }
+Css: @media print{ body{ max-width:none } }
+Css: .partHead, likepartHead { font-size: 2em; }
+Css: .chapterHead, likechapterHead { font-size: 1.7411em; }
+Css: .sectionHead, likesectionHead { font-size: 1.5157em; }
+Css: .subsectionHead, likesubsectionHead { font-size: 1.3195em; }
+Css: .subsubsectionHead, likesubsubsectionHead { font-size: 1.1487em; }
+Css:  @media (prefers-color-scheme: dark) { img[src^="index"]{filter: invert(1); } } 
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p:first-child{ margin-bottom:0; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: div.newtheorem .head{font-weight: bold;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: .hline {border-top: 1px solid black;}
+Css: .hline + .vspace:last-child{display:none;}
+Css: .hline:first-child{border-bottom:1px solid black;border-top:none;}
+Css: .tabbing-right {text-align:right;}
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: .reversemarginpar{float:left;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: .hline {border-top: 1px solid black;}
+Css: .hline + .vspace:last-child{display:none;}
+Css: .hline:first-child{border-bottom:1px solid black;border-top:none;}
+Css: div.array {text-align:center;}
+Css: tr.hline td hr{display:none}
+Css: .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+Css: .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
+Css: .index-item, .index-subitem, .index-subsubitem {display:block}
+Css: div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+Css: div.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: h1.partHead{text-align: center}
+Css: p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+Css: .subsubsectionHead, .likesubsubsectionHead { font-size: 1em; }
+Css: .paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+Css: .subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+Css: .verse{white-space:nowrap; margin-left:2em}
+Css: div.maketitle {text-align:center;}
+Css: h2.titleHead{text-align:center;}
+Css: div.maketitle{ margin-bottom: 2em; }
+Css: div.author, div.date {text-align:center;}
+Css: div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+Css: div.author{white-space: nowrap;}
+Css: div.abstract p {margin-left:5%; margin-right:5%;}
+Css: div.abstract {width:100%;}
+Css: .abstracttitle{text-align:center;margin-bottom:1em;}
+Css: .subsectionToc, .likesubsectionToc {margin-left:2em;}
+Css: .subsubsectionToc, .likesubsubsectionToc {margin-left:4em;}
+Css: .paragraphToc, .likeparagraphToc {margin-left:6em;}
+Css: .subparagraphToc, .likesubparagraphToc {margin-left:8em;}
+Css: figure.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: figure.figure {text-align:center;}
+Css: figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
+Css: figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
+Css: p + figcaption, img + figcaption{margin-top: 1em;}
+Css: .abstract{margin:1em;}
+Css: .rotatebox{display: inline-block;}
+Css: div.subfigure {text-align:center;display:inline-block; max-width:45%;}
+File: style.css
+File: img/Battletech-A.png
+File: img/Outworlds-Alliance.png
+Css: #TBL-1-1{border-left: 1px solid black;}
+Css: #TBL-1-7{border-right:1px solid black;}
+Css:  #TBL-1-2- td{ background-color:}
+Css: td#TBL-1-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-1-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-1-7- td{ background-color:}
+Css: td#TBL-1-7-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-1-7-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-1-14- td{ background-color:}
+Css: td#TBL-1-14-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-1-14-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: tr#TBL-1-18- {border-bottom:0.112em solid #000}
+Css: #TBL-2-1{border-left: 1px solid black;}
+Css: #TBL-2-7{border-right:1px solid black;}
+Css:  #TBL-2-1- td{ background-color:}
+Css:  #TBL-2-2- td{ background-color:}
+Css: td#TBL-2-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-2-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-2-8- td{ background-color:}
+Css: td#TBL-2-8-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-2-8-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-2-10- td{ background-color:}
+Css: td#TBL-2-10-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-2-10-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+File: img/Dark-Caste-List.png
+File: img/Combine-Mercenary-List.png
+Css: #TBL-3-1{border-left: 1px solid black;}
+Css: #TBL-3-1{border-right:1px solid black;}
+Css: #TBL-3-2{border-right:1px solid black;}
+Css: #TBL-3-3{border-right:1px solid black;}
+Css: #TBL-3-4{border-right:1px solid black;}
+Css: #TBL-3-5{border-right:1px solid black;}
+Css:  #TBL-3-1- td{ background-color:}
+Css: #TBL-4-1{border-left: 1px solid black;}
+Css: #TBL-4-1{border-right:1px solid black;}
+Css: #TBL-4-2{border-right:1px solid black;}
+Css: #TBL-4-3{border-right:1px solid black;}
+Css: #TBL-4-4{border-right:1px solid black;}
+Css: #TBL-4-5{border-right:1px solid black;}
+Css: #TBL-4-6{border-right:1px solid black;}
+Css:  #TBL-4-1- td{ background-color:}
+Css: #TBL-5-1{border-left: 1px solid black;}
+Css: #TBL-5-3{border-right:1px solid black;}
+Css:  #TBL-5-1- td{ background-color:}
+Css: tr#TBL-5-7- {border-bottom:0.112em solid #000}
+Css: #TBL-6-1{border-left: 1px solid black;}
+Css: #TBL-6-2{border-right:1px solid black;}
+Css:  #TBL-6-1- td{ background-color:}
+Css: tr#TBL-6-10- {border-bottom:0.112em solid #000}
+Css: #TBL-7-1{border-left: 1px solid black;}
+Css: #TBL-7-2{border-right:1px solid black;}
+Css:  #TBL-7-1- td{ background-color:}
+Css: tr#TBL-7-12- {border-bottom:0.112em solid #000}
+Css: #TBL-8-1{border-left: 1px solid black;}
+Css: #TBL-8-2{border-right:1px solid black;}
+Css:  #TBL-8-1- td{ background-color:}
+Css: tr#TBL-8-10- {border-bottom:0.112em solid #000}
+Css: #TBL-9-1{border-left: 1px solid black;}
+Css: #TBL-9-2{border-right:1px solid black;}
+Css:  #TBL-9-1- td{ background-color:}
+Css: tr#TBL-9-7- {border-bottom:0.112em solid #000}
+Css: #TBL-10-1{border-left: 1px solid black;}
+Css: #TBL-10-2{border-right:1px solid black;}
+Css:  #TBL-10-1- td{ background-color:}
+Css: tr#TBL-10-9- {border-bottom:0.112em solid #000}
+Css: #TBL-11-1{border-left: 1px solid black;}
+Css: #TBL-11-2{border-right:1px solid black;}
+Css:  #TBL-11-1- td{ background-color:}
+Css: tr#TBL-11-5- {border-bottom:0.112em solid #000}
+Css: #TBL-12-1{border-left: 1px solid black;}
+Css: #TBL-12-7{border-right:1px solid black;}
+Css:  #TBL-12-1- td{ background-color:}
+Css: tr#TBL-12-5- {border-bottom:0.112em solid #000}
+Css: #TBL-13-1{border-left: 1px solid black;}
+Css: #TBL-13-7{border-right:1px solid black;}
+Css:  #TBL-13-1- td{ background-color:}
+Css: tr#TBL-13-4- {border-bottom:0.112em solid #000}
+File: img/Outworlds-Wastes-ilClan-Map.png
+Css: #TBL-14-1{border-left: 1px solid black;}
+Css: #TBL-14-7{border-right:1px solid black;}
+Css:  #TBL-14-1- td{ background-color:}
+Css:  #TBL-14-2- td{ background-color:}
+Css: td#TBL-14-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-14-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-14-15- td{ background-color:}
+Css: td#TBL-14-15-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-14-15-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-14-26- td{ background-color:}
+Css: td#TBL-14-26-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-14-26-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-14-29- td{ background-color:}
+Css: td#TBL-14-29-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-14-29-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-14-40- td{ background-color:}
+Css: td#TBL-14-40-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-14-40-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: #TBL-15-1{border-left: 1px solid black;}
+Css: #TBL-15-2{border-right:1px solid black;}
+Css:  #TBL-15-1- td{ background-color:}
+Css:  #TBL-15-2- td{ background-color:}
+Css: td#TBL-15-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-2-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-4- td{ background-color:}
+Css: td#TBL-15-4-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-4-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-8- td{ background-color:}
+Css: td#TBL-15-8-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-8-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-9- td{ background-color:}
+Css: td#TBL-15-9-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-9-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-16- td{ background-color:}
+Css: td#TBL-15-16-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-16-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-17- td{ background-color:}
+Css: td#TBL-15-17-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-17-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-18- td{ background-color:}
+Css: td#TBL-15-18-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-18-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-25- td{ background-color:}
+Css: td#TBL-15-25-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-25-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-26- td{ background-color:}
+Css: td#TBL-15-26-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-26-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-33- td{ background-color:}
+Css: td#TBL-15-33-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-33-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-34- td{ background-color:}
+Css: td#TBL-15-34-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-34-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-39- td{ background-color:}
+Css: td#TBL-15-39-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-39-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-40- td{ background-color:}
+Css: td#TBL-15-40-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-40-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-15-45- td{ background-color:}
+Css: td#TBL-15-45-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-15-45-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: #TBL-16-1{border-left: 1px solid black;}
+Css: #TBL-16-2{border-right:1px solid black;}
+Css:  #TBL-16-1- td{ background-color:}
+Css: td#TBL-16-1-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css: td#TBL-16-1-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+Css:  #TBL-16-3- td{ background-color:}
+Css: #TBL-17-1{border-left: 1px solid black;}
+Css: #TBL-17-1{border-right:1px solid black;}
+Css: #TBL-17-9{border-right:1px solid black;}
+Css:  #TBL-17-1- td{ background-color:}
+Css: td#TBL-17-1-2{border-right:solid black 0.4pt;}
+Css: td#TBL-17-1-2{border-right:solid black 0.4pt;}
+--- characters ---
+Font("cmsy","10","10","100")
+Font("ecrm","1000","10","100")
+Font("ecbx","3583","35","100")
+Font("ecbx","2986","29","100")
+Font("ecbx","1728","17","100")
+Font("ectt","1000","10","100")
+Font("ecti","1000","10","100")
+Font("ecbx","1000","10","100")
+Font("ecrm","0900","9","100")
+Font("ectt","0900","9","100")
+Font("ecbx","0900","9","100")

@@ -1,0 +1,56 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{2}{x2-10001}{QQ2-2-1}{Introduction}}{1}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{2}{x2-2000}{QQ2-2-2}{Goals}}{2}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{2}{x2-3000}{QQ2-2-3}{Contents}}{2}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{2}{x2-4000}{QQ2-2-4}{Disclaimer}}{2}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{2}{x2-5000}{QQ2-2-5}{Acknowledgments}}{3}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{2}{x2-6000}{QQ2-2-6}{Questions and Downloads}}{3}\relax 
+\doTocEntry\toclikesubsubsection{}{\csname a:TocLink\endcsname{2}{x2-7000}{QQ2-2-7}{Version}}{3}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{3}{x3-80002}{QQ2-3-8}{Background}}{5}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{4}{x4-90003}{QQ2-4-9}{Force Management}}{7}\relax 
+\doTocEntry\tocsubsection{3.1}{\csname a:TocLink\endcsname{4}{x4-100003.1}{QQ2-4-10}{Force Construction}}{7}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-100003.1}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-100003.1}{}{}}{table}\relax 
+\doTocEntry\tocsubsection{3.2}{\csname a:TocLink\endcsname{4}{x4-110003.2}{QQ2-4-13}{Advanced Force Construction Rules}}{16}\relax 
+\doTocEntry\tocsubsection{3.3}{\csname a:TocLink\endcsname{4}{x4-120003.3}{QQ2-4-14}{Force Maintenance and Improvements}}{19}\relax 
+\doTocEntry\tocsubsection{3.4}{\csname a:TocLink\endcsname{4}{x4-130003.4}{QQ2-4-15}{Advanced Force Maintenance and Improvements}}{21}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{4}{x4-130003.4}{}{}}{table}\relax 
+\doTocEntry\tocsubsection{3.5}{\csname a:TocLink\endcsname{4}{x4-140003.5}{QQ2-4-25}{Changing Eras}}{31}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{5}{x5-150004}{QQ2-5-26}{Scenarios}}{34}\relax 
+\doTocEntry\tocsubsection{4.1}{\csname a:TocLink\endcsname{5}{x5-160004.1}{QQ2-5-27}{Scenario Formats}}{34}\relax 
+\doTocEntry\tocsubsection{4.2}{\csname a:TocLink\endcsname{5}{x5-170004.2}{QQ2-5-28}{Scenario Forces}}{35}\relax 
+\doTocEntry\tocsubsection{4.3}{\csname a:TocLink\endcsname{5}{x5-180004.3}{QQ2-5-29}{Optional Rules}}{36}\relax 
+\doTocEntry\tocsubsection{4.4}{\csname a:TocLink\endcsname{5}{x5-190004.4}{QQ2-5-30}{Scenario Balancing}}{36}\relax 
+\doTocEntry\tocsubsection{4.5}{\csname a:TocLink\endcsname{5}{x5-200004.5}{QQ2-5-31}{Scenario Scoring}}{37}\relax 
+\doTocEntry\tocsubsection{4.6}{\csname a:TocLink\endcsname{5}{x5-210004.6}{QQ2-5-32}{Casual Scenarios}}{38}\relax 
+\doTocEntry\tocsubsubsection{4.6.1}{\csname a:TocLink\endcsname{5}{x5-220004.6.1}{QQ2-5-33}{Primary Objectives}}{38}\relax 
+\doTocEntry\tocsubsubsection{4.6.2}{\csname a:TocLink\endcsname{5}{x5-230004.6.2}{QQ2-5-34}{Secondary Objectives}}{40}\relax 
+\doTocEntry\tocsubsubsection{4.6.3}{\csname a:TocLink\endcsname{5}{x5-240004.6.3}{QQ2-5-35}{Additional Options}}{41}\relax 
+\doTocEntry\tocsubsection{4.7}{\csname a:TocLink\endcsname{5}{x5-250004.7}{QQ2-5-36}{Narrative Scenarios}}{41}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{6}{x6-260005}{QQ2-6-37}{League Play}}{43}\relax 
+\doTocEntry\tocsubsection{5.1}{\csname a:TocLink\endcsname{6}{x6-270005.1}{QQ2-6-38}{Casual Play}}{43}\relax 
+\doTocEntry\tocsubsection{5.2}{\csname a:TocLink\endcsname{6}{x6-280005.2}{QQ2-6-39}{Competitive Play}}{43}\relax 
+\doTocEntry\tocsection{6}{\csname a:TocLink\endcsname{7}{x7-290006}{QQ2-7-40}{Event Play}}{46}\relax 
+\doTocEntry\tocsubsection{6.1}{\csname a:TocLink\endcsname{7}{x7-300006.1}{QQ2-7-41}{Force Construction}}{46}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{7}{x7-300006.1}{}{}}{table}\relax 
+\doTocEntry\toclot{0}{\csname a:TocLink\endcsname{7}{x7-300006.1}{}{}}{table}\relax 
+\doTocEntry\tocsubsection{6.2}{\csname a:TocLink\endcsname{7}{x7-310006.2}{QQ2-7-44}{Force Maintenance}}{53}\relax 
+\doTocEntry\tocsubsection{6.3}{\csname a:TocLink\endcsname{7}{x7-320006.3}{QQ2-7-45}{Event Scenarios}}{54}\relax 
+\doTocEntry\tocsubsection{6.4}{\csname a:TocLink\endcsname{7}{x7-330006.4}{QQ2-7-46}{Casual Play}}{55}\relax 
+\doTocEntry\tocsubsection{6.5}{\csname a:TocLink\endcsname{7}{x7-340006.5}{QQ2-7-47}{Conversion}}{56}\relax 
+\doTocEntry\tocsection{7}{\csname a:TocLink\endcsname{8}{x8-350007}{QQ2-8-48}{Outworlds Wastes Map - ilClan Era}}{58}\relax 
+\doTocEntry\toclof{1}{\csname a:TocLink\endcsname{8}{x8-350007}{}{}}{figure}\relax 
+\doTocEntry\tocsection{8}{\csname a:TocLink\endcsname{9}{x9-360008}{QQ2-9-50}{Sample Force Roster}}{63}\relax 
+\doTocEntry\tocsection{9}{\csname a:TocLink\endcsname{10}{x10-370009}{QQ2-10-51}{Sample Scenario Logistics Tracking}}{68}\relax 
+\doTocEntry\tocsection{10}{\csname a:TocLink\endcsname{11}{x11-3800010}{QQ2-11-52}{Sample Dropship Customization Tracking}}{73}\relax 
+\doTocEntry\tocsection{11}{\csname a:TocLink\endcsname{12}{x12-3900011}{QQ2-12-53}{Force BV Adjustments}}{78}\relax 
+\doTocEntry\tocsection{12}{\csname a:TocLink\endcsname{13}{x13-4000012}{QQ2-13-54}{References}}{83}\relax 
+\par 
