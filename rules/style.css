@@ -111,24 +111,30 @@ nav.TOC.main {
 
 /* *** Colors *** */
 
+:root {
+  --main-background-color: #ccc5b3;
+  --accent-background-color: #313831;
+  --text-background-color: #ffffff;
+}
+
 body {
-  background-color: #ccc5b3;
+  background-color: var(--main-background-color);
 } 
 
 main.main-content, div.footnotes {
-  background-color: white;
+  background-color: var(--text-background-color);
 }
 
 nav.TOC,nav.TOC a, nav.TOC a:visited {
-  background-color: #313831;
-  color: #ccc5b3;
+  background-color: var(--accent-background-color);
+  color: var(--main-background-color);
 }
 
 nav.TOC span:hover, nav.TOC span:hover *{
-  background-color: #313831;
+  background-color: var(--accent-background-color);
 }
 
 figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource{
-  border: 1px solid #ccc5b3; 
-  background-color: #50654d;
+  border: 1px solid var(--main-background-color); 
+  background-color: var(--accent-background-color);
 }
