@@ -208,7 +208,6 @@ table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
 div.array {text-align:center;}
 tr.hline td hr{display:none}
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
-.chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
 div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
 div.caption span.id{font-weight: bold; white-space: nowrap; }
@@ -379,16 +378,88 @@ td#TBL-15-40-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
 td#TBL-15-45-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
 td#TBL-15-45-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
 #TBL-16-1{border-left: 1px solid black;}
-#TBL-16-2{border-right:1px solid black;}
+#TBL-16-7{border-right:1px solid black;}
  #TBL-16-1- td{ background-color:}
 td#TBL-16-1-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
 td#TBL-16-1-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
- #TBL-16-3- td{ background-color:}
+ #TBL-16-2- td{ background-color:}
+td#TBL-16-7-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-7-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-8- td{ background-color:}
+td#TBL-16-8-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-8-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-9-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-9-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-10- td{ background-color:}
+td#TBL-16-10-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-10-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-11-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-11-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-12-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-12-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-13- td{ background-color:}
+td#TBL-16-13-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-13-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-14- td{ background-color:}
+td#TBL-16-14-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-14-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-19- td{ background-color:}
+td#TBL-16-19-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-19-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-20- td{ background-color:}
+td#TBL-16-20-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-20-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-21- td{ background-color:}
+td#TBL-16-21-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-21-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-26- td{ background-color:}
+td#TBL-16-26-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-26-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-27- td{ background-color:}
+td#TBL-16-27-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-27-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-30- td{ background-color:}
+td#TBL-16-30-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-30-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-31- td{ background-color:}
+td#TBL-16-31-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-31-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-34- td{ background-color:}
+td#TBL-16-34-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-34-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-35- td{ background-color:}
+td#TBL-16-35-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-35-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-38- td{ background-color:}
+td#TBL-16-38-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-38-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-39- td{ background-color:}
+td#TBL-16-39-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-39-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-42-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-42-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-43- td{ background-color:}
+td#TBL-16-43-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-43-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-44-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-44-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-45- td{ background-color:}
+td#TBL-16-45-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-45-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-16-46- td{ background-color:}
+td#TBL-16-51-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-16-51-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
 #TBL-17-1{border-left: 1px solid black;}
-#TBL-17-1{border-right:1px solid black;}
-#TBL-17-9{border-right:1px solid black;}
+#TBL-17-2{border-right:1px solid black;}
  #TBL-17-1- td{ background-color:}
-td#TBL-17-1-2{border-right:solid black 0.4pt;}
-td#TBL-17-1-2{border-right:solid black 0.4pt;}
+td#TBL-17-1-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+td#TBL-17-1-1{border-left:solid black 0.4pt;border-right:solid black 0.4pt;}
+ #TBL-17-3- td{ background-color:}
+#TBL-18-1{border-left: 1px solid black;}
+#TBL-18-1{border-right:1px solid black;}
+#TBL-18-9{border-right:1px solid black;}
+ #TBL-18-1- td{ background-color:}
+td#TBL-18-1-2{border-right:solid black 0.4pt;}
+td#TBL-18-1-2{border-right:solid black 0.4pt;}
 /* end css.sty */
 
