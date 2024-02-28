@@ -1,0 +1,1472 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=latex 2024.1.24)  28 FEB 2024 09:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\let\HCode\documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafte
+r\def\csname tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@
+ifnextchar[{\HCode}{\documentstyle[tex4ht]}}\RequirePackage[#1,html]{tex4ht}}\m
+akeatother\HCode battletech-outworlds-wastes-web.cfg,,charset=utf-8,html5.a.b.c
+.\input "\detokenize{battletech-outworlds-wastes-web.tex}"
+(/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2023-02-03-14:48
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+\tmp:toks=\toks16
+) (./battletech-outworlds-wastes-web.tex (/usr/share/texmf-dist/tex/generic/tex
+4ht/usepackage.4ht
+version 2023-01-12-14:08
+) (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count193
+)
+\MT@toks=\toks18
+\MT@tempbox=\box51
+\MT@count=\count194
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks19
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen141
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count195
+(/usr/share/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip50
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/share/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+)) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks20
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/generic/tex4ht/graphics-hooks.4ht
+version 2022-08-17-14:25
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 107.
+(/usr/share/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+) (/usr/share/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 227.
+(/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+(/usr/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box52
+\extrarowheight=\dimen153
+\NC@list=\toks21
+\extratabsurround=\skip51
+\backup@length=\skip52
+\ar@cellbox=\box53
+)
+\everycr=\toks22
+\minrowclearance=\skip53
+\rownum=\count199
+) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+(/usr/share/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2022/06/12 v2.14 Predefined colors according to Unix/X11 (UK)
+)) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/02/19 v1.6 Sub-captions (AR)
+(/usr/share/texmf-dist/tex/generic/tex4ht/caption-hooks.4ht
+version 2022-11-20-07:09
+) (/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen154
+\captionmargin=\dimen155
+\caption@leftmargin=\dimen156
+\caption@rightmargin=\dimen157
+\caption@width=\dimen158
+\caption@indent=\dimen159
+\caption@parindent=\dimen160
+\caption@hangindent=\dimen161
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count266
+\c@continuedfloat=\count267
+)
+Package caption Info: New subtype `subfigure' on input line 239.
+\c@subfigure=\count268
+Package caption Info: New subtype `subtable' on input line 239.
+\c@subtable=\count269
+) (/usr/share/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count270
+\@cmidlb=\count271
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count272
+\@lastruleclass=\count273
+\@thisrulewidth=\dimen174
+) (/usr/share/texmf-dist/tex/generic/tex4ht/caption-hooks.4ht
+version 2022-11-20-07:09
+) (/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count274
+\rotFPtop=\skip54
+\rotFPbot=\skip55
+\rot@float@box=\box54
+\rot@mess@toks=\toks23
+) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count275
+\mult@box=\box55
+\multicol@leftmargin=\dimen175
+\c@unbalance=\count276
+\c@collectmore=\count277
+\doublecol@number=\count278
+\multicoltolerance=\count279
+\multicolpretolerance=\count280
+\full@width=\dimen176
+\page@free=\dimen177
+\premulticols=\dimen178
+\postmulticols=\dimen179
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box56
+\last@line=\box57
+\maxbalancingoverflow=\dimen180
+\mult@rightbox=\box58
+\mult@grightbox=\box59
+\mult@firstbox=\box60
+\mult@gfirstbox=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\c@minrows=\count281
+\c@columnbadness=\count282
+\c@finalcolumnbadness=\count283
+\last@try=\dimen181
+\multicolovershoot=\dimen182
+\multicolundershoot=\dimen183
+\mult@nat@firstbox=\box98
+\colbreak@box=\box99
+\mc@col@check@num=\count284
+) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count285
+\multirow@dima=\skip59
+\bigstrutjot=\dimen184
+) (/usr/share/texmf-dist/tex/generic/tex4ht/titlesec-hooks.4ht
+version 2022-03-16-14:13
+) (/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box100
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen185
+\ttl@minus=\dimen186
+\ttl@toksa=\toks24
+\titlewidth=\dimen187
+\titlewidthlast=\dimen188
+\titlewidthfirst=\dimen189
+) (/usr/share/texmf-dist/tex/generic/tex4ht/hyperref-hooks.4ht
+version 2022-06-20-14:19
+) (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+) (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+
+Package auxhook Warning: Cannot patch \document,
+(auxhook)                using \AtBeginDocument instead.
+
+) (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+(/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count286
+)
+\@linkdim=\dimen190
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count289
+(/usr/share/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4060.
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count290
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen191
+(/usr/share/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count291
+\Field@Width=\dimen192
+\Fld@charsize=\dimen193
+\Field@toks=\toks25
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring ON on input line 6060.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count292
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver: htex4ht.
+(/usr/share/texmf-dist/tex/latex/hyperref/htex4ht.def
+File: htex4ht.def 2023-02-07 v7.00v Hyperref driver for TeX4ht
+Package hyperref Info: tex4ht is already loaded.
+) (/usr/share/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip62
+\thanksmargin=\skip63
+\droptitle=\skip64
+) (/usr/share/texmf-dist/tex/generic/tex4ht/tikz-hooks.4ht
+version 2021-10-21-13:56
+*****************************
+TeX4ht info: Using dvisvgm4ht TikZ driver. Put \def \pgfsysdriver {driver-name}
+ to your document before use of TikZ if you want to another driver. Use tikz+ o
+ption if your TikZ pictures use patterns.
+) (/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf
+-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/uti
+lities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-comm
+on.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen194
+\pgfutil@tempdimb=\dimen195
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box101
+) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/
+texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-d
+ist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf
+/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.te
+x
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen196
+\pgf@y=\dimen197
+\pgf@xa=\dimen198
+\pgf@ya=\dimen199
+\pgf@xb=\dimen256
+\pgf@yb=\dimen257
+\pgf@xc=\dimen258
+\pgf@yc=\dimen259
+\pgf@xd=\dimen260
+\pgf@yd=\dimen261
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count293
+\c@pgf@countb=\count294
+\c@pgf@countc=\count295
+\c@pgf@countd=\count296
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count297
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-dvisvgm4ht.def
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvisvgm4ht.def
+File: pgfsys-dvisvgm4ht.def 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvips.def
+File: pgfsys-dvips.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-postscript.def
+File: pgfsys-common-postscript.def 2023-01-15 v3.1.10 (3.1.10)
+\pgf@objectcount=\count298
+)))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count299
+\pgfsyssoftpath@bigbuffer@items=\count300
+) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-
+dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/gene
+ric/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen262
+\pgfmath@count=\count301
+\pgfmath@box=\box102
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/
+share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code
+.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.
+tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.te
+x) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) 
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/
+usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics
+.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/
+usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count302
+)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/tex
+mf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen263
+\pgf@picmaxx=\dimen264
+\pgf@picminy=\dimen265
+\pgf@picmaxy=\dimen266
+\pgf@pathminx=\dimen267
+\pgf@pathmaxx=\dimen268
+\pgf@pathminy=\dimen269
+\pgf@pathmaxy=\dimen270
+\pgf@xx=\dimen271
+\pgf@xy=\dimen272
+\pgf@yx=\dimen273
+\pgf@yy=\dimen274
+\pgf@zx=\dimen275
+\pgf@zy=\dimen276
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen277
+\pgf@path@lasty=\dimen278
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen279
+\pgf@shorten@start@additional=\dimen280
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box103
+\pgf@hbox=\box104
+\pgf@layerbox@main=\box105
+\pgf@picture@serial@count=\count303
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.te
+x
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen281
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
+ex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen282
+\pgf@pt@y=\dimen283
+\pgf@pt@temp=\dimen284
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
+x
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen285
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen286
+\pgf@sys@shading@range@num=\count304
+\pgf@shadingcount=\count305
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box106
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.te
+x
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box107
+) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen287
+\pgf@nodesepend=\dimen288
+) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-
+dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf
+/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath
+.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share
+/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen289
+\pgffor@skip=\dimen290
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
+x
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count306
+\pgfplotmarksize=\dimen291
+)
+\tikz@lastx=\dimen292
+\tikz@lasty=\dimen293
+\tikz@lastxsaved=\dimen294
+\tikz@lastysaved=\dimen295
+\tikz@lastmovetox=\dimen296
+\tikz@lastmovetoy=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box108
+\tikz@figbox@bg=\box109
+\tikz@tempbox=\box110
+\tikz@tempbox@bg=\box111
+\tikztreelevel=\count307
+\tikznumberofchildren=\count308
+\tikznumberofcurrentchild=\count309
+\tikz@fig@count=\count310
+(/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count311
+\pgfmatrixcurrentcolumn=\count312
+\pgf@matrix@numberofcolumns=\count313
+)
+\tikz@expandcount=\count314
+
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+topaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+shapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geomet
+ric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
+calc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (./battletech-outworlds-wastes-web.cfg (/usr/share/texmf-dist/tex/generic/tex
+4ht/tex4ht.4ht
+version 2022-07-05-14:37
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/share/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2023-02-03-14:48
+l.864 --- TeX4ht warning --- nonprimitive \everypar ---
+--- needs --- tex4ht index ---
+\tmp:cnt=\count315
+\openout15 = `index.tmp'.
+
+(./index.tmp)
+\tmp:dim=\skip65
+(./index.xref)
+\:refout=\write4
+\openout4 = `index.xref'.
+
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- For section filenames that reflect on their titles use the command
+ line option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- For section filenames that use full jobname and section type use t
+he command line option `cut-fullname'
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: charset=utf-8,html5,html,xhtml,3
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- We use a default CSS style. Use the `nostyle' option if you want t
+o use custom a CSS design
+--------------------------------------
+)
+\:tokwrite=\toks38
+\:tokpage=\toks39
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `index.4ct'.
+
+\:tocout=\write5
+\openout5 = `index.4tc'.
+
+(index.4tc) (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+) (/usr/share/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2022-12-26-13:00
+LaTeX Info: Redefining \_ on input line 177.
+LaTeX Info: Redefining \begin on input line 595.
+LaTeX Info: Redefining \end on input line 643.
+LaTeX Info: Redefining \, on input line 805.
+LaTeX Info: Redefining \; on input line 806.
+LaTeX Info: Redefining \! on input line 807.
+LaTeX Info: Redefining \: on input line 808.
+LaTeX Info: Redefining \> on input line 809.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+--------------------------------------
+--- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ environments, use the command line option `pic
+-m' (not recommended!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
+he command line option `pic-m+' (not safe!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2022-10-25-13:59
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/array.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/color.4ht
+version 2022-02-01-14:27
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/colortbl.4ht
+version 2022-07-03-14:21
+(/usr/share/texmf-dist/tex/generic/tex4ht/xcolor-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/article.4ht
+version 2023-02-25-15:08
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+l.10543 --- TeX4ht warning --- \CutAt at undefined `\chapter' ---
+--------------------------------------
+--- Note --- for tocs without * entries, use command line option `notoc*'
+--------------------------------------
+--------------------------------------
+--- Note --- to eliminate mini tables of contents, use the command line option 
+`nominitoc'
+--------------------------------------
+--------------------------------------
+--- Note --- to eliminate mini tables of contents, use the command line option 
+`nominitoc'
+--------------------------------------
+--------------------------------------
+--- Note --- for frames-like object-based table of contents, use the command li
+ne option `obj-toc'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/microtype.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/geometry.4ht
+version 2016-07-01-08:55
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/graphicx.4ht
+version 2022-01-12-13:53
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/graphics.4ht
+version 2022-03-20-14:29
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- if included graphics are of degraded quality, try the command line
+ options `graphics-num' or `graphics-'. The `num' should provide the density of
+ pixels in the bitmaps (e.g., 110). 
+--------------------------------------
+--------------------------------------
+--- Note --- for setting image dimensions, try the option `Gin-dim'; to use per
+cents instead of units, use `Gin-perecent'; for key dimensions when bounding bo
+x is unavailable try `Gin-dim+'; neither is recommended
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/dvips.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/xcolor.4ht
+version 2022-04-17-09:34
+(/usr/share/texmf-dist/tex/generic/tex4ht/color.4ht
+version 2022-02-01-14:27
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/subcaption.4ht
+version 2021-07-04-09:13
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/caption.4ht
+version 2022-11-22-14:29
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/booktabs.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/rotating.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/ifthen.4ht
+version 2022-06-08-14:13
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/multicol.4ht
+version 2022-04-29-14:33
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/multirow.4ht
+version 2021-06-20-09:36
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/titlesec.4ht
+version 2021-03-02-13:43
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/hyperref.4ht
+version 2022-07-01-14:27
+LaTeX Info: Redefining \autoref on input line 88.
+\Hy@SectionHShift=\skip66
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/nameref.4ht
+version 2022-12-30-15:46
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/pd1enc.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/url.4ht
+version 2023-02-19-10:11
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+--------------------------------------
+--- Note --- for URL encoding within href use the command line option `url-enc'
+
+--------------------------------------
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/titling.4ht
+version 2019-07-06-14:23
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/pgf.4ht
+version 2009-05-21-09:32
+(/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2023-03-02-13:31
+) (/usr/share/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2022-10-31-13:02
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-10-25-13:59
+) (/usr/share/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2023-01-10-13:34
+)) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+File: l3backend-dvips.def 2023-01-16 L3 backend support: dvips
+\l__pdf_internal_box=\box112
+\g__pdf_backend_object_int=\count316
+\l__pdf_backend_content_box=\box113
+\l__pdf_backend_model_box=\box114
+\g__pdf_backend_annotation_int=\count317
+\g__pdf_backend_link_int=\count318
+\g__pdf_backend_link_sf_int=\count319
+) (./index.aux)
+\openout1 = `index.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Info: Redefining \microtypecontext on input line 36.
+Package microtype Info: Not applying patch `item' (for tex4ht) on input line 36
+.
+Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 36.
+
+Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 3
+6.
+Package microtype Info: Not applying patch `footnote' (for tex4ht) on input lin
+e 36.
+Package microtype Info: Not applying patch `verbatim' (for tex4ht) on input lin
+e 36.
+Package microtype Info: Generating DVI output.
+Package microtype Info: No character protrusion.
+Package microtype Info: No font expansion.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 686.56499pt, 54.2025pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=686.56499pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-55.06749pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 36.
+--- file index.css ---
+)
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <50> not available
+(Font)              size <35.83> substituted on input line 48.
+
+l.48 --- TeX4ht warning --- File `"img/Battletech-A.xbb"' not found ---
+l.48 --- TeX4ht warning --- Cannot determine size of graphic in "img/Battletech
+-A.xbb" (no BoundingBox) ---
+l. 48 --- needs --- img/Battletech-A.png ---
+l.52 --- TeX4ht warning --- File `"img/Outworlds-Alliance.xbb"' not found ---
+l.52 --- TeX4ht warning --- Cannot determine size of graphic in "img/Outworlds-
+Alliance.xbb" (no BoundingBox) ---
+l. 52 --- needs --- img/Outworlds-Alliance.png ---
+(./index.4ct)
+--- file introduction.html ---
+(./index.4ct)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
+8.
+(/usr/share/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+) (./0-Introduction/index.tex (./0-Introduction/0-Intro.tex) [1
+
+] (./0-Introduction/1-Goals.tex) (./0-Introduction/2-Contents.tex) (./0-Introdu
+ction/3-Disclaimer.tex) (./0-Introduction/4-Acknowledgments.tex) [2] (./0-Intro
+duction/5-Questions.tex)) [3] [4]
+--- file background.html ---
+(./index.4ct) (./1-Background/index.tex (./1-Background/0-Intro-a.tex) (./1-Bac
+kground/0-Intro-factions.tex [5
+
+]) (./1-Background/0-Intro-b.tex)) [6]
+--- file force-management.html ---
+(./index.4ct) (./2-Force-Management/index.tex (./2-Force-Management/0-Intro.tex
+) (./2-Force-Management/1-Force-Construction-a.tex [7
+
+]) [8] (./2-Force-Management/1-Force-Construction-b.tex [9] [10
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+l.10 --- TeX4ht warning --- missing \Configure{HColor}{black!30}{...} (in LaTeX
+: \\color@black!30 ) ---
+[11
+
+] [12
+
+] [13
+
+] [14
+
+]) [15
+
+] (./2-Force-Management/2-Advanced-Force-Construction-a.tex) (./2-Force-Managem
+ent/2-Advanced-Force-Construction-b.tex [16] [17
+
+]
+l.5 --- TeX4ht warning --- File `"img/Dark-Caste-List.xbb"' not found ---
+l.5 --- TeX4ht warning --- Cannot determine size of graphic in "img/Dark-Caste-
+List.xbb" (no BoundingBox) ---
+l. 5 --- needs --- img/Dark-Caste-List.png ---
+l.11 --- TeX4ht warning --- File `"img/Combine-Mercenary-List.xbb"' not found -
+--
+l.11 --- TeX4ht warning --- Cannot determine size of graphic in "img/Combine-Me
+rcenary-List.xbb" (no BoundingBox) ---
+l. 11 --- needs --- img/Combine-Mercenary-List.png ---
+[18
+
+]) (./2-Force-Management/3-Force-Maintenance.tex [19
+
+]) [20] (./2-Force-Management/4-Advanced-Force-Maintenance-a.tex [21] [22]) (./
+2-Force-Management/4-Advanced-Force-Maintenance-positive-quirks.tex [23]) (./2-
+Force-Management/4-Advanced-Force-Maintenance-negative-quirks.tex [24]) (./2-Fo
+rce-Management/4-Advanced-Force-Maintenance-b.tex) (./2-Force-Management/4-Adva
+nced-Force-Maintenance-SPAs.tex [25]) [26] (./2-Force-Management/4-Advanced-For
+ce-Maintenance-c.tex [27]) (./2-Force-Management/4-Advanced-Force-Maintenance-d
+ropships-maintaince.tex) [28] (./2-Force-Management/4-Advanced-Force-Maintenanc
+e-d.tex) (./2-Force-Management/4-Advanced-Force-Maintenance-dropships-machine.t
+ex) (./2-Force-Management/4-Advanced-Force-Maintenance-e.tex) (./2-Force-Manage
+ment/4-Advanced-Force-Maintenance-dropships-medical.tex) (./2-Force-Management/
+4-Advanced-Force-Maintenance-f.tex) (./2-Force-Management/4-Advanced-Force-Main
+tenance-dropships-quarters.tex) [29] (./2-Force-Management/4-Advanced-Force-Mai
+ntenance-g.tex) (./2-Force-Management/4-Advanced-Force-Maintenance-dropships-si
+mulators.tex) (./2-Force-Management/4-Advanced-Force-Maintenance-h.tex) (./2-Fo
+rce-Management/4-Advanced-Force-Maintenance-dropships-reconfigure.tex) [30] (./
+2-Force-Management/5-Changing-Eras.tex) [31
+
+]) [32] [33]
+--- file scenarios.html ---
+(./index.4ct) (./3-Scenarios/index.tex (./3-Scenarios/0-Intro.tex) (./3-Scenari
+os/1-Formats.tex) [34
+
+] (./3-Scenarios/2-Forces.tex) [35] (./3-Scenarios/3-Optional.tex) (./3-Scenari
+os/4-Balancing.tex [36]) (./3-Scenarios/5-Scoring.tex) [37] (./3-Scenarios/6-Ca
+sual.tex) (./3-Scenarios/6-Casual-Primary.tex [38]) [39] (./3-Scenarios/6-Casua
+l-Secondary.tex [40]) (./3-Scenarios/6-Casual-Additional.tex) (./3-Scenarios/7-
+Narrative.tex)) [41] [42]
+--- file league-play.html ---
+(./index.4ct) (./4-League-Play/index.tex (./4-League-Play/0-Intro.tex) (./4-Lea
+gue-Play/1-Casual.tex) (./4-League-Play/2-Competitive.tex [43
+
+])) [44] [45]
+--- file event-play.html ---
+(./index.4ct) (./6-Event/index.tex (./6-Event/0-Intro.tex) (./6-Event/1-Force-C
+onstruction.tex [46
+
+] [47] [48
+
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+]) (./6-Event/2-Force-Maintenance.tex [53
+
+]) (./6-Event/3-Scenarios.tex [54]) (./6-Event/4-Casual.tex) [55] (./6-Event/5-
+Conversion.tex) (./6-Event/6-Scenario-Packs.tex [56])) [57] [58]
+--- file outworlds-wastes-map.html ---
+(./index.4ct) (./5-Resources/0-Map-web.tex [59
+
+] [60
+
+]
+l.3 --- TeX4ht warning --- File `"img/Outworlds-Wastes-ilClan-Map.xbb"' not fou
+nd ---
+l.3 --- TeX4ht warning --- Cannot determine size of graphic in "img/Outworlds-W
+astes-ilClan-Map.xbb" (no BoundingBox) ---
+l. 3 --- needs --- img/Outworlds-Wastes-ilClan-Map.png ---
+[61
+
+]) [62
+
+] [63]
+--- file sample-force-roster.html ---
+(./index.4ct) (./5-Resources/1-Roster.tex [64
+
+] [65
+
+]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 7.
+[66
+
+]) [67
+
+] [68]
+--- file sample-logistics.html ---
+(./index.4ct) (./5-Resources/2-Logistics.tex [69
+
+] [70
+
+] [71
+
+]) [72
+
+] [73]
+--- file sample-logistics-event.html ---
+(./index.4ct) (./5-Resources/6-Event-Logistics.tex [74
+
+] [75
+
+] [76
+
+]) [77
+
+] [78]
+--- file sample-dropship.html ---
+(./index.4ct) (./5-Resources/3-Dropship.tex [79
+
+] [80
+
+] [81
+
+]) [82
+
+] [83]
+--- file bv-adjustments.html ---
+(./index.4ct) (./5-Resources/4-BV.tex [84
+
+] [85
+
+] [86
+
+]) [87
+
+] [88]
+--- file references.html ---
+(./index.4ct) (./5-Resources/5-References.tex [89
+
+] [90]) [91] [92] [93
+
+] (./index.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 14.17pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 29780 strings out of 477986
+ 533967 string characters out of 5840084
+ 1935385 words of memory out of 5000000
+ 49017 multiletter control sequences out of 15000+600000
+ 524250 words of font info for 53 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 88i,10n,96p,1508b,765s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on index.dvi (93 pages, 617196 bytes).
