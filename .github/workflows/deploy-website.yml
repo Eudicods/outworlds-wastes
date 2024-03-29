@@ -20,7 +20,7 @@ jobs:
          sed -i 's/\.png/\.webp/g' html/*.html &&
          rm html/img/*.png &&
          cp img/*.webp html/img/ &&
-         sed -i -E 's/[ ]+<span/<span/g' html/*.html &&
+         sed -i 's/\s\+<span/<span/g' html/*.html &&
          cp img/outworlds-alliance.ico html/favicon.ico &&
          touch html/.nojekyll &&
          echo 'outworlds-wastes.jeremylt.org' > html/CNAME
@@ -30,3 +30,5 @@ jobs:
        github_token: ${{ secrets.GITHUB_TOKEN }}
        publish_dir: ./rules/html
        publish_branch: rules-web
+       single-commit: yes
+       force: yes
