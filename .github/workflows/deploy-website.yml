@@ -30,5 +30,4 @@ jobs:
        github_token: ${{ secrets.GITHUB_TOKEN }}
        publish_dir: ./rules/html
        publish_branch: rules-web
-       single-commit: yes
-       force: yes
+       force_orphan: yes
