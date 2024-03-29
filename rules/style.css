@@ -35,6 +35,7 @@ figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figu
   padding-left: 0.5rem; 
   overflow: auto;
 }
+
 figure pre.listings{
   font-size: 1em;
 }
@@ -43,30 +44,20 @@ figure pre.listings{
   margin: 0;
   padding: 0;
 }
+
 .sectionToc{
   margin: 0;
   padding: 0;
-  padding-left: 0em;
-  margin-left: 0
 }
+
 .subsectionToc{
   margin: 0;
-  padding: 0;
-  padding-left: 1em;
-  margin-left: 0
+  padding: 0em 0em 0em 1em;
 }
+
 nav.TOC {
   padding: 0.5rem;
   font-size: 50%; /* reduce space between TOC entries */
-}
-
- .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {
-  padding-left: 0em;
-  margin-left: 0
-}
- .chapterToc ~ .likesectionToc ~ .likesubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc {
-  padding-left: 1em;
-  margin-left: 0;
 }
 
 nav.TOC span {
