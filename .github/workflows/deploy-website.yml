@@ -21,6 +21,8 @@ jobs:
          rm html/img/*.png &&
          cp img/*.webp html/img/ &&
          sed -i -- 's/\s\+<span/<span/g' html/*.html &&
+         sed -i -- 's/\s\+<span/<span/g' html/*.html &&
+         sed -i -- 's/\s\+<span/<span/g' html/*.html &&
          cp img/outworlds-alliance.ico html/favicon.ico &&
          touch html/.nojekyll &&
          echo 'outworlds-wastes.jeremylt.org' > html/CNAME
