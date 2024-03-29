@@ -39,9 +39,21 @@ figure pre.listings{
   font-size: 1em;
 }
 
-.chapterToc, .sectionToc, .subsectionToc{
+.chapterToc {
   margin: 0;
   padding: 0;
+}
+.sectionToc{
+  margin: 0;
+  padding: 0;
+  padding-left: 0em;
+  margin-left: 0
+}
+.subsectionToc{
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+  margin-left: 0
 }
 nav.TOC {
   padding: 0.5rem;
@@ -49,11 +61,11 @@ nav.TOC {
 }
 
  .chapterToc ~ .likesectionToc, .chapterToc ~ .sectionToc, .likechapterToc ~ .likesectionToc, .likechapterToc ~ .sectionToc {
-  padding-left: 2em;
+  padding-left: 0em;
   margin-left: 0
 }
  .chapterToc ~ .likesectionToc ~ .likesubsectionToc, .chapterToc ~ .likesectionToc ~ .subsectionToc, .chapterToc ~ .sectionToc ~ .likesubsectionToc, .chapterToc ~ .sectionToc ~ .subsectionToc, .likechapterToc ~ .likesectionToc ~ .likesubsectionToc, .likechapterToc ~ .likesectionToc ~ .subsectionToc, .likechapterToc ~ .sectionToc ~ .likesubsectionToc, .likechapterToc ~ .sectionToc ~ .subsectionToc {
-  padding-left: 4em;
+  padding-left: 1em;
   margin-left: 0;
 }
 
