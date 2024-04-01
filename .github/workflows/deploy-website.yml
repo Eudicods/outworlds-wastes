@@ -17,10 +17,10 @@ jobs:
          make4ht -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
          make4ht -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
          make4ht -f html5-copy_images -j index --output-dir html --config battletech-outworlds-wastes-web.cfg battletech-outworlds-wastes-web.tex &&
-         sed -i 's/\.png/\.webp/g' html/*.html &&
+         sed -i "s/\.png/\.webp/g" html/*.html &&
          rm html/img/*.png &&
          cp img/*.webp html/img/ &&
-         sed -i 's/\s\+<span/<span/g' html/*.html &&
+         sed -i -E "s/[ ]+<span/<span/g" html/*.html &&
          cp img/outworlds-alliance.ico html/favicon.ico &&
          touch html/.nojekyll &&
          echo 'outworlds-wastes.jeremylt.org' > html/CNAME
