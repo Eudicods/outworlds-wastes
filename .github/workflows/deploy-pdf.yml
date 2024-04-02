@@ -24,11 +24,9 @@ jobs:
          mv scenarios/*/*.pdf .
          ls | grep -vE ".pdf|.md" | xargs rm -rf
    - name: Publish PDF
-     uses: stefanzweifel/git-auto-commit-action@v5
+     uses:  peaceiris/actions-gh-pages@v3
      with:
-       branch: rules-pdf
-       create_branch: true
-       skip_dirty_check: true
-       add_options: '--force'
-       commit_message: update PDF
-       push_options: '--force'
+       github_token: ${{ secrets.GITHUB_TOKEN }}
+       publish_dir: .
+       publish_branch: rules-pdf
+       force_orphan: true
