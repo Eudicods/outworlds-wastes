@@ -25,7 +25,7 @@ jobs:
          touch html/.nojekyll &&
          echo 'outworlds-wastes.jeremylt.org' > html/CNAME
    - name: Publish Website
-     uses:  peaceiris/actions-gh-pages@v3
+     uses:  peaceiris/actions-gh-pages@4eb285e828117bca26638192c3ed309c622e7bad
      with:
        github_token: ${{ secrets.GITHUB_TOKEN }}
        publish_dir: ./rules/html
