@@ -24,7 +24,7 @@ jobs:
          mv scenarios/*/*.pdf .
          ls | grep -vE ".pdf|.md" | xargs rm -rf
    - name: Publish PDF
-     uses:  peaceiris/actions-gh-pages@4eb285e828117bca26638192c3ed309c622e7bad
+     uses: peaceiris/actions-gh-pages@4eb285e828117bca26638192c3ed309c622e7bad
      with:
        github_token: ${{ secrets.GITHUB_TOKEN }}
        publish_dir: .
