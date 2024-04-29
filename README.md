@@ -2,8 +2,10 @@
 [battletech-as]: https://store.catalystgamelabs.com/products/battletech-alpha-strike-commanders-edition
 [battletech-or]: https://dfawargaming.com/downloads
 
-[outworlds-pdf]: https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes.pdf
-[outworlds-web]: https://outworlds-wastes.jeremylt.org
+[outworlds-pdf]:        https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes.pdf
+[outworlds-quickstart]: https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes-quickstart.pdf
+[outworlds-event]:      https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes-event.pdf
+[outworlds-web]:        https://outworlds-wastes.jeremylt.org
 
 [deploy-pdf-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-pdf.yml
 [deploy-pdf-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-pdf.yml/badge.svg
@@ -21,11 +23,13 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-badge]][cc-by-nc-sa]
 
 BattleTech: Outworlds Wastes is a casual BattleTech league framework with simplified logistics rules.
-Players will take the role of commander of a combined arms force searching the Outworlds Wastes for lost technology and glory.
+Players take the role of the commander of a combined arms force searching the Outworlds Wastes for lost technology and glory.
 Completing objectives in scenarios will earn C-bills that commanders can use to upgrade their forces.
 Different formats of scenario play are supported, to include [BattleTech: Total Warfare][battletech-tw] and [BattleTech: Alpha Strike][battletech-as].
 
 The latest PDF of the rules can be found [here][outworlds-pdf].
+The Quickstart Rules PDF can be found [here][outworlds-quickstart].
+The Event Rules PDF can be found [here][outworlds-event].
 The web format of the rules can be found [here][outworlds-web].
 
 ## License
