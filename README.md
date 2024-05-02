@@ -12,6 +12,8 @@
 [deploy-web-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-website.yml
 [deploy-web-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-website.yml/badge.svg
 
+[github-issues]:    https://github.com/Eudicods/outworlds-wastes/issues 
+
 [cc-by-nc-sa]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
@@ -31,6 +33,13 @@ The latest PDF of the rules can be found [here][outworlds-pdf].
 The Quickstart Rules PDF can be found [here][outworlds-quickstart].
 The Event Rules PDF can be found [here][outworlds-event].
 The web format of the rules can be found [here][outworlds-web].
+
+## Contributing
+
+We welcome suggestions and contributions from new collaborators.
+Contributors are asked to follow the Code of Conduct.
+Please open a [GitHub Issue][github-issues] to discuss proposed contributions.
+See `CONTRIBUTING.md` for contributing guidelines.
 
 ## License
 
