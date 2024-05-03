@@ -70,6 +70,10 @@ nav.TOC a, nav.TOC a:visited {
   text-decoration: none;
 }
 
+.description {
+  margin-bottom: 0.5em;
+}
+
 /* *** Fixes *** */
 
 .likesubsubsectionHead, .subsubsectionHead {
