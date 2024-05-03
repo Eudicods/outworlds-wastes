@@ -66,6 +66,11 @@ nav.TOC span {
   font-size: 1rem;
 }
 
+nav.TOC .TOC-number {
+  display: inline-block;
+  width: 1.5em;
+}
+
 nav.TOC a, nav.TOC a:visited {
   text-decoration: none;
 }
