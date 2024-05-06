@@ -7,12 +7,12 @@
 [outworlds-event]:      https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes-event.pdf
 [outworlds-web]:        https://outworlds-wastes.jeremylt.org
 
-[deploy-pdf-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-pdf.yml
-[deploy-pdf-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-pdf.yml/badge.svg
-[deploy-web-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-website.yml
-[deploy-web-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/deploy-website.yml/badge.svg
+[build-pdf-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-pdf.yml
+[build-pdf-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-pdf.yml/badge.svg
+[build-web-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-website.yml
+[build-web-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-website.yml/badge.svg
 
-[github-issues]:    https://github.com/Eudicods/outworlds-wastes/issues 
+[github-issues]:   https://github.com/Eudicods/outworlds-wastes/issues
 
 [cc-by-nc-sa]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
@@ -20,8 +20,8 @@
 
 # BattleTech: Outworlds Wastes
 
-[![Deploy PDFs][deploy-pdf-badge]][deploy-pdf-job]
-[![Deploy Website][deploy-web-badge]][deploy-web-job]
+[![Build PDFs][build-pdf-badge]][build-pdf-job]
+[![Build Website][build-web-badge]][build-web-job]
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-badge]][cc-by-nc-sa]
 
 BattleTech: Outworlds Wastes is a casual BattleTech league framework with simplified logistics rules.
