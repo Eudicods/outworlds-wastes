@@ -1,38 +1,6 @@
 \item {\bfseries Dropship Customization}: Commanders may customize their dropship to better support their force.
 Commanders are encouraged to name their dropship before using this rule.
 
-Each commander receives 5 customization points to modify their dropship.
-The dropship starts at level 0 in each category.
-Commanders spend customization points to raise the level for a category and gain the corresponding benefit.
-Any portion of the initial 5 customization points may be reserved for future use.
-The table below details how many points it costs to increase a category customization level.
-
-\begin{table}[!h]
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
-\centering
-\newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{2em} L{15em} L{15em} |}
-\hline
-\rowcolor{black!30}  \bfseries{Level} & \bfseries{Cost} & \bfseries{Payout} \\
-\hline
--2 & -             & 2 points earned \\
-\hline
--1 & 2 points cost & 1 point earned  \\
-\hline
- 0 & 1 point cost  & 1 point earned  \\
-\hline
- 1 & 1 point cost  & 2 points earned \\
-\hline
- 2 & 2 points cost & 3 points earned \\
-\hline
- 3 & 3 points cost & -               \\
-\bottomrule
-\end{tabular}
-\caption*{Dropship Customization Point Costs}
-\end{table}
-
-It costs 1 point to go from level 0 to level 1 and an additional 2 points to go from level 1 to level 2, meaning that it costs 3 total points to go from level 0 to level 2.
-
 Commanders can customize their dropships in the following categories:
 
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\begin{multicols}{2}}{}
@@ -63,7 +31,60 @@ Commanders can customize their dropships in the following categories:
 
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\end{multicols}}{}
 
+Each commander receives 5 customization points to modify their dropship.
+The dropship starts at level 0 in each category.
+Commanders spend customization points to raise the level for a category and gain the corresponding benefit.
+Any portion of the initial 5 customization points may be reserved for future use.
+The table below details how many points it costs to increase a category customization level.
+
+\begin{table}[!h]
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
+\centering
+\newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| m{10em} L{10em} |}
+\hline
+\rowcolor{black!30}  \bfseries{Level Increase} & \bfseries{Cost} \\
+\hline
+Level -2 to -1 & 2 point cost \\
+\hline
+Level -1 to  0 & 1 point cost  \\
+\hline
+Level  0 to  1 & 1 point cost  \\
+\hline
+Level  1 to  2 & 2 point cost \\
+\hline
+Level  2 to  3 & 3 point cost \\
+\bottomrule
+\end{tabular}
+\caption*{Dropship Customization Point Costs}
+\end{table}
+
+Point costs are cumulative.
+For example, it costs 1 point to go from level 0 to level 1 and 2 points to go from level 1 to level 2, so it costs 3 total points to go from level 0 to level 2.
+
 Commanders can further customize their dropship, but space and resources must be reallocated from one category to another.
 After each scenario, commanders may spend 1,000,000 C-bills to decrease the level of one or more categories to earn sufficient customization points and increase the level of a single category.
-The customization points earned when decreasing the level of a category are given in the table above.
+The customization points earned when decreasing the level of a category are given in the table below.
 This may be done only once between scenarios.
+
+\begin{table}[!h]
+\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
+\centering
+\newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\begin{tabular}{| m{10em} L{10em} |}
+\hline
+\rowcolor{black!30}  \bfseries{Level Decrease} & \bfseries{Payout} \\
+\hline
+Level -1 to -2 & 2 points earned \\
+\hline
+Level  0 to -1 & 1 point earned  \\
+\hline
+Level  1 to  0 & 1 point earned  \\
+\hline
+Level  2 to  1 & 2 points earned \\
+\hline
+Level  3 to  2 & 3 points earned \\
+\bottomrule
+\end{tabular}
+\caption*{Dropship Customization Point Payouts}
+\end{table}
