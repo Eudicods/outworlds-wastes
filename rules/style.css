@@ -31,8 +31,8 @@ p.indent, p.noindent {
 }
 
 figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource {
-  margin: 0.5rem 0; 
-  padding-left: 0.5rem; 
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
   overflow: auto;
 }
 
@@ -106,11 +106,11 @@ nav.TOC.main {
 @media (max-width: 915px) {
   nav.TOC {
     position: relative;
-    width: 100%;
+    width: 100vw;
   }
 
   nav.TOC.main {
-    width: 100%;
+    width: 100vw;
   }
 
   figure > p > img {
@@ -131,7 +131,7 @@ nav.TOC.main {
 
 body {
   background-color: var(--main-background-color);
-} 
+}
 
 main.main-content, div.footnotes {
   background-color: var(--text-background-color);
@@ -147,6 +147,6 @@ nav.TOC span:hover, nav.TOC span:hover *{
 }
 
 figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource{
-  border: 1px solid var(--main-background-color); 
+  border: 1px solid var(--main-background-color);
   background-color: var(--accent-background-color);
 }
