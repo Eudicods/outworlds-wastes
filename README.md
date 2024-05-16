@@ -18,11 +18,15 @@
 [cc-by-nc-sa-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
+[outworlds-wastes-logo]: rules/img/Outworlds-Wastes.webp
+
 # BattleTech: Outworlds Wastes
 
 [![Build PDFs][build-pdf-badge]][build-pdf-job]
 [![Build Website][build-web-badge]][build-web-job]
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-badge]][cc-by-nc-sa]
+
+![BattleTech: Outworlds Wastes][outworlds-wastes-logo]
 
 BattleTech: Outworlds Wastes provides rules for a casual BattleTech league and simplified campaign logistics rules.
 Players take the role of a commander leading a combined arms force searching the Outworlds Wastes for lost technology and glory.
