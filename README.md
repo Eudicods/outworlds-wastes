@@ -18,7 +18,7 @@
 [cc-by-nc-sa-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
-[outworlds-wastes-logo]: rules/img/Outworlds-Wastes.webp
+[outworlds-wastes-logo]: rules/img/outworlds-wastes.ico
 
 # BattleTech: Outworlds Wastes
 
