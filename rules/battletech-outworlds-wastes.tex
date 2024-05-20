@@ -26,7 +26,12 @@
 \usetikzlibrary{calc}
 \usepackage[T1]{fontenc}
 \usepackage{ifthen}
+\usepackage{fancyhdr}
 \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+
+\makeatletter
+\renewcommand{\@dotsep}{10000} 
+\makeatother
 
 \newsavebox{\savefig}
 
@@ -71,7 +76,7 @@
 
 \newcommand{\outworldsMode}{mode-pdf}
 
-\definecolor{background-green}{RGB}{80, 101, 77}
+\definecolor{background-green}{RGB}{49, 56, 49}
 \definecolor{background-tan}{RGB}{204, 197, 179}
 \definecolor{background-gray}{RGB}{255, 252, 247}
 
@@ -80,6 +85,13 @@
 % --------------------------------------------------------------------------------
 
 \begin{document}
+
+\pagestyle{fancy}
+\fancyhead{}
+\renewcommand{\headrulewidth}{2pt}% default is 0pt
+\fancyfoot{}
+\renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+\fancyfoot[C]{BattleTech \hspace{0.5em} {\bfseries\LARGE \raisebox{-.2ex}{\thepage}} \hspace{0.5em} Outworlds Wastes}
 
 \clearpage
 
@@ -91,10 +103,10 @@
 {\put(0,-\paperheight)
   {%
    \begin{tikzpicture}
-   \fill[use as bounding box,background-gray] (current page.north west) rectangle (\paperwidth,0);
+   \fill[use as bounding box,background-tan] (current page.north west) rectangle (\paperwidth,0);
    \fill[use as bounding box,background-green] ($ (current page.north west)+(0,-5.35) $) rectangle ++(\paperwidth,-1.7);
-   \fill[use as bounding box,background-tan] ($ (current page.north west)+(0,-7.05) $) rectangle ++(\paperwidth,-1.6);
-   \fill[use as bounding box,background-tan] ($ (current page.north west)+(0,-21.5) $) rectangle ++(\paperwidth,-0.9);
+   \fill[use as bounding box,background-gray] ($ (current page.north west)+(0,-7.05) $) rectangle ++(\paperwidth,-1.6);
+   \fill[use as bounding box,background-gray] ($ (current page.north west)+(0,-21.5) $) rectangle ++(\paperwidth,-0.9);
    \end{tikzpicture}
   }
 }
@@ -102,6 +114,8 @@
 \thispagestyle{empty}
 
 \newpage
+
+\setlength{\headsep}{10pt}
 
 % --------------------------------------------------------------------------------
 \section{BattleTech: Outworlds Wastes}
@@ -213,6 +227,8 @@
 
 \clearpage
 
+\setlength{\headsep}{25pt}
+
 \title{
   \fontfamily{Montserrat-TOsF}\selectfont
   \fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{B}}\includegraphics[alt='a', width=0.5in]{img/Battletech-A.png}\fontsize{50}{60}\fontseries{ub}\selectfont\textcolor{white}{\MakeUppercase{ttleTech}}\\
@@ -227,9 +243,9 @@
 {\put(0,-\paperheight)
   {%
    \begin{tikzpicture}
-   \fill[use as bounding box,background-gray] (current page.north west) rectangle (\paperwidth,0);
+   \fill[use as bounding box,background-tan] (current page.north west) rectangle (\paperwidth,0);
    \fill[use as bounding box,background-green] ($ (current page.north west)+(0,-12.3) $) rectangle ++(\paperwidth,-1.7);
-   \fill[use as bounding box,background-tan] ($ (current page.north west)+(0,-14.0) $) rectangle ++(\paperwidth,-1.6);
+   \fill[use as bounding box,background-gray] ($ (current page.north west)+(0,-14.0) $) rectangle ++(\paperwidth,-1.6);
    \end{tikzpicture}
   }
 }
