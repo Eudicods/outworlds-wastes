@@ -4,10 +4,10 @@
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{2em} L{30em} |}
-\hline
+\begin{tabular}{!{\Vline{1pt}} m{2em} L{30em} !{\Vline{1pt}}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Level} & \bfseries{Benefit} \\
-\hline
+\Hline{1pt}
 -2 & 10\% increase in training costs \\
 \hline
 -1 & 5\% increase in training costs  \\
@@ -21,7 +21,7 @@
 \hline
  3 & 15\% decrease in training costs \\
    & +2 to rolls for SPAs            \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Dropship Simulator Customization}
 \end{table}

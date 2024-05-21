@@ -4,15 +4,15 @@
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{10em} L{38em} |}
-\hline
-\rowcolor{black!30} \multicolumn{2}{|c|}{\bfseries Dropship Name} \\
-\hline
-\multicolumn{2}{|c|}{\hspace{2em}}   \\
-\hline
-\rowcolor{black!30} \multicolumn{2}{|c|}{\bfseries Dropship Upgrades} \\
+\begin{tabular}{!{\Vline{1pt}} m{10em} L{38em} !{\Vline{1pt}}}
+\Hline{1pt}
+\rowcolor{black!30} \multicolumn{2}{!{\Vline{1pt}}c!{\Vline{1pt}}}{\bfseries Dropship Name} \\
+\Hline{1pt}
+\multicolumn{2}{!{\Vline{1pt}}c!{\Vline{1pt}}}{\hspace{2em}}   \\
+\Hline{1pt}
+\rowcolor{black!30} \multicolumn{2}{!{\Vline{1pt}}c!{\Vline{1pt}}}{\bfseries Dropship Upgrades} \\
 \rowcolor{black!30} Level & Category \\
-\hline
+\Hline{1pt}
 ~\vspace{1.75pt}
  & 'Mech Maintenance                 \\[1.75pt]
 \hline
@@ -48,6 +48,6 @@
  & \hspace{2em}                      \\[1.75pt]
  & Limits exchanged:                 \\[1.75pt]
  & \hspace{2em}                      \\[1.75pt]
-\hline
+\Hline{1pt}
 \end{tabular}
 \end{table}

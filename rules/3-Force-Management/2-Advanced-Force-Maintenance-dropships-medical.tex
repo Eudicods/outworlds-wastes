@@ -6,10 +6,10 @@ ProtoMech pilots and Combat Vehicle crews can survive the destruction of their u
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{2em} L{30em} |}
-\hline
+\begin{tabular}{!{\Vline{1pt}} m{2em} L{30em} !{\Vline{1pt}}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Level} & \bfseries{Benefit}       \\
-\hline
+\Hline{1pt}
 -2 & +2 modifier to 'Mech ejection PSRs                          \\
 \hline
 -1 & +1 modifier to 'Mech ejection PSRs                          \\
@@ -24,7 +24,7 @@ ProtoMech pilots and Combat Vehicle crews can survive the destruction of their u
 \hline
  3 & -3 modifier to 'Mech ejection PSRs                          \\
    & Vehicle and ProtoMech crews survive on 6+ medical bay roll  \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Dropship Medical Bay Customization}
 \end{table}
