@@ -41,20 +41,16 @@ The table below details how many points it costs to increase a category customiz
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{10em} L{10em} |}
-\hline
+\begin{tabular}{!{\vrule width 1pt} m{10em} L{10em} !{\vrule width 1pt}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Level Increase} & \bfseries{Cost} \\
-\hline
+\Hline{1pt}
 Level -2 to -1 & 2 point cost \\
-\hline
-Level -1 to  0 & 1 point cost  \\
-\hline
-Level  0 to  1 & 1 point cost  \\
-\hline
+Level -1 to  0 & 1 point cost \\
+Level  0 to  1 & 1 point cost \\
 Level  1 to  2 & 2 point cost \\
-\hline
 Level  2 to  3 & 3 point cost \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Dropship Customization Point Costs}
 \end{table}
@@ -71,20 +67,16 @@ This may be done only once between scenarios.
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{10em} L{10em} |}
-\hline
+\begin{tabular}{!{\vrule width 1pt} m{10em} L{10em} !{\vrule width 1pt}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Level Decrease} & \bfseries{Payout} \\
-\hline
+\Hline{1pt}
 Level -1 to -2 & 2 points earned \\
-\hline
 Level  0 to -1 & 1 point earned  \\
-\hline
 Level  1 to  0 & 1 point earned  \\
-\hline
 Level  2 to  1 & 2 points earned \\
-\hline
 Level  3 to  2 & 3 points earned \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Dropship Customization Point Payouts}
 \end{table}

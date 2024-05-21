@@ -14,10 +14,10 @@ BV adjustments are applied in the following order.
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{}\selectfont
 \centering
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| C{4.7em} | C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} |}
-\hline
-\rowcolor{black!30} \bfseries{Gunnery} & \multicolumn{8}{c |}{\bfseries{Piloting/Driving/Anti-'Mech}}  \\
-\hline
+\begin{tabular}{!{\Vline{1pt}} C{4.7em} | C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} C{3em} !{\Vline{1pt}}}
+\Hline{1pt}
+\rowcolor{black!30} \bfseries{Gunnery} & \multicolumn{8}{c !{\Vline{1pt}}}{\bfseries{Piloting/Driving/Anti-'Mech}}  \\
+\Hline{1pt}
   & 1    & 2    & 3    & 4    & 5    & 6    & 7    & 8    \\
 \hline
 1 & 2.11 & 2.02 & 1.92 & 1.76 & 1.60 & 1.54 & 1.46 & 1.38 \\
@@ -28,7 +28,7 @@ BV adjustments are applied in the following order.
 6 & 1.12 & 1.07 & 1.02 & 0.94 & 0.85 & 0.81 & 0.77 & 0.72 \\
 7 & 1.06 & 1.01 & 0.96 & 0.88 & 0.80 & 0.76 & 0.72 & 0.68 \\
 8 & 0.99 & 0.95 & 0.90 & 0.83 & 0.75 & 0.71 & 0.68 & 0.64 \\
-\hline
+\Hline{1pt}
 \end{tabular}
 \end{table}
 

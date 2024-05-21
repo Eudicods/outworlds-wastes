@@ -15,10 +15,10 @@ The following additional rules apply when using Battlefield Support or off-board
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{18em} m{20em} |}
-\hline
+\begin{tabular}{!{\Vline{1pt}} m{18em} m{20em} !{\Vline{1pt}}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Support Type} & \bfseries{Required Unit} \\
-\hline
+\Hline{1pt}
 Offensive Aerospace Support (BSP)   & Attack or fire-support aerospace unit    \\
 Defensive Aerospace Support (BSP)   & Dogfighter or interceptor aerospace unit \\
 Artillery Support (BSP)             & Corresponding artillery unit             \\
@@ -26,7 +26,7 @@ Counter-Battery Support (BSP)       & Artillery or aerospace unit              \
 Minefield Support (BSP)             & Any unit                                 \\
 Off-board Artillery (Alpha Strike)  & Artillery unit                           \\
 Counter-Battery Fire (Alpha Strike) & Artillery or aerospace unit              \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Support Unit Requirements}
 \end{table}

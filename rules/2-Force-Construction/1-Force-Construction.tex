@@ -14,16 +14,16 @@ Bay limits are in the table below.
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{10em} m{20em} R{3.8em} |}
-\hline
+\begin{tabular}{!{\Vline{1pt}} m{10em} m{20em} R{3.8em} !{\Vline{1pt}}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Bay Type} & \bfseries{Capacity} & \bfseries{Limit} \\
-\hline
+\Hline{1pt}
 'Mech            & 1 'Mech                     & 12 bays \\
 Combat Vehicle   & 2 vehicles                  & 5 bays  \\
 Aerospace        & 1 aerospace unit            & 2 bays  \\
 ProtoMech        & 5 ProtoMechs                & 2 bays  \\
 Infantry         & 5 tons or 1 mechanized unit & 5 bays \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Dropship Bay Limits}
 \end{table}

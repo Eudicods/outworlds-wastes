@@ -6,10 +6,10 @@ The bay configuration limits customization level can only be decreased if the en
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{2em} L{30em} |}
-\hline
+\begin{tabular}{!{\Vline{1pt}} m{2em} L{30em} !{\Vline{1pt}}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Level} & \bfseries{Benefit} \\
-\hline
+\Hline{1pt}
  0 & No change                               \\
 \hline
  1 & One bay limit can be shifted            \\
@@ -17,7 +17,7 @@ The bay configuration limits customization level can only be decreased if the en
  2 & One additional bay limit can be shifted \\
 \hline
  3 & One additional bay limit can be shifted \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Dropship Bay Configuration Customization}
 \end{table}

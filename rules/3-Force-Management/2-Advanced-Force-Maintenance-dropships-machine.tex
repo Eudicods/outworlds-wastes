@@ -5,27 +5,32 @@ Commanders pay less when adding a salvaged unit to their force and earn more whe
 \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
-\begin{tabular}{| m{2em} L{30em} |}
-\hline
+\begin{tabular}{!{\Vline{1pt}} m{2em} L{30em} !{\Vline{1pt}}}
+\Hline{1pt}
 \rowcolor{black!30}  \bfseries{Level} & \bfseries{Benefit} \\
-\hline
--2 & 10\% increase in salvage costs   \\
+\Hline{1pt}
+\multirow{2}{*}{-2}
+   & 10\% increase in salvage costs   \\
    & 10\% decrease in salvage revenue \\
 \hline
--1 & 5\% increase in salvage costs    \\
+\multirow{2}{*}{-1}
+   & 5\% increase in salvage costs    \\
    & 5\% decrease in salvage revenue  \\
 \hline
  0 & No change                        \\
 \hline
- 1 & 5\% decrease in salvage costs    \\
+\multirow{2}{*}{1}
+   & 5\% decrease in salvage costs    \\
    & 5\% increase in salvage revenue  \\
 \hline
- 2 & 10\% decrease in salvage costs   \\
+\multirow{2}{*}{2}
+   & 10\% decrease in salvage costs   \\
    & 10\% increase in salvage revenue \\
 \hline
- 3 & 15\% decrease in salvage costs   \\
+\multirow{2}{*}{3}
+   & 15\% decrease in salvage costs   \\
    & 15\% increase in salvage revenue \\
-\bottomrule
+\Hline{1pt}
 \end{tabular}
 \caption*{Dropship Machine Shop Customization}
 \end{table}

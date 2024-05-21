@@ -35,6 +35,9 @@
 
 \newsavebox{\savefig}
 
+\newcommand{\Vline}[1]{\vrule width #1}
+\newcommand{\Hline}[1]{\noalign{\hrule height #1}}
+
 \setcounter{secnumdepth}{0}
 
 \titleformat{\section}[block]
@@ -42,8 +45,8 @@
   {\thesection\enspace}{0pt}{\centering\MakeUppercase}[\vspace{2pt}{\titlerule[2pt]}]
 
 \titleformat{\subsection}[block]
-  {\titlerule\addvspace{3pt}\bfseries\centering}
-  {\thesection\enspace}{0pt}{\MakeUppercase}[\vspace{3pt}\titlerule]
+  {{\titlerule[1pt]}\addvspace{3pt}\bfseries\centering}
+  {\thesection\enspace}{0pt}{\MakeUppercase}[\vspace{3pt}{\titlerule[1pt]}]
 
 \titleformat{\subsubsection} [block]{\bfseries}{}{0em}{\MakeUppercase}
 
