@@ -21,6 +21,9 @@ jobs:
          sed -i 's/\.png/\.webp/g' html/*.html &&
          rm html/img/*.png &&
          cp img/*.webp html/img/ &&
+         mkdir html/js &&
+         cp js/* html/js/ &&
+         sed -i -E 's/<\/head><body>/<script src="js\/download.js"><\/script>\n<\/head><body>/g' html/*.html &&
          sed -i -E 's/^[    ]+<span/<span/g' html/*.html &&
          sed -i -E 's/^<br \/>[    ]+<span/<br \/><span/g' html/*.html &&
          cp img/outworlds-wastes.ico html/favicon.ico &&
