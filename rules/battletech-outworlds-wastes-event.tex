@@ -27,6 +27,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{ifthen}
 \usepackage{fancyhdr}
+\usepackage{eqparbox}
 \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
 
 \makeatletter
@@ -94,7 +95,7 @@
 \renewcommand{\headrulewidth}{2pt}% default is 0pt
 \fancyfoot{}
 \renewcommand{\footrulewidth}{1pt}% default is 0pt
-\fancyfoot[C]{BattleTech \hspace{0.5em} {\bfseries\LARGE \raisebox{-.2ex}{\thepage}} \hspace{0.5em} Outworlds Wastes}
+\fancyfoot[C]{\eqmakebox[text][r]{BattleTech} \hspace{0.1em} \eqmakebox[num][c]{\bfseries\LARGE \raisebox{-.2ex}{\thepage}} \hspace{0.1em} \eqmakebox[text][l]{Outworlds Wastes}}
 \fancyfoot[R]{\small Event Rules}
 
 \clearpage
