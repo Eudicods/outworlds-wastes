@@ -1,4 +1,4 @@
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\begin{multicols}{2}}{}
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\begin{multicols}{2}}{}
 
 \begin{itemize}
 
@@ -20,4 +20,4 @@
 
 \end{itemize}
 
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\end{multicols}}{}
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\end{multicols}}{}

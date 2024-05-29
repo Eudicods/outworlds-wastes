@@ -1,4 +1,4 @@
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\begin{multicols}{2}}{}
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\begin{multicols}{2}}{}
 
 \begin{itemize}
 
@@ -24,8 +24,8 @@
 
 \item \emph{Sensor Ghosts} (3 points)
 
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\item[\vspace{\fill}]}{}
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\item[\vspace{\fill}]}{}
 
 \end{itemize}
 
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\end{multicols}}{}
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\end{multicols}}{}

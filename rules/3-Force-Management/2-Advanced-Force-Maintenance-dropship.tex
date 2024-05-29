@@ -3,7 +3,7 @@ Commanders are encouraged to name their DropShip before using this rule.
 
 Commanders can customize their DropShips in the following categories:
 
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\begin{multicols}{2}}{}
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\begin{multicols}{2}}{}
 
 \begin{itemize}
 
@@ -29,7 +29,7 @@ Commanders can customize their DropShips in the following categories:
 
 \end{itemize}
 
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\end{multicols}}{}
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\end{multicols}}{}
 
 Each commander receives 5 customization points to modify their DropShip.
 The DropShip starts at level 0 in each category.
@@ -38,7 +38,7 @@ Any portion of the initial 5 customization points may be reserved for future use
 The table below details how many points it costs to increase a category customization level.
 
 \begin{table}[!h]
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{!{\vrule width 1pt} m{10em} L{10em} !{\vrule width 1pt}}
@@ -64,7 +64,7 @@ The customization points earned when decreasing the level of a category are give
 This may be done only once between scenarios.
 
 \begin{table}[!h]
-\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
+\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{\fontfamily{Montserrat-LF}}{\small}\selectfont
 \centering
 \newcolumntype{L}[1]{>{\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 \begin{tabular}{!{\vrule width 1pt} m{10em} L{10em} !{\vrule width 1pt}}
