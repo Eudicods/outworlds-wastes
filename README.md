@@ -1,10 +1,9 @@
 [battletech-tw]: https://store.catalystgamelabs.com/products/battletech-total-warfare-pdf
 [battletech-as]: https://store.catalystgamelabs.com/products/battletech-alpha-strike-commanders-edition
-[battletech-or]: https://dfawargaming.com/downloads
 
-[outworlds-pdf]:        https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes.pdf
-[outworlds-quickstart]: https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes-quickstart.pdf
-[outworlds-event]:      https://github.com/Eudicods/outworlds-wastes/blob/rules-pdf/battletech-outworlds-wastes-event.pdf
+[outworlds-pdf]:        https://outworlds-wastes.jeremylt.org/downloads?league
+[outworlds-quickstart]: https://outworlds-wastes.jeremylt.org/downloads?quickstart
+[outworlds-event]:      https://outworlds-wastes.jeremylt.org/downloads?event
 [outworlds-web]:        https://outworlds-wastes.jeremylt.org
 
 [build-pdf-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-pdf.yml
