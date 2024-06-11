@@ -30,7 +30,7 @@
 BattleTech: Outworlds Wastes provides rules for a casual BattleTech league and simplified campaign logistics rules.
 Players take the role of a commander leading a combined arms force searching the Outworlds Wastes for lost technology and glory.
 Completing objectives in scenarios earns C-bills that commanders use to maintain and upgrade their forces.
-Commanders play scenarios in multiple formats, such as [BattleTech: Total Warfare][battletech-tw] and [BattleTech: Alpha Strike][battletech-as].
+Commanders play scenarios in multiple formats, such as [BattleTech][battletech-tw] and [Alpha Strike][battletech-as].
 
 The latest PDF of the rules can be found [here][outworlds-pdf].
 The Quickstart Rules PDF can be found [here][outworlds-quickstart].
