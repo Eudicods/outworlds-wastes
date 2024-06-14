@@ -118,6 +118,10 @@ nav.TOC.main {
     width: 100%;
     max-width: 100%;
   }
+
+  .itchio-frame {
+    width: 252pt;
+  }
 }
 
 
