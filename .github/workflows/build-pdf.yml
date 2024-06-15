@@ -22,6 +22,8 @@ jobs:
          pdflatex battletech-outworlds-wastes-quickstart.tex
          pdflatex battletech-outworlds-wastes-event.tex
          pdflatex battletech-outworlds-wastes-event.tex
+         pdflatex battletech-outworlds-wastes-errata.tex
+         pdflatex battletech-outworlds-wastes-errata.tex
          cd ..
          mv rules/*.pdf .
          mv scenarios/*/*.pdf .
