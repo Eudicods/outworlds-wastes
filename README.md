@@ -13,6 +13,10 @@
 
 [github-issues]:   https://github.com/Eudicods/outworlds-wastes/issues
 
+[scotts-list]: https://scottsgameroom.com/2022/05/13/battletech-play-formats
+[fanon-wiki]:  https://battletechfanon.fandom.com/wiki/Battletech:_Outworlds_Wastes_(Casual_Campaigns)
+[itchio-link]: https://jeremyluket.itch.io/battletech-outworlds-wastes
+
 [cc-by-nc-sa]:       https://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
@@ -36,6 +40,11 @@ The latest PDF of the rules can be found [here][outworlds-pdf].
 The Quickstart Rules PDF can be found [here][outworlds-quickstart].
 The Event Rules PDF can be found [here][outworlds-event].
 The web format of the rules can be found [here][outworlds-web].
+
+## References
+
+These rules have been mentiond in [Scott's Game Room][scotts-list] and the [BattleTech Fanon Wiki][fanon-wiki].
+These rules are also avaliable on [itch.io][itchio-link].
 
 ## Contributing
 
