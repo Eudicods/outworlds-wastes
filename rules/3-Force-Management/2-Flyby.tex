@@ -1,11 +1,16 @@
 \begin{figure}[!h]
   \centering
-\ifthenelse{\not \equal{\outworldsMode}{mode-web}}
-{
-  \frame{\includegraphics[alt="Trident TRN-3T aerospace fighters on patrol over Wynn's Roost", width=7.0in, height=4.5in]{img/Flyby.png}}
-}
+\ifthenelse{\equal{\outworldsMode}{mode-web}}
 {
   \includegraphics[alt="Trident TRN-3T aerospace fighters on patrol over Wynn's Roost", width=6.0in, height=3.9in]{img/Flyby.png}
-}
   \caption*{Heavily repaired Trident TRN-3T aerospace fighters on patrol over Wynn's Roost - Matt Plog}
+}
+{
+  \savebox{\savefig}{\frame{\includegraphics[alt="Trident TRN-3T aerospace fighters on patrol over Wynn's Roost", width=8.8in, height=5.7in]{img/Flyby.png}}}
+  \rotatebox{90}{%
+    \begin{minipage}{\wd\savefig}
+      \usebox{\savefig}
+      \caption*{Heavily repaired Trident TRN-3T aerospace fighters on patrol over Wynn's Roost - Matt Plog}
+    \end{minipage}}
+}
 \end{figure}
