@@ -2,11 +2,15 @@
   \centering
 \ifthenelse{\equal{\outworldsMode}{mode-web}}
 {
+  \setlength{\fboxrule}{7pt}
+  \setlength{\fboxsep}{0pt}
   \includegraphics[alt="Trident TRN-3T aerospace fighters on patrol over Wynn's Roost", width=6.0in, height=3.9in]{img/Flyby.png}
   \caption*{Heavily repaired Trident TRN-3T aerospace fighters on patrol over Wynn's Roost - Matt Plog}
 }
 {
-  \savebox{\savefig}{\frame{\includegraphics[alt="Trident TRN-3T aerospace fighters on patrol over Wynn's Roost", width=8.8in, height=5.7in]{img/Flyby.png}}}
+  \setlength{\fboxrule}{7pt}
+  \setlength{\fboxsep}{0pt}
+  \savebox{\savefig}{\fbox{\includegraphics[alt="Trident TRN-3T aerospace fighters on patrol over Wynn's Roost", width=8.6in, height=5.6in]{img/Flyby.png}}}
   \rotatebox{90}{%
     \begin{minipage}{\wd\savefig}
       \usebox{\savefig}
