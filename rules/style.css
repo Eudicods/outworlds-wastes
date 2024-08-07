@@ -131,6 +131,7 @@ nav.TOC.main {
   --main-background-color: #ccc5b3;
   --accent-background-color: #313831;
   --text-background-color: #ffffff;
+  --text-color: #000000;
 }
 
 :root {
@@ -138,6 +139,7 @@ nav.TOC.main {
 }
 
 body {
+  color: var(--text-color);
   background-color: var(--main-background-color);
 }
 
