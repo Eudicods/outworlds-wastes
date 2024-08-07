@@ -131,13 +131,11 @@ nav.TOC.main {
   --main-background-color: #ccc5b3;
   --accent-background-color: #313831;
   --text-background-color: #ffffff;
-  --text-dark-link: #009fd4;
-  --text-dark-link-visited: #9370db;
 }
 
 :root {
-  color-scheme: light dark;
-
+  color-scheme: light;
+}
 
 body {
   background-color: var(--main-background-color);
@@ -145,23 +143,6 @@ body {
 
 main.main-content, div.footnotes {
   background-color: var(--text-background-color);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--main-background-color);
-  }
-
-  main.main-content {
-    background-color: var(--accent-background-color);
-  }
-
-  main a {
-    color: var(--text-dark-link);
-  }
-  main a:visited {
-    color: var(--text-dark-link-visited);
-  }
 }
 
 nav.TOC, nav.TOC a, nav.TOC a:visited {
