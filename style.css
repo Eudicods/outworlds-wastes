@@ -1,0 +1,162 @@
+/* *** Layout *** */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 57rem) {
+  body {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+  }
+  main.main-content, div.footnotes {
+    max-width: 40rem;
+    grid-column: 2;
+  }
+  nav.TOC {
+    grid-row: 1;
+    min-height: 100vh;
+  }
+}
+
+/* *** Formatting *** */
+
+main.main-content {
+  padding: 1rem;
+}
+
+p.indent, p.noindent {
+  text-indent: 0;
+}
+
+figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource {
+  margin: 0.5rem 0;
+  padding-left: 0.5rem;
+  overflow: auto;
+}
+
+figure pre.listings{
+  font-size: 1em;
+}
+
+.chapterToc {
+  margin: 0;
+  padding: 0;
+}
+
+.sectionToc{
+  margin: 0;
+  padding: 0;
+}
+
+.subsectionToc{
+  margin: 0;
+  padding: 0em 0em 0em 1em;
+}
+
+nav.TOC {
+  padding: 0.5rem;
+  font-size: 50%; /* reduce space between TOC entries */
+}
+
+nav.TOC span {
+  display: block;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+nav.TOC .TOC-number {
+  display: inline-block;
+  width: 1.5em;
+}
+
+nav.TOC a, nav.TOC a:visited {
+  text-decoration: none;
+}
+
+.description {
+  margin-bottom: 0.5em;
+}
+
+/* *** Fixes *** */
+
+.likesubsubsectionHead, .subsubsectionHead {
+  font-size: 100%;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+nav.TOC {
+  position: fixed;
+  width: 200px;
+}
+
+nav.TOC.main {
+  position: relative;
+  width: 200px;
+}
+
+.multirow {
+  display: inline;
+}
+
+@media (max-width: 915px) {
+  nav.TOC {
+    position: relative;
+    width: 100vw;
+  }
+
+  nav.TOC.main {
+    width: 100vw;
+  }
+
+  figure > p > img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .itchio-frame {
+    width: 252pt;
+  }
+}
+
+
+/* *** Colors *** */
+
+:root {
+  --main-background-color: #ccc5b3;
+  --accent-background-color: #313831;
+  --text-background-color: #ffffff;
+  --text-color: #000000;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--main-background-color);
+}
+
+main.main-content, div.footnotes {
+  background-color: var(--text-background-color);
+}
+
+nav.TOC, nav.TOC a, nav.TOC a:visited {
+  background-color: var(--accent-background-color);
+  color: var(--main-background-color);
+}
+
+nav.TOC span:hover, nav.TOC span:hover *{
+  background-color: var(--accent-background-color);
+}
+
+figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource{
+  border: 1px solid var(--main-background-color);
+  background-color: var(--accent-background-color);
+}
