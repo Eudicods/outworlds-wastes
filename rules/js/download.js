@@ -12,12 +12,14 @@ const url_lookup = {
   'trainer'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/combined-arms-trainer.pdf',
   'boarding-action' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/boarding-action.pdf',
   'resupply'        : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/resupply.pdf',
+  'legate'          : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/the-legate.pdf',
   'raven-raid'      : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/raven-raid.pdf',
   'pride-2024'      : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2024.pdf',
   // Event scenarios GM supplement
   'trainer-gm'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/combined-arms-trainer-gm-only.pdf',
   'boarding-action-gm' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/boarding-action-gm-only.pdf',
   'resupply-gm'        : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/resupply-gm-only.pdf',
+  'legate-gm'          : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/the-legate-gm-only.pdf',
   'raven-raid-gm'      : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/raven-raid-gm-only.pdf',
   'pride-2024-gm'      : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2024-gm-only.pdf',
 }
