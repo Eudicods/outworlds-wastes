@@ -6,7 +6,7 @@ Force construction must follow the following rules:
 
 \item Commanders have a modified Union class DropShip with 15 configurable bays.
 Bays may be empty and can changed to a different configuration.
-Bay space for all non-mechanized infantry units is shared.
+Bay space for all infantry units is shared across bays unless a bay is holding a single infantry unit that weighs over 15 tons.
 Your entire force must fit onto your DropShip.
 Bay limits are in the table below.
 
@@ -18,11 +18,11 @@ Bay limits are in the table below.
 \Hline{1pt}
 \rowcolor{black!30}  \bfseries{Bay Type} & \bfseries{Capacity} & \bfseries{Limit} \\
 \Hline{1pt}
-'Mech            & 1 'Mech                      & 12 bays \\
-Combat Vehicle   & 2 vehicles                   & 5 bays  \\
-Aerospace        & 1 aerospace unit             & 2 bays  \\
-ProtoMech        & 5 ProtoMechs                 & 2 bays  \\
-Infantry         & 15 tons or 1 mechanized unit & 2 bays  \\
+'Mech            & 1 'Mech                        & 12 bays \\
+Combat Vehicle   & 2 vehicles                     & 5 bays  \\
+Aerospace        & 1 aerospace unit               & 2 bays  \\
+ProtoMech        & 5 ProtoMechs                   & 2 bays  \\
+Infantry         & 15 tons or 1 unit over 15 tons & 2 bays  \\
 \Hline{1pt}
 \end{tabular}
 \caption*{DropShip Bay Limits}
