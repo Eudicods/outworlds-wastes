@@ -1,9 +1,11 @@
 \emph{BattleTech: Outworlds Wastes} would not have been possible without hours of discussion and editing on the \href{https://coloradobt.org}{Colorado BattleTech} Discord server or the months of gameplay and testing\ifthenelse{\equal{\outworldsMode}{mode-pdf}}{ at the Wizard's Chest and by the Kansas City Metro Team at the Geekery and other locations}{}.
 
-\ifthenelse{\not \equal{\outworldsMode}{mode-web}}{
+\ifthenelse{\equal{\outworldsMode}{mode-web}}{
+  \input{0-Introduction/5-Acknowledgments-authors-web.tex}
+}{
   \ifthenelse{\equal{\outworldsMode}{mode-pdf}}{
     \input{0-Introduction/5-Acknowledgments-authors.tex}
   }{
     \input{0-Introduction/5-Acknowledgments-authors-short.tex}
   }
-}{}
+}
