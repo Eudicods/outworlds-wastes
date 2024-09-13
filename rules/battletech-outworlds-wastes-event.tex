@@ -81,7 +81,7 @@
 
 \setlength\parskip{5pt plus 2pt minus 1pt}
 
-\newcommand{\outworldsMode}{mode-pdf-event}
+\newcommand{\outworldsMode}{mode-booklet-event}
 
 \definecolor{background-green}{RGB}{49, 56, 49}
 \definecolor{background-tan}{RGB}{204, 197, 179}
@@ -201,11 +201,15 @@
 
 \input{7-Resources/0-Map-ilClan.tex}
 
-\global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 90}
+\ifthenelse{\not \equal{\outworldsMode}{mode-booklet-event}}{
+  \global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 90}
+}{}
 
 \newpage
 
-\global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 0}
+\ifthenelse{\not \equal{\outworldsMode}{mode-booklet-event}}{
+ \global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 0}
+}{}
 
 % --------------------------------------------------------------------------------
 \section{Sample Scenario Logistics Tracking}
