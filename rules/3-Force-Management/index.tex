@@ -15,11 +15,15 @@
 
 \input{3-Force-Management/2-Flyby.tex}
 
-\global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 90}
+\ifthenelse{\not \equal{\outworldsMode}{mode-booklet}}{
+  \global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 90}
+}{}
 
 \newpage
 
-\global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 0}
+\ifthenelse{\not \equal{\outworldsMode}{mode-booklet}}{
+  \global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 0}
+}{}
 
 % --------------------------------------------------------------------------------
 \subsection{Advanced Force Maintenance and Improvements}

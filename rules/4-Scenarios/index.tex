@@ -20,11 +20,15 @@
 
 \input{4-Scenarios/3-Mismatch.tex}
 
-\global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 90}
+\ifthenelse{\not \equal{\outworldsMode}{mode-booklet}}{
+  \global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 90}
+}{}
 
 \newpage
 
-\global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 0}
+\ifthenelse{\not \equal{\outworldsMode}{mode-booklet}}{
+  \global\pdfpageattr\expandafter{\the\pdfpageattr/Rotate 0}
+}{}
 
 % --------------------------------------------------------------------------------
 \subsection{Optional Rules}
