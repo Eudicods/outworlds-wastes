@@ -1,9 +1,10 @@
 const url_lookup = {
   // Rules
-  'league'     : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes.pdf',
-  'quickstart' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-quickstart.pdf',
-  'event'      : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-event.pdf',
-  'errata'     : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-errata.pdf',
+  'league'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes.pdf',
+  'quickstart'     : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-quickstart.pdf',
+  'event'          : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-event.pdf',
+  'errata'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-errata.pdf',
+  'instant-action' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-instant-action.pdf',
   // League scenarios
   'renorsal' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/renorsal.pdf',
   'linden'   : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/linden.pdf',
