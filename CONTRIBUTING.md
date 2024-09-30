@@ -1,6 +1,7 @@
 We welcome suggestions and contributions from new collaborators.
 
 Before creating a Pull Request, please open a [GitHub Issue](https://github.com/Eudicods/outworlds-wastes/issues) to discuss the proposed change.
+If the issue already has been created, please let us know you'd like to work on the issue by adding a comment.
 
 Changes involving only code, such as updating the automated build process, can discussed and implemented purely online.
 However, changes involving the rules need to be playtested before they are accepted.
