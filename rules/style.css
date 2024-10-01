@@ -10,7 +10,8 @@ body {
     display: grid;
     grid-template-columns: 15rem 1fr;
   }
-  main.main-content, div.footnotes {
+  main.main-content,
+  div.footnotes {
     max-width: 40rem;
     grid-column: 2;
   }
@@ -26,17 +27,22 @@ main.main-content {
   padding: 1rem;
 }
 
-p.indent, p.noindent {
+p.indent,
+p.noindent {
   text-indent: 0;
 }
 
-figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource {
+figure.texsource,
+figure.shellcommand,
+figure.htmlsource,
+figure.luasource,
+figure.textsource {
   margin: 0.5rem 0;
   padding-left: 0.5rem;
   overflow: auto;
 }
 
-figure pre.listings{
+figure pre.listings {
   font-size: 1em;
 }
 
@@ -45,12 +51,12 @@ figure pre.listings{
   padding: 0;
 }
 
-.sectionToc{
+.sectionToc {
   margin: 0;
   padding: 0;
 }
 
-.subsectionToc{
+.subsectionToc {
   margin: 0;
   padding: 0em 0em 0em 1em;
 }
@@ -71,7 +77,8 @@ nav.TOC .TOC-number {
   width: 1.5em;
 }
 
-nav.TOC a, nav.TOC a:visited {
+nav.TOC a,
+nav.TOC a:visited {
   text-decoration: none;
 }
 
@@ -81,7 +88,8 @@ nav.TOC a, nav.TOC a:visited {
 
 /* *** Fixes *** */
 
-.likesubsubsectionHead, .subsubsectionHead {
+.likesubsubsectionHead,
+.subsubsectionHead {
   font-size: 100%;
 }
 
@@ -124,18 +132,35 @@ nav.TOC.main {
   }
 }
 
-
 /* *** Colors *** */
 
 :root {
+  color-scheme: light dark; /* Default supports both light and dark schemes */
+
+  /* Light mode default variables */
   --main-background-color: #ccc5b3;
   --accent-background-color: #313831;
   --text-background-color: #ffffff;
   --text-color: #000000;
 }
 
-:root {
-  color-scheme: light;
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Light theme styles */
+    --main-background-color: #ccc5b3;
+    --accent-background-color: #313831;
+    --text-background-color: #ffffff;
+    --text-color: #000000;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-background-color: #4d4533;
+    --accent-background-color: #c6cdc6;
+    --text-background-color: #000000;
+    --text-color: #ffffff;
+  }
 }
 
 body {
@@ -143,20 +168,28 @@ body {
   background-color: var(--main-background-color);
 }
 
-main.main-content, div.footnotes {
+main.main-content,
+div.footnotes {
   background-color: var(--text-background-color);
 }
 
-nav.TOC, nav.TOC a, nav.TOC a:visited {
+nav.TOC,
+nav.TOC a,
+nav.TOC a:visited {
   background-color: var(--accent-background-color);
   color: var(--main-background-color);
 }
 
-nav.TOC span:hover, nav.TOC span:hover *{
+nav.TOC span:hover,
+nav.TOC span:hover * {
   background-color: var(--accent-background-color);
 }
 
-figure.texsource, figure.shellcommand, figure.htmlsource, figure.luasource, figure.textsource{
+figure.texsource,
+figure.shellcommand,
+figure.htmlsource,
+figure.luasource,
+figure.textsource {
   border: 1px solid var(--main-background-color);
   background-color: var(--accent-background-color);
 }
