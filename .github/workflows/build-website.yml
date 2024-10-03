@@ -26,6 +26,7 @@ jobs:
          sed -i -E 's/<\/head><body>/<script src="js\/download.js"><\/script>\n<\/head><body>/g' html/downloads.html &&
          sed -i -E 's/^[    ]+<span/<span/g' html/*.html &&
          sed -i -E 's/^<br \/>[    ]+<span/<br \/><span/g' html/*.html &&
+         sed -i -E 's/#B2B2B2/var(--table-header-background-color)/g' html/index.css &&
          cp img/outworlds-wastes.ico html/favicon.ico &&
          touch html/.nojekyll &&
          echo 'outworlds-wastes.jeremylt.org' > html/CNAME

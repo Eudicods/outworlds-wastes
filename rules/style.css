@@ -145,6 +145,7 @@ nav.TOC.main {
   /* Light mode default variables */
   --main-background-color: #ccc5b3;
   --accent-background-color: #313831;
+  --table-header-background-color: #b2b2b2;
   --text-background-color: #ffffff;
   --text-color: #000000;
 }
