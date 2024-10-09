@@ -45,17 +45,12 @@ nav.TOC.main {
     max-width: 100vw;
   }
 
-  figure > p > img {
-    max-width: 100%;
-    height: 100%;
-    margin: 1rem auto;
-    scale: 1.15;
-  }
-
+  figure > p > img,
   figure > p > a > img {
     max-width: 100%;
     height: 100%;
     margin: 1rem auto;
+    scale: 1.15;
   }
 
   .itchio-frame {
