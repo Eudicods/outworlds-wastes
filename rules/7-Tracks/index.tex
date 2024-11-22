@@ -40,16 +40,6 @@
 
 \subsubsection{Additional Options}
 
-\newpage
-
-\ifthenelse{\equal{\outworldsMode}{mode-web}}{
-% --------------------------------------------------------------------------------
-\subsection{Narrative Tracks}
-% --------------------------------------------------------------------------------
-
-\input{7-Tracks/7-Narrative.tex}
-}{}
-
 \input{7-Tracks/5-Casual-Additional.tex}
 
 \newpage
@@ -59,3 +49,13 @@
 % --------------------------------------------------------------------------------
 
 \input{7-Tracks/6-Instant-action.tex}
+
+\ifthenelse{\equal{\outworldsMode}{mode-web}}{
+% --------------------------------------------------------------------------------
+\subsection{Narrative Tracks}
+% --------------------------------------------------------------------------------
+
+\input{7-Tracks/7-Narrative.tex}
+
+\newpage
+}{}
