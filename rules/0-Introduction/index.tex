@@ -13,22 +13,28 @@
 \input{0-Introduction/2-Contents.tex}
 
 % --------------------------------------------------------------------------------
+\subsubsection*{Rulebooks}
+% --------------------------------------------------------------------------------
+
+\input{0-Introduction/3-Rulebooks.tex}
+
+% --------------------------------------------------------------------------------
 \subsubsection*{Disclaimer}
 % --------------------------------------------------------------------------------
 
-\input{0-Introduction/3-Disclaimer.tex}
+\input{0-Introduction/4-Disclaimer.tex}
 
 % --------------------------------------------------------------------------------
 \subsubsection*{Questions and Downloads}
 % --------------------------------------------------------------------------------
 
-\input{0-Introduction/4-Questions.tex}
+\input{0-Introduction/5-Questions.tex}
 
 % --------------------------------------------------------------------------------
 \subsubsection*{Acknowledgments}
 % --------------------------------------------------------------------------------
 
-\input{0-Introduction/5-Acknowledgments.tex}
+\input{0-Introduction/6-Acknowledgments.tex}
 
 % --------------------------------------------------------------------------------
 \subsubsection*{Version}
@@ -38,5 +44,19 @@ This \ifthenelse{\equal{\outworldsMode}{mode-web}}{website is current as of \tod
 
 \newpage
 \vspace*{\fill}
-\input{0-Introduction/6-Quote.tex}
+\input{0-Introduction/7-Quote.tex}
 \vspace*{\fill}
+
+\newpage
+
+\ifthenelse{\equal{\outworldsMode}{mode-web}}
+{}
+{
+  \vspace*{\fill}
+  \begin{center}
+  (This page intentionally left blank.)
+  \end{center}
+  \vspace*{\fill}
+}
+
+\newpage % Blank page for printing purposes
