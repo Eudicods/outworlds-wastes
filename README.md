@@ -5,6 +5,7 @@
 [outworlds-quickstart]: https://outworlds-wastes.jeremylt.org/downloads?quickstart
 [outworlds-event]:      https://outworlds-wastes.jeremylt.org/downloads?event
 [outworlds-web]:        https://outworlds-wastes.jeremylt.org
+[outworlds-chaos]:      https://outworlds-chaos.jeremylt.org
 
 [build-pdf-job]:   https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-pdf.yml
 [build-pdf-badge]: https://github.com/Eudicods/outworlds-wastes/actions/workflows/build-pdf.yml/badge.svg
@@ -40,11 +41,12 @@ The latest PDF of the rules can be found [here][outworlds-pdf].
 The Quickstart Rules PDF can be found [here][outworlds-quickstart].
 The Event Rules PDF can be found [here][outworlds-event].
 The web format of the rules can be found [here][outworlds-web].
+The full Chaos Campaign version of the rules can be found [here][outworlds-chaos].
 
 ## References
 
-These rules have been mentiond in [Scott's Game Room][scotts-list] and the [BattleTech Fanon Wiki][fanon-wiki].
-These rules are also avaliable on [itch.io][itchio-link].
+These rules have been mentioned in [Scott's Game Room][scotts-list] and the [BattleTech Fanon Wiki][fanon-wiki].
+These rules are also available on [itch.io][itchio-link].
 
 ## Contributing
 
