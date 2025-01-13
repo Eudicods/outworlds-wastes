@@ -18,6 +18,7 @@ const url_lookup = {
   'pride-2024'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2024.pdf',
   'fox-patrol-origins' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/fox-patrol-origins.pdf',
   'gray-death-origins' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/gray-death-origins.pdf',
+  'local-contract'     : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/local-contract.pdf',
   // Event scenarios GM supplement
   'trainer-gm'            : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/combined-arms-trainer-gm-only.pdf',
   'boarding-action-gm'    : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/boarding-action-gm-only.pdf',
@@ -27,6 +28,7 @@ const url_lookup = {
   'pride-2024-gm'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2024-gm-only.pdf',
   'fox-patrol-origins-gm' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/fox-patrol-origins-gm-only.pdf',
   'gray-death-origins-gm' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/gray-death-origins-gm-only.pdf',
+  'local-contract-gm'     : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/local-contract-gm-only.pdf',
 }
 
 function downloadURL(url) {
