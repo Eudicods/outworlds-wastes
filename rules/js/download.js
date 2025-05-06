@@ -9,6 +9,7 @@ const url_lookup = {
   'renorsal' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/renorsal.pdf',
   'linden'   : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/linden.pdf',
   'antallos' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/antallos.pdf',
+  'ie'       : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/interstellar-expeditions.pdf',
   // Event scenarios
   'trainer'            : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/combined-arms-trainer.pdf',
   'boarding-action'    : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/boarding-action.pdf',
