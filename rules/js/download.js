@@ -6,10 +6,13 @@ const url_lookup = {
   'errata'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-errata.pdf',
   'instant-action' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/battletech-outworlds-wastes-instant-action.pdf',
   // League scenarios
-  'renorsal' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/renorsal.pdf',
-  'linden'   : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/linden.pdf',
-  'antallos' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/antallos.pdf',
-  'ie'       : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/interstellar-expeditions.pdf',
+  'renorsal'        : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/renorsal.pdf',
+  'linden'          : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/linden.pdf',
+  'antallos'        : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/antallos.pdf',
+  'ie'              : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/interstellar-expeditions.pdf',
+  'ie-faction-ie'   : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/ie-faction-ie.pdf',
+  'ie-faction-3140' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/ie-faction-a.pdf',
+  'ie-faction-2739' : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/ie-faction-b.pdf',
   // Event scenarios
   'trainer'            : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/combined-arms-trainer.pdf',
   'boarding-action'    : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/boarding-action.pdf',
