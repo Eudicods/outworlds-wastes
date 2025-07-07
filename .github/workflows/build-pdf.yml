@@ -11,7 +11,7 @@ jobs:
      uses: actions/checkout@v4
 
    - name: Run pdflatex
-     uses: xu-cheng/texlive-action@v2
+     uses: xu-cheng/texlive-action@v3
      with:
        scheme: full
        run: |
