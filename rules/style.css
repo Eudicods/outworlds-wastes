@@ -33,7 +33,7 @@ nav.TOC.main {
   }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 57rem) {
   nav.TOC {
     position: relative;
     max-width: 100%;
