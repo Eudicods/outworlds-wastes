@@ -1,0 +1,25 @@
+# Common build artifacts
+rules/*.aux
+rules/*.log
+
+# PDF build artifacts
+rules/*.bbl
+rules/*.blg
+rules/*.lof
+rules/*.lot
+rules/*.out
+rules/*.toc
+rules/*.pdf
+
+# Web build artifacts
+rules/*.4ct
+rules/*.4tc
+rules/*.css
+rules/*.dvi
+rules/*.idv
+rules/*.lg
+rules/*.html
+rules/*.tmp
+rules/*.xref
+rules/html/*
+rules/html/*/*
