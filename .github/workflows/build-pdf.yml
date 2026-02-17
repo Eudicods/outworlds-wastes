@@ -30,6 +30,7 @@ jobs:
          cd ..
          mv rules/*.pdf .
          mv scenarios/*/*.pdf .
+         mv forces/*.pdf .
          ls | grep -vE ".pdf|.md" | xargs rm -rf
 
    - name: Publish PDF
