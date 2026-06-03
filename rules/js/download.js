@@ -28,6 +28,7 @@ const url_lookup = {
   'gray-death-origins'      : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/gray-death-origins.pdf',
   'pride-2024'              : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2024.pdf',
   'pride-2025'              : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2025.pdf',
+  'pride-2026'              : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2026.pdf',
   // Event scenarios GM supplement
   'trainer-gm'                 : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/combined-arms-trainer-gm-only.pdf',
   'boarding-action-gm'         : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/boarding-action-gm-only.pdf',
@@ -43,6 +44,7 @@ const url_lookup = {
   'gray-death-origins-gm'      : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/gray-death-origins-gm-only.pdf',
   'pride-2024-gm'              : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2024-gm-only.pdf',
   'pride-2025-gm'              : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2025-gm-only.pdf',
+  'pride-2026-gm'              : 'https://raw.githubusercontent.com/Eudicods/outworlds-wastes/rules-pdf/pride-2026-gm-only.pdf',
 }
 
 function downloadURL(url) {
