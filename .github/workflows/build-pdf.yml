@@ -8,10 +8,9 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: Checkout
-     uses: actions/checkout@v6
-
+     uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
    - name: Run pdflatex
-     uses: xu-cheng/texlive-action@v3
+     uses: xu-cheng/texlive-action@22c04326a5d855880f9d39bb955138bf11c6df80 # v3
      with:
        scheme: full
        run: |
@@ -32,9 +31,8 @@ jobs:
          mv scenarios/*/*.pdf .
          mv forces/*.pdf .
          ls | grep -vE ".pdf|.md" | xargs rm -rf
-
    - name: Publish PDF
-     uses: peaceiris/actions-gh-pages@v4
+     uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 #4.1.0
      with:
        github_token: ${{ secrets.GITHUB_TOKEN }}
        publish_dir: .
